@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2007 — Kalymnos, Greece | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Sixth Annual Summer Interdisciplinary Conference, Kalymnos, Greece, June 26 – July 1, 2007.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2007">
+  <style>
+    #asic2007{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2007 *{box-sizing:border-box;}
+
+    #asic2007 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2007 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2007 .asic-back:hover{color:#fff;}
+    #asic2007 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2007 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2007 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2007 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2007 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    #asic2007 .asic-shell{display:flex; align-items:flex-start;}
+
+    #asic2007 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2007 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2007 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2007 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2007 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2007 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2007 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    #asic2007 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2007 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2007 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2007 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2007 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2007 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2007 .asic-section p{margin:0 0 14px;}
+    #asic2007 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2007 .asic-section li{margin:4px 0;}
+    #asic2007 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2007 a:hover{color:var(--alpenglow);}
+
+    #asic2007 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2007 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    #asic2007 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2007 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2007 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2007 .asic-btn.alt:hover{background:#a44d1f;}
+
+    #asic2007 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2007 th,#asic2007 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2007 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2007 tbody th{background:#fafaf7; font-weight:600;}
+
+    #asic2007 .asic-photo{margin:0 0 22px; text-align:center;}
+    #asic2007 .asic-photo img{max-width:100%; height:auto; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.15);}
+    #asic2007 .asic-photo p{color:#7c7566; font-size:14px; font-style:italic; margin:8px 0 0;}
+
+    @media(max-width:760px){
+      #asic2007{border-radius:0;}
+      #asic2007 .asic-shell{flex-direction:column;}
+      #asic2007 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2007 .asic-nav .asic-navhead{display:none;}
+      #asic2007 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2007 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2007 .asic-main{padding:26px 20px 40px;}
+      #asic2007 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2007 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Sixth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2007</h1>
+    <div class="asic-meta">
+      <span><b>Kalymnos</b>, Greece</span>
+      <span><b>June 26 – July 1, 2007</b></span>
+      <span>Kalydna Island Hotel</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2007 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">⛴️</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2007</h2>
+        <p class="asic-lede">The Sixth Annual Summer Interdisciplinary Conference, held at the Kalydna Island Hotel on the island of Kalymnos, Greece, Tuesday, June 26 – Sunday, July 1, 2007.</p>
+
+        <div class="asic-photo">
+          <img src="images/kalymnos-cover.jpg" alt="Kalymnos, Greece">
+          <p>Kalymnos, Greece, host island for ASIC 2007.</p>
+        </div>
+
+        <p>See <a href="http://www.kalydnaislandhotel.gr/" target="_blank" rel="noopener">kalydnaislandhotel.gr</a> for the hotel. Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> or mailed to Richard M. Shiffrin at Indiana University (see the Contact tab for the address).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC is interdisciplinary, within the broad frame of cognitive science. ASIC uses the successful format of previous ASIC and AIC conferences: days are free for leisure activities, and talks and posters are in the later afternoon and early evening, followed by dinner. The date is chosen to make it convenient for attendees to bring family and friends. The conference is open to all interested parties, and an invitation is not needed to attend. Due to the small number of speaking spots, the organizer selects the attendees who give talks, and other attendees have the opportunity to present posters.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including modeling of cognition; neuroscience and cognitive neuroscience; psychology (perception, psychophysics, attention, information processing, memory and cognition); computer science and artificial intelligence; machine intelligence and learning; methodology and statistics; linguistics, psycholinguistics and computational linguistics; and philosophy of mind and cognitive science.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day, except Saturday, which has posters for the first half session. The conference starts with registration and a reception from 15:30–16:30 on Tuesday, June 26. On subsequent days (except Saturday) there are drinks and light snacks from 16:15–16:30, followed by a session of seven spoken presentations including a mid-session drink break. The first half session on Saturday is devoted to poster presentations, with drinks and snacks available throughout.</p>
+        <p>This format frees most of the day for activities with colleagues, family, and friends. The time frame allows day trips to nearby sites, cities, and islands, but arrange to return in time for the sessions.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation is not needed. We encourage you to send the conference information to friends and colleagues.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research (talks or posters) until you submit the registration fee.</p>
+
+        <p>This fee pays for room and equipment rentals, snacks, the banquet, and more.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment before</th><th>By check</th><th>By PayPal</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Feb 1, 2007</th><td>$175</td><td>$180</td></tr>
+            <tr><th>Later</th><td>$200</td><td>$205</td></tr>
+          </tbody>
+        </table>
+
+        <h3>How to pay</h3>
+        <ol>
+          <li>Send a check for the correct amount to ASIC 2007, c/o Richard M. Shiffrin, Psychology Dept., Indiana University, Bloomington, IN 47405.</li>
+          <li>Online by PayPal (entails a $5 handling fee).</li>
+        </ol>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A hold has been placed on all 43 rooms and bungalows at the Kalydna Island Hotel.</p>
+
+        <p>The hotel has agreed to a price of €50/night for singles and €55/night for doubles, prices that include breakfast. The hotel also has some triples (€65/night) and four-bedded bungalows with pool view (€70/night). If all rooms at the hotel are booked, the hotel has arranged similar accommodations at similar prices in nearby hotels within about 100 meters.</p>
+
+        <p>Reservations can be made by email to <a href="mailto:kalydna@kalydnaislandhotel.gr">kalydna@kalydnaislandhotel.gr</a> or <a href="mailto:info@kalydnaislandhotel.gr">info@kalydnaislandhotel.gr</a>, or by phone at 30-69776-71667. Kalydna Island Hotel requires one night's deposit upon booking; a full refund is available up to sixty days prior to arrival, after which the cancellation fee is the one-night deposit. No-shows are charged for the full reserved stay.</p>
+
+        <div class="asic-note">Lodging reservations should be made early, because space is limited and a large attendance is expected.</div>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining</h2>
+        <p class="asic-lede">Three evenings are left open for attendees to explore local tavernas and other dining options; hotel meals are arranged on the remaining evenings.</p>
+
+        <p>There is no hotel meal planned for the opening evening, Tuesday, June 26, but food is served at the pre-session reception. No hotel meals are planned for Thursday, June 28 or Saturday, June 30 — for Saturday, the hotel arranged an optional "pirate ship" excursion to a deserted beach with a large midday meal, conditional on enough attendees signing up in advance. On Wednesday, June 27 and Friday, June 29, there are buffet meals at the hotel, and on Sunday, July 1, a banquet buffet ends the conference. Food and drink at session openings and breaks are paid for from participants' registration fees, as is a subsidy for the final banquet.</p>
+
+        <h3>Beach outing and BBQ lunch</h3>
+        <p>An optional excursion on Saturday, June 30: departure from the hotel about 9:00–9:30 AM, return by 3:30 PM. It includes transport from the hotel to the port and back, transport to a deserted Kalymnos beach on a traditional wooden pirate-type boat, and a beach BBQ lunch of fresh grilled fish and octopus, three salads, souvlaki, fruit, wine, beer, soft drinks and mineral water. Total price €52/person, offered only if at least 30 people sign up in advance.</p>
+
+        <h3>Menus</h3>
+        <p>Sample offerings across the week's meals include: Kalymnian mermizeli salad, potato salad, aubergine salad, tuna salad; chicken with garlic and almonds, spicy octopus, vegetable ratatouille, mousaka, stuffed tomatoes and peppers, pasta with seafood; and a selection of Greek syrup sweets and fruit for dessert. The final buffet banquet adds grilled octopus, mackerel and yellow mullet, stuffed wine leaves, and a wider selection of salads and cheeses. Wine, beer and soft drinks are included with most meals; prices ranged from €16–25 per person depending on the meal.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">The Kalymnos airport is served by Olympic Airways, with flights to and from Athens (Eleftherios Venizelos airport).</p>
+
+        <h3>By air</h3>
+        <p>Return flights to Athens depart about 45 minutes after arrival. The 2006/2007 schedule from Athens to Kalymnos: Monday, one flight at 13:35 (via Astypalea); Tuesday and Thursday, two flights (08:40 direct, and 13:35 via Astypalea); Wednesday and Friday, one direct flight at 12:10; Saturday, one flight at 12:10 via Astypalea; Sunday, one direct flight at 12:10.</p>
+
+        <h3>By ferry</h3>
+        <p>There is at least one ferry per day from Athens (Piraeus) except Saturday. GA Ferries boats are slower and less comfortable but cheaper; Blue Star Ferries are faster (about 9 hours) and pricier. Before the Kalymnos airport opened, it was common to fly to Kos and take a 45-minute ferry to Kalymnos.</p>
+
+        <h3>Getting around Kalymnos</h3>
+        <p>Buses connect all parts of the island, with a bus station just outside the conference hotel (one-way ticket about €1). Taxis are easy to find — a taxi from the hotel to the port costs around €7–8, to Vathi (about 20 km) around €20, to Massouri around €5. Rental car companies include AVIS and Budget; motorbike rental is also available and is a common form of transport on the island.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Kalymnos has become a prime destination for rock climbing, with continuing development of climbing areas and routes.</p>
+
+        <div class="asic-photo">
+          <img src="images/cliffs.jpg" alt="Cliffs on Kalymnos">
+          <p>The limestone cliffs of Kalymnos.</p>
+        </div>
+
+        <h3>Climbing</h3>
+        <div class="asic-photo">
+          <img src="images/climbing.jpg" alt="Rock climbing on Kalymnos">
+          <p>Sport climbing on Kalymnos's featured limestone.</p>
+        </div>
+        <p>There are approximately 25 developed climbing areas along the west coast, within easy access from the hotel, each with many bolted routes on very featured limestone, often with stalactites and similar features. Most are one-pitch climbs, but some run up to five pitches, at all levels of difficulty from beginner to expert. A guidebook by Aris Theodoropoulos (2006) covers the island's climbing, and a summary is available at <a href="http://www.climb-kalymnos.com/guide.html" target="_blank" rel="noopener">climb-kalymnos.com</a>.</p>
+
+        <h3>Water and other sports</h3>
+        <p>Scuba diving, snorkeling, hiking, fishing, sailing and windsurfing are all available on and around the island.</p>
+
+        <h3>Leisure and tourism</h3>
+        <p>On Kalymnos, the Sea World Museum (Museum of Submarine Finds) in Vlychadia displays sponges and sunken treasure retrieved from local shipwrecks. On the neighboring islet of Telendos — reached by boat from Myrties, with no roads or traffic — snorkeling and scuba diving reveal underwater ruins of the old capital, lost to the sea in a 535 AD earthquake; the quayside is a favorite spot for evening views back toward Myrties and Massouri, and several small beaches (including a naturist beach at the far end) sit along rough coastal tracks.</p>
+
+        <div class="asic-photo">
+          <img src="images/beach.jpg" alt="Beach on Kalymnos">
+          <p>One of the island's beaches, a short walk from the hotel.</p>
+        </div>
+
+        <p>A daily hydrofoil runs from Pothia (via Kos) to Bodrum on the Turkish coast, offering access to shops, a local market, a crusader castle, and museums, plus easy onward access to archaeological sites such as Ephesus. Nearby islands including Kos, Rhodes, and Samos are also within reach for day trips or extended stays before or after the conference.</p>
+
+        <div class="asic-photo">
+          <img src="images/sunset.jpg" alt="Sunset over Kalymnos">
+          <p>Sunset over the Aegean near Kalymnos.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Address correspondence to</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2007)<br>
+          c/o Prof. Richard Shiffrin, Psychology Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinator</h3>
+        <p>Please direct questions concerning the website to:</p>
+        <p>
+          <b>Krystal Klein</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:krklein@indiana.edu">krklein@indiana.edu</a>
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2007');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

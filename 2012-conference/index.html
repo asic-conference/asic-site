@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2012 — Cala Gonone, Sardinia | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Eleventh Annual Summer Interdisciplinary Conference, Cala Gonone, Sardinia, Italy, June 7–12, 2012.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2012">
+  <style>
+    #asic2012{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2012 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2012 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2012 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2012 .asic-back:hover{color:#fff;}
+    #asic2012 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2012 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2012 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2012 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2012 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2012 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2012 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2012 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2012 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2012 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2012 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2012 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2012 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2012 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2012 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2012 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2012 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2012 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2012 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2012 .asic-section p{margin:0 0 14px;}
+    #asic2012 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2012 .asic-section li{margin:4px 0;}
+    #asic2012 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2012 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2012 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2012 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2012 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2012 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2012 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2012 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2012 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2012 th,#asic2012 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2012 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2012 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2012 .asic-photo{margin:0 0 22px; text-align:center;}
+    #asic2012 .asic-photo img{max-width:100%; height:auto; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.15);}
+    #asic2012 .asic-photo p{color:#7c7566; font-size:14px; font-style:italic; margin:8px 0 0;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2012{border-radius:0;}
+      #asic2012 .asic-shell{flex-direction:column;}
+      #asic2012 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2012 .asic-nav .asic-navhead{display:none;}
+      #asic2012 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2012 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2012 .asic-main{padding:26px 20px 40px;}
+      #asic2012 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2012 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Eleventh Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2012</h1>
+    <div class="asic-meta">
+      <span><b>Cala Gonone</b>, Sardinia, Italy</span>
+      <span><b>June 7–12, 2012</b></span>
+      <span>Club Hotel Nuraghe Arvu</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2012 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🏊</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2012</h2>
+        <p class="asic-lede">The Eleventh Annual Summer Interdisciplinary Conference, held at the Club Hotel Nuraghe Arvu, Cala Gonone, Sardinia, Thursday, June 7 – Tuesday, June 12, 2012.</p>
+
+        <div class="asic-photo">
+          <img src="images/hotel-exterior.jpg" alt="Club Hotel Nuraghe Arvu, Cala Gonone, Sardinia">
+          <p>Club Hotel Nuraghe Arvu, Cala Gonone, Sardinia.</p>
+        </div>
+
+        <p>This hotel, currently top rated in the area, may be reached by car or bus from nearby airports on Sardinia, or by ferry from Italy. The town sits in the Gulf of Orosei, surrounded by a national park, with nearby beaches that have served as film settings — wild and wonderful scenery with cliffs and canyons surrounding the bay, and opportunities for extraordinary climbing, swimming, snorkeling, diving, and hiking. The town was formerly reached only by boat, but a tunnel through the cliffs now makes it accessible by road (via the nearest town, Dorgali).</p>
+
+        <p>Attendees might want to take the opportunity before or after the conference to visit other destinations in the area, particularly the rest of Sardinia, Corsica, Sicily, and mainland Italy. Breakfasts and dinners are included at the hotel.</p>
+
+        <p>ASIC 2012 was scheduled at a time allowing attendance also at the Cognitive Science and Mathematical Psychology annual meetings, tentatively scheduled in Japan the first week of August; the distance between Sardinia and Japan made it unlikely anyone would attend both on a single trip, so ASIC was separated by a few months from those conferences.</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> or mailed to Richard M. Shiffrin at Indiana University (see the Contact tab for the address).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC is interdisciplinary, within the broad frame of cognitive science. ASIC uses the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants, and talks and posters are in the later afternoon and early evening, followed by dinner. The date is chosen to make it convenient for attendees to bring family and friends. The conference is open to all interested parties, and an invitation is not needed to attend. However, due to the small number of speaking spots, the organizer selects the attendees who give talks, and additional attendees have the opportunity to present posters.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>modeling of cognition</li>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science and artificial intelligence</li>
+          <li>machine intelligence and learning</li>
+          <li>methodology and statistics</li>
+          <li>linguistics, psycholinguistics and computational linguistics</li>
+          <li>philosophy of mind, cognitive science</li>
+        </ul>
+        <p>We especially invite talks emphasizing theory, mathematical modeling, and computational modeling (including neural networks and artificial intelligence). Nonetheless, we require talks that are comprehensible and interesting to a wide scientific audience.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day. If the number of participants exceeds the number of 30-minute speaking slots (6×7=42), then one or two sessions will be devoted to shorter talks. The conference starts with registration and a reception on the first day, running 15:30–16:15 on Thursday, June 7. On subsequent days there are drinks and light snacks from about 16:00–16:15, followed by a session of seven or more spoken presentations that include a mid-session drink break.</p>
+        <p>This format frees most of the day for discussions with colleagues or various other activities with colleagues, family, and friends. The time frame allows day trips to nearby sites, but attendees should arrange to return in time for the sessions.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation is not needed. We encourage you to send the conference information to friends and colleagues. If you are interested in organizing a half or whole topic session, contact the organizer.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research (talks or posters) until you submit the registration fee, preferably by PayPal.</p>
+
+        <p>This fee pays for rental of the conference room, equipment rentals, snacks and drinks at conference breaks, the opening reception, and the banquet charges.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>By check or PayPal</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to Jan. 1, 2012</th><td>$150</td></tr>
+            <tr><th>Jan. 1 – March 1, 2012</th><td>$200</td></tr>
+            <tr><th>After March 1, 2012</th><td>$250</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase additional guest vouchers for other persons attending the opening reception and/or final banquet.</p>
+
+        <h3>How to pay</h3>
+        <ol>
+          <li>Online by PayPal (preferred).</li>
+          <li>Send a check for the correct amount to ASIC 2012, c/o Richard M. Shiffrin, Psychology Dept., Indiana University, Bloomington, IN 47405.</li>
+        </ol>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A hold has been placed on all rooms at the Club Hotel Nuraghe Arvu in Cala Gonone, Sardinia.</p>
+
+        <div class="asic-photo">
+          <img src="images/hotel-view.jpg" alt="Club Hotel Nuraghe Arvu grounds">
+          <p>The hotel grounds at Nuraghe Arvu.</p>
+        </div>
+
+        <p>The hotel is in the south part of the village, on a hill with a mountain behind, overlooking the Gulf of Orosei. It has some very nice pools, and the beaches are about 500 meters downhill. See the Travel tab for directions and ways to reach the hotel. Hotel website: <a href="http://www.hotelnuraghearvu.com/" target="_blank" rel="noopener">hotelnuraghearvu.com</a>.</p>
+
+        <h3>Rates</h3>
+        <p>Lodging rates include breakfast and dinner buffet for each person each day. Reservations should be made early, because all rooms are expected to fill, and late reservations will have to be accommodated at nearby alternative sites.</p>
+        <ul>
+          <li><b>One person in a room</b> (two twin beds or one queen): €100/day.</li>
+          <li><b>Two persons in a room</b>: €80/person/day.</li>
+        </ul>
+        <p>There are 37 "standard" rooms at this rate; of these, 10 have a sea view and 8 are by the pool — book early for those. Standard rooms are 22 m², with shower/WC and an 8 m² terrace. There are also 10 "superior" rooms at roughly a 25% supplement — 25 m², all with a sea view and an 8 m² terrace. There are also three suites (price on request) — 50 m², with sea view, a bedroom, a living room (convertible to a second bedroom), a bathroom with hydro-massage, and a private terrace of 60 m².</p>
+        <p>Bookings can be made to <a href="mailto:info@hotelnuraghearvu.com">info@hotelnuraghearvu.com</a>.</p>
+
+        <h3>Address &amp; telephone</h3>
+        <p>
+          Hotel Nuraghe Arvu<br>
+          Viale Bue Marino – Calagonone 08022 Dorgali (NU)<br>
+          Tel. 0784 920075 · Fax 0784 920516 · Cell. 333 2694693
+        </p>
+
+        <div class="asic-note">
+          <b>Alternative hotels.</b> For those who book after Nuraghe Arvu is full, the two closest alternatives — Cala Gonone Beach Village and Palmasera Village Resort — are within walking distance of the conference. Prices and meal arrangements must be worked out directly with those hotels. Anyone staying there who wants to join group dinners at Nuraghe Arvu pays 35 euro per dinner.
+        </div>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining</h2>
+        <p class="asic-lede">Breakfasts and dinners are included as part of the conference lodging/dining package.</p>
+
+        <p>Although there are a few good restaurants in the small village of Cala Gonone, the hotel kitchen is quite good, and we will use the hotel for breakfasts and dinners. Lunches, if desired, can be purchased separately either at the hotel or at restaurants in the village or area. Anyone wanting lunch every day can pay for full board rather than half board, with a supplement of about 19 euro per day.</p>
+
+        <p>The day begins with a continental breakfast buffet in the breakfast room from 8:00–9:30. Each day the conference begins with light snacks and drinks at about 16:00–16:15, followed by talks and a mid-session break with more drinks (about 18:00). The first day of the conference has a reception with wine, beer, and more elaborate snacks from 15:30–16:15. Dinner follows directly after the sessions, at approximately 20:15. The dinner buffet offerings change from day to day, with choices of meat, fish, and vegetarian options.</p>
+
+        <p>The registration fee pays for the food and drink at session breaks, the extra food and drink at the opening reception, and the conference banquet.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">The nearest access to Cala Gonone is via the city of Olbia, home to the nearest Sardinia airport.</p>
+
+        <p>Some attendees will fly to Rome, take a shuttle/bus to Civitavecchia, and take a Moby ferry to Olbia (other ferries leave from other Italian cities); others will fly directly to Olbia. Most attendees will rent a car at Olbia, where many international and local rental companies operate.</p>
+
+        <h3>By bus</h3>
+        <p>A few attendees may want to take buses from Olbia to Cala Gonone: ARST buses run to Nuoro (#514) and then to Cala Gonone (#520):</p>
+        <table>
+          <thead>
+            <tr><th>Bus #514</th><th>Leaves Olbia Airport</th><th>Arrives Nuoro</th></tr>
+          </thead>
+          <tbody>
+            <tr><td></td><td>9:40</td><td>12:06</td></tr>
+            <tr><td></td><td>12:50</td><td>15:16</td></tr>
+            <tr><td></td><td>16:05</td><td>18:31</td></tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr><th>Bus #520</th><th>Leaves Nuoro</th><th>Arrives Cala Gonone</th></tr>
+          </thead>
+          <tbody>
+            <tr><td></td><td>14:00</td><td>15:10</td></tr>
+            <tr><td></td><td>15:50</td><td>17:00</td></tr>
+            <tr><td></td><td>19:10</td><td>20:20</td></tr>
+          </tbody>
+        </table>
+        <p>Purchase bus tickets before boarding. The ARST bus website (for other itineraries) is <a href="http://www.arstspa.info/a.html" target="_blank" rel="noopener">arstspa.info</a>. Deplano buses (0784 29 50 30) also leave Cala Gonone for Olbia airport via Dorgali, four per day between 6:30am and 1:15pm, €15, tickets bought onboard. Buses stop in front of the post office on Via Cala Luna and at the tourist office on Viale del Bue Marino (open Mon–Sat 8:15am–1:15pm; postal code 08020).</p>
+
+        <h3>The airport</h3>
+        <p>Olbia is the main port for tourists to Sardinia, receiving ferries from mainland Italy as well as having its own airport, with a modern terminal renovated in 2004 and handicap facilities. Arrivals include lost and found, cashpoints, internet kiosks, and an information desk, plus stores, a pharmacy, newspaper/bookstores, two banks, a café, a wine bar, a restaurant, and a business center.</p>
+        <p>Car rental companies in the arrivals hall include Autoeuropa, Avis, Easycar, Ellepi, Europcar, Eurorent, Hertz, Italy by Car, Maggiore, Matta, Midarent, Pinna, Ruvioli, Sardinya, Sixt and Smeralda Express — get a quote in advance, as surprise charges can appear at the collection desk. Airport transfers, taxis (about €15 for the 3 km into Olbia city centre), and shared private shuttle buses are also options.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The general area around Cala Gonone is remarkable and offers many activities: swimming, snorkeling, boating, scuba diving, hiking, and rock climbing.</p>
+
+        <div class="asic-photo">
+          <img src="images/gulf-of-orosei.jpg" alt="The Gulf of Orosei near Cala Gonone">
+          <p>The general setting in the Gulf of Orosei.</p>
+        </div>
+
+        <p>The entire coast of the Gulf of Orosei is rugged and gorgeous: purple limestone cliffs erupt 1,000 or more feet from the Mediterranean, ravines with wild goats and boars are everywhere, and isolated beaches of extreme beauty and clarity sit at the base of the cliffs. Caves abound and some can be toured by boat.</p>
+
+        <h3>Beaches</h3>
+        <p>Beaches are scattered along the Orosei Gulf, beautiful and spectacular, with clear blue water, cliffs and mountains as backdrop, and easily visible coral reefs. A few are in Cala Gonone itself; others are reachable by boat, by rugged hiking trails, or by car.</p>
+
+        <div class="asic-photo">
+          <img src="images/cala-luna.jpg" alt="Cala Luna beach">
+          <p>Cala Luna, often described as one of the most beautiful beaches in the Mediterranean, and the setting for several films.</p>
+        </div>
+
+        <p>Cala Luna has coarse sand and transparent, changing-blue waters, lying within steep walls of rock that hold deep caves opening onto the beach. It is accessed by sea (pleasure boats or scheduled boats from the port of Cala Gonone) or, for hikers, along a difficult path from Cala Fuili or Baunei. Other notable beaches in the area include Cala Fuili (the entry point for a canyon with spectacular climbing), Bidderosa (five coves protected as a nature reserve, entry by ticket only), Cartoe (wheelchair accessible, with facilities), Cala Sisine (500-meter cliffs plunging into the sea, ideal for snorkeling), Cala Mariolu (round pink pebbles and sea caves), and Cala Goloritzé (a national monument with turquoise water and a famous climbing spire, the Aguglia).</p>
+
+        <h3>Rock climbing</h3>
+        <div class="asic-photo">
+          <img src="images/rock-climbing.jpg" alt="Rock climbing near Cala Gonone">
+          <p>Sport climbing on the cliffs above the Gulf of Orosei.</p>
+        </div>
+        <p>Sardinia generally is famous for sport climbing, and the most famous, well-developed and world-renowned area is around Cala Gonone. There are about 25 developed areas on the sea cliffs and in the ravines nearby, with roughly 1,000 bolted routes. Codula Fuili, a narrow valley opening onto the beach south of town, has many climbs of all grades that stay cool and shaded even in summer. Further inland, the Supramonte areas near Oliena offer more climbing, and at the south end of the gulf, near Cala Goloritzé, sits the celebrated tower Aguglia.</p>
+        <p>A useful guidebook for Sardinia generally is <i>Pietra di Luna: A Guide to Sport Climbing in Sardinia</i> (Maurizio Oviglia, available in English). A newer guidebook focused specifically on the Cala Gonone area is <i>Cala Gonone Sports Climbing Guidebook – Arrampicare a Cala Gonone</i>, by Corrado Conca.</p>
+
+        <h3>Other activities</h3>
+        <p>Swimming, snorkeling, scuba diving, scuba fishing, fishing, water skiing, wind surfing, surfing, bungee jumping, canyoning, boating, kayaking, and pedal boating are all available in the area, along with boat tours from Cala Gonone to the Blue Grotto caves.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Address correspondence to</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2012)<br>
+          c/o Prof. Richard Shiffrin, Psychology Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinator</h3>
+        <p>Please direct questions concerning the website to:</p>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Muhammad Nubli Mohd Kasa</b><br>
+          Indiana University – Bloomington
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2012');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

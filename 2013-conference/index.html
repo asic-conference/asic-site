@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2013 — Cortina d'Ampezzo, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Twelfth Annual Summer Interdisciplinary Conference, Grand Hotel Savoia, Cortina d'Ampezzo, Dolomites, Italy, July 24–30, 2013.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2013">
+  <style>
+    #asic2013{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2013 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2013 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2013 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2013 .asic-back:hover{color:#fff;}
+    #asic2013 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2013 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2013 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2013 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2013 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2013 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2013 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2013 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2013 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2013 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2013 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2013 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2013 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2013 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2013 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2013 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2013 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2013 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2013 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2013 .asic-section p{margin:0 0 14px;}
+    #asic2013 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2013 .asic-section li{margin:4px 0;}
+    #asic2013 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2013 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2013 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2013 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2013 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2013 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2013 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2013 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2013 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2013 th,#asic2013 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2013 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2013 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2013 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2013 .asic-photo img{max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto;}
+    #asic2013 .asic-photo p{margin:8px 0 0; font-size:14px; font-style:italic; color:#9a9384;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2013{border-radius:0;}
+      #asic2013 .asic-shell{flex-direction:column;}
+      #asic2013 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2013 .asic-nav .asic-navhead{display:none;}
+      #asic2013 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2013 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2013 .asic-main{padding:26px 20px 40px;}
+      #asic2013 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2013 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Twelfth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2013</h1>
+    <div class="asic-meta">
+      <span><b>Cortina d'Ampezzo</b>, Dolomites, Italy</span>
+      <span><b>July 24–30, 2013</b> · six days of talks</span>
+      <span>Grand Hotel Savoia</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2013 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">⛰️</span> Home</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">📅</span> Schedule</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="climate"><span class="ic">☀️</span> Climate</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2013</h2>
+        <p class="asic-lede">The Twelfth Annual Summer Interdisciplinary Conference, held at the Grand Hotel Savoia, Cortina d'Ampezzo, in the Dolomites of northern Italy, July 24–30, 2013.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_clip_image001.jpg" alt="A refugio in the mountains near Cortina d'Ampezzo">
+          <p>A refugio in the mountains near Cortina d'Ampezzo</p>
+        </div>
+
+        <p>The dates were chosen to make it possible for attendees to travel on July 30 to Berlin for the Cognitive Science Conference (Aug 1–4) and the Mathematical Psychology Conference (Aug 4–7).</p>
+
+        <p>Grand Hotel Savoia is a five-star hotel with spa facilities (<a href="http://www.grandhotelsavoiacortina.com/" target="_blank" rel="noopener">grandhotelsavoiacortina.com</a>). The closest international airports are Venice and Innsbruck, both about 150 km distant, reachable by car, train+bus, or bus.</p>
+
+        <p>Cortina d'Ampezzo is the major resort town in the Dolomites, and was once the site of the Winter Olympics. It is surrounded by Dolomite mountain groups, many with lifts that operate in summer and bring visitors high into the mountains to hiking trails, biking trails, climbing areas, rifugios, and via ferrata.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_clip_image007.jpg" alt="ASIC organizer Rich Shiffrin atop Torre Grande, near Cortina">
+          <p>ASIC 2013 organizer, Rich Shiffrin, atop Torre Grande, near Cortina</p>
+        </div>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer: email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>.</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of the ASIC conferences is interdisciplinary, within the broad frame of Cognitive Science. ASIC uses the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants. The talks are in the later afternoon/early evening, followed by dinner. The date has been chosen to make it convenient for attendees to bring family/friends. The conference is open to all interested parties, and an invitation is NOT needed to attend.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including: modeling of cognition; neuroscience and cognitive neuroscience; psychology (perception, psychophysics, attention, information processing, memory and cognition); computer science and artificial intelligence; machine intelligence and learning; methodology and statistics; linguistics, psycholinguistics and computational linguistics; and philosophy of mind and cognitive science.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_clip_image006.jpg" alt="Tre Cime di Lavaredo, famous Dolomite towers near Cortina">
+          <p>Tre Cime di Lavaredo: famous Dolomite towers near Cortina</p>
+        </div>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day. In past conferences we have had seven 30-minute talks each evening. If the number of attendees is larger than usual this year, speaking time will be extended by 30 minutes, allowing six additional talks, 48 in all. If this number is insufficient, one day will be devoted to shorter talks (no shorter than 15 minutes). If the number of speakers exceeds 56, the organizer will decide which attendees will speak.</p>
+
+        <p>The conference starts with registration and a reception with wine, beer, drinks and food from 15:30–16:15 on Wednesday, July 24. On subsequent days there are drinks and light snacks from ~16:00–16:15, followed by a session of seven (or more) spoken presentations that include a mid-session drink break.</p>
+
+        <h3>Location</h3>
+        <p>The hotel is about two blocks downhill from the center of town on the main road into town (one way toward the town center). It is on Via Roma 62. If approaching from the east on SS51 (d'Alemagna), follow the one-way traffic onto Via Roma; the hotel is on the left.</p>
+      </section>
+
+      <!-- SCHEDULE -->
+      <section class="asic-section" id="schedule">
+        <h2>Schedule</h2>
+        <p class="asic-lede">There is a single speaking session each day, each with seven (or more) talks, held in a conference room at the Grand Hotel Savoia.</p>
+
+        <p>Normal talk duration is 30 minutes including questions and discussion. However, if there are more than 42 presenters, some talks are assigned shorter time limits.</p>
+
+        <div class="asic-note">
+          <b>Note 1.</b> The reception on day one starts at 15:15. All subsequent days start with food and refreshments at 15:35. Talks every day begin at 16:00, with a 15-minute refreshment break about halfway through. Dinner begins about 20:30–20:45.
+        </div>
+        <div class="asic-note">
+          <b>Note 2.</b> For each session the Chair is listed first, and the other talks are listed alphabetically by speaker's name. The Chair strictly enforces timing, and chooses the order of speakers (presumably after consultation with the speakers).
+        </div>
+        <div class="asic-note">
+          <b>Note 3.</b> On the first day at 20:00, guides give a brief introduction to local activities and take questions. Activity sign-up sheets are available; the sign-ups and further discussion occur again at the end of the talks on day 2.
+        </div>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">If you are planning to attend ASIC 2013, fill out the registration form and submit your registration fee.</p>
+
+        <p>This fee (slightly higher than in previous years, because this is a 5-star hotel) pays for rental of the conference room, equipment rentals, snacks and drinks at conference breaks, the opening reception, and several charges for drinks at dinner.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Timing</th><th>Fee</th></tr></thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2013</th><td>$200</td></tr>
+            <tr><th>January 1 – March 1, 2013</th><td>$275</td></tr>
+            <tr><th>After March 1, 2013</th><td>$350</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase additional guest vouchers for other persons attending the opening reception (20 euros) and breaks (10 euros per day).</p>
+
+        <div class="asic-note">Registration and payments are made via the Indiana University Conference Bureau. If a registration payment is made but the attendee cancels prior to June 1, the fee is refunded minus a $25 handling fee. After June 1 and prior to the conference, a refund is still made, but the handling fee rises to $75.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is held at the Grand Hotel Savoia in Cortina d'Ampezzo, Italy — a five-star hotel with spa facilities.</p>
+
+        <p>Hotel website: <a href="http://www.grandhotelsavoiacortina.com/" target="_blank" rel="noopener">grandhotelsavoiacortina.com</a>. Lodging rates include breakfast and dinner for each person each day. Reservations should be made early, starting in fall 2012.</p>
+
+        <p>Reservations require a 30% deposit. Cancellation: the deposit is returned without penalty if cancellation is made by June 25, 2013. Cancellation after June 25 but before seven days prior to the reservation start forfeits the 30% deposit. Cancellation within seven days of the reservation start requires payment in full for the entire reserved period.</p>
+
+        <h3>Rates</h3>
+        <ul>
+          <li>One person/room: €100/day</li>
+          <li>Two persons/room (1 or 2 beds upon request): €160/room/day</li>
+          <li>Three persons (2 or 3 beds upon request): €235/room/day</li>
+        </ul>
+        <p>Children: ages 0–6 free, ages 7–12 €64. For example: one adult and one or two children ages 0–6: €100/room/day; two adults and one child ages 0–6: €160/room/day; one adult and one child ages 7–12: €144/room/day; one adult and two children ages 7–12: €208/room/day; two adults and one child ages 7–12: €224/room/day.</p>
+
+        <h3>To book a room</h3>
+        <ol>
+          <li>Send an email to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>, saying you are going to attend and wish to book a room. You will shortly receive a return email with a code that allows you to book on the hotel website.</li>
+          <li>Go to the hotel website: <a href="http://www.grandhotelsavoiacortina.com/" target="_blank" rel="noopener">grandhotelsavoiacortina.com</a>.</li>
+          <li>Under "Booking Online," enter your reservation dates and the conference code in the box labeled "Codice cliente."</li>
+          <li>Click "Book Now" and follow the instructions on subsequent screens.</li>
+        </ol>
+        <p>For special requests that cannot be entered via the website, contact the hotel directly.</p>
+
+        <h3>Parking</h3>
+        <p>There is limited free parking on the hotel grounds, both in front and rear (about 15 spaces), first come first served. A secure parking garage under the hotel is served by valet parking at a special conference rate of 10 euro/day. Free city parking is also available in two locations, the nearest about 900 meters from the hotel.</p>
+
+        <h3>Internet</h3>
+        <p>Wireless internet (WIFI) is free to participants, both in rooms and public areas.</p>
+
+        <h3>Address &amp; telephone</h3>
+        <p>
+          Grand Hotel Savoia, Via Roma, 62 – 32043 Cortina d'Ampezzo<br>
+          Tel: +39 0436 3201 · Fax: +39 0436 869186<br>
+          Email: <a href="mailto:info@grandhotelsavoiacortina.it">info@grandhotelsavoiacortina.it</a>
+        </p>
+
+        <h3>Facilities &amp; services</h3>
+        <p>Attendees have free entry to the swimming pool and sauna. There are charges for use of the spa and spa services, with reduced rates available upon request — a 10% discount for conference participants.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Food &amp; Dining</h2>
+        <p class="asic-lede">Given the lateness of the conference talks, and the quality of the Savoia restaurant, the lodging price is half board, including meals at the hotel.</p>
+
+        <p>Half board includes an American buffet breakfast and a full dinner each day. Lunches, if desired, can be purchased separately, either at the hotel or at restaurants in town. The hotel also has a bar serving afternoon tea. The registration fee pays for food and drink at the opening reception, at session breaks, and (limited) water, wine, and beer at dinners.</p>
+
+        <p>The day begins with an American buffet breakfast from 7:30–10:30; earlier service can be arranged on request the previous day.</p>
+
+        <div class="asic-note">Each day after the opening day, the conference begins with light snacks and liquid refreshments at about 16:00–16:15, followed by talks, and a 15-minute break midway through. The first day (Wednesday, July 24) has a reception with wine, beer, and more elaborate snacks from 15:30–16:15. Dinner follows directly after the sessions, with choices of meat, fish, and vegetarian options changing daily. Attendees wanting drinks beyond those provided can charge to their room.</div>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Travel to and about the Grand Hotel Savoia, Cortina d'Ampezzo, Italy.</p>
+
+        <p>It is probably worth exploring the area with Google Maps and Google Earth.</p>
+
+        <h3>By plane</h3>
+        <p>The main international airports are Venice, Italy (148 km, 1 hr 53 min by car) and Innsbruck, Austria (164 km, 2 hrs 9 min by car). Other nearby airports are Treviso (118 km) and Verona (242 km). Flights can be cheaper to Milan Malpensa, but the distance increases to 451 km, 4.5 hrs by car.</p>
+
+        <h3>By train</h3>
+        <p>The nearest railway station is Calalzo di Cadore, 35 km away, on the Venice or Padova–Calalzo line. From the station there is public bus service to Cortina (Cortina Express).</p>
+
+        <h3>By car</h3>
+        <p>From the south or north, enter/leave Cortina on SS51. From the east or west, enter/leave Cortina on SR48.</p>
+
+        <h3>By bus</h3>
+        <p>Service from Venice Marco Polo Airport or Mestre Railway Station on the Cortina Express (tel: +39 0436 867350), about 2 hrs 15 min; 2012 prices were 22 euro.</p>
+
+        <h3>Local travel near Cortina</h3>
+        <p>Walking within town is easy given the town's size. Local orange buses take you to places in the immediate vicinity; Dolomitibus connects to surrounding towns and outlying areas, useful for hikers since they mostly run east and west to mountain passes from which cable cars or chair lifts ascend. Combination tickets for buses and lifts offer good savings for multi-day stays.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The opportunities for outdoor activities in the summer in the Cortina area are endless: walking, hiking, scrambling, via ferrata, canyoning, mountaineering, rock climbing, mountain biking, road biking, and parasailing.</p>
+
+        <div class="asic-photo">
+          <img src="images/activities_clip_image001.jpg" alt="Via Ferrata near Cortina d'Ampezzo">
+          <p>Via Ferrata near Cortina d'Ampezzo</p>
+        </div>
+
+        <p>Cortina is also a center for arts and music in the summer, with many concerts, shows and performances around the time of the conference, plus museums, parks, adventure parks, and nearby towns and villages with rich histories.</p>
+
+        <p>It is perhaps easiest to reach the start of these activities by car, but there is excellent bus service in and around Cortina, including schedules that stop at the various lifts and access points.</p>
+
+        <h3>Area &amp; Dolomite mountain groups around Cortina</h3>
+        <p><b>West:</b> Lagazuoi 2,762 m (SR48; ~17 km) · Fanes 2,980 m (SR48; ~17 km) · Tofane 3,244 m (lift access from Cortina) · Cinque Torri 2,361 m (SR48; ~18 km)</p>
+        <p><b>North and NW:</b> Pomagagnon 2,450 m (SS51; ~6 km) · Cristallo 3,221 m (SR48; ~7 km) · Tre Cime di Lavaredo 3,000 m (SP49; ~15 km) · Cadini 2,800 m (SP49; ~15 km) · Croda dei Toni 3,094 m (SS52; ~45 km)</p>
+        <p><b>East and SE:</b> Sorapiss 3,205 m (SR48; ~20 km) · Antelao 3,264 m (SS51; ~11 km)</p>
+        <p><b>South:</b> Pelmo 3,168 m (SP251; ~35 km) · Civetta 3,220 m (SP20; ~40 km)</p>
+
+        <h3>Chairlifts and cable cars near Cortina</h3>
+        <p>Cortina is surrounded by a system of chairlifts and cable cars, essentially all open in the summer, from 9 AM with last rides down at 5 PM. One system starts in Cortina and goes all the way to Tofane, one of the highest peaks in the area. These lifts give access to the most dramatic hiking trails, bike paths, walking paths, via ferrata, and climbing areas, and can be used one-way (often walking up, taking the lift down).</p>
+
+        <h3>Other noteworthy activities</h3>
+        <ul>
+          <li>A travel itinerary focusing on cheese (and wine): the "Road of Cheeses"</li>
+          <li>Sampling of special local foods, such as turnips, honey, cabbage</li>
+          <li>Churches and historical sites in local villages and towns</li>
+          <li>Museums and historical sites relating to the two world wars, including a World War I museum high on Monte Piana</li>
+        </ul>
+      </section>
+
+      <!-- CLIMATE -->
+      <section class="asic-section" id="climate">
+        <h2>Climate, Weather &amp; Clothing</h2>
+        <p class="asic-lede">Cortina city center is at an altitude of 1,224 m (4,015 ft), surrounded by Dolomite mountain groups up to 3,244 m (10,643 ft).</p>
+
+        <div class="asic-photo">
+          <img src="images/climate_clip_image001.jpg" alt="Dolomite mountains near Cortina d'Ampezzo">
+        </div>
+
+        <p>The altitude ensures cool temperatures. In late July the average high temperature in town is about 70°F, and the average low is about 50°F — lower still as you head into the mountains. Nonetheless the summer sun can be quite hot and sun cream is usually a necessity.</p>
+
+        <div class="asic-note">July gets more rain than any other month, averaging about 4.3 inches for the month, usually as late afternoon or early evening showers. Come prepared with rain gear, and appropriate clothing and gear for mountain activities.</div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email correspondence is preferred.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Patrick Craig</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:pjcraig@indiana.edu">pjcraig@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2013)<br>
+          c/o Prof. Richard Shiffrin, Psychology Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2013');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

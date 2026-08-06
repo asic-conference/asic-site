@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2014 — Moab, Utah | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Thirteenth Annual Summer Interdisciplinary Conference, Moab Valley Inn, Moab, Utah, June 23–28, 2014.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2014">
+  <style>
+    #asic2014{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2014 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2014 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2014 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2014 .asic-back:hover{color:#fff;}
+    #asic2014 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2014 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2014 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2014 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2014 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2014 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2014 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2014 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2014 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2014 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2014 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2014 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2014 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2014 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2014 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2014 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2014 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2014 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2014 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2014 .asic-section p{margin:0 0 14px;}
+    #asic2014 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2014 .asic-section li{margin:4px 0;}
+    #asic2014 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2014 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2014 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2014 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2014 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2014 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2014 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2014 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2014 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2014 th,#asic2014 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2014 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2014 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2014 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2014 .asic-photo img{max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto;}
+    #asic2014 .asic-photo p{margin:8px 0 0; font-size:14px; font-style:italic; color:#9a9384;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2014{border-radius:0;}
+      #asic2014 .asic-shell{flex-direction:column;}
+      #asic2014 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2014 .asic-nav .asic-navhead{display:none;}
+      #asic2014 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2014 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2014 .asic-main{padding:26px 20px 40px;}
+      #asic2014 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2014 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Thirteenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2014</h1>
+    <div class="asic-meta">
+      <span><b>Moab</b>, Utah, USA</span>
+      <span><b>June 23–28, 2014</b> · six days of talks</span>
+      <span>Moab Valley Inn</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2014 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏜️</span> Home</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">📅</span> Schedule &amp; Talks</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="climate"><span class="ic">☀️</span> Climate</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2014</h2>
+        <p class="asic-lede">The Thirteenth Annual Summer Interdisciplinary Conference, held at the Moab Valley Inn in Moab, Utah, June 23–28, 2014.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_001.jpg" alt="Delicate Arch, Arches National Park">
+          <p>Delicate Arch, Arches National Park</p>
+        </div>
+
+        <p>Moab is in a famously scenic part of the American Southwest, and is a center for a variety of outdoor adventures (see <a href="http://www.discovermoab.com" target="_blank" rel="noopener">discovermoab.com</a>). The dates for ASIC 2014 were chosen to take advantage of somewhat lower temperatures in the Moab area, and to prevent conflict with the annual meetings of the Cognitive Science Society and the Society for Mathematical Psychology held in Quebec City in late July 2014.</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_003.jpg" alt="Having fun on a typical desert tower near Moab">
+          <p>Having fun on a typical desert tower</p>
+        </div>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation is NOT needed. We encourage you to send the conference information to friends and colleagues.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including: modeling of cognition; neuroscience and cognitive neuroscience; psychology (perception, psychophysics, attention, information processing, memory and cognition); computer science and artificial intelligence; machine intelligence and learning; methodology and statistics; linguistics, psycholinguistics and computational linguistics; and philosophy of mind and cognitive science. We especially invite talks emphasizing theory, mathematical modeling, and computational modeling.</p>
+
+        <h3>Conference format</h3>
+        <p>The conference starts with registration and a reception from 15:30–16:15 on Monday, June 23. On subsequent days there are drinks and light snacks from ~15:50–16:15, the talk session from about 16:15–20:00 (with a brief refreshment break midway), and then dinner.</p>
+
+        <p>There is a single speaking session each day. If the number of participants exceeds the number of 30-minute speaking slots (about 42), talk times are adjusted and/or speakers are chosen by the organizer. Talk topics each day are not organized by theme: in the spirit of interdisciplinarity, topics are chosen to maximize diversity each day.</p>
+
+        <p>This conference format frees most of the day for discussions with colleagues or other activities with colleagues, family, and friends. The time frame allows day trips to nearby sites, but plan to return in time for the sessions.</p>
+      </section>
+
+      <!-- SCHEDULE & TALKS -->
+      <section class="asic-section" id="schedule">
+        <h2>Schedule &amp; Talks</h2>
+        <p class="asic-lede">Speakers each day are listed in order; the session chair (indicated in bold/italic/underline) chooses the order of talks. Each day other than the first starts at 4:15 PM; speakers plan at most 30 minutes for talking plus 5 minutes for questions and discussion.</p>
+
+        <h3>Day 1, June 23, 4:45 PM</h3>
+        <ul>
+          <li>Bickhard, Mark — The Functional Dynamics of the Central Nervous System</li>
+          <li>Colunga, Eliana — Modeling the Emergence and Interactions of Early Word Learning</li>
+          <li>Dixon, Peter — Limitations in the control of individual and joint rhythmic action</li>
+          <li>MacKay, Don — Creativity, sentence comprehension and the brain: Lessons from amnesic H.M.</li>
+          <li><i>Rouder, Jeff (Chair)</i> — Discrete-states in working memory</li>
+        </ul>
+
+        <h3>Day 2, June 24, 4:15 PM</h3>
+        <ul>
+          <li><i>Cox, Greg (Chair)</i> — Modeling Information Accumulation in Recognition Memory: Speed-Accuracy Functions and RT Distributions</li>
+          <li>Dosher, Barbara — Object attention in moderate precision tasks: An elaborated template model account</li>
+          <li>Foster, James — Analogical Reinforcement Learning with Two-Stage Memory Retrieval</li>
+          <li>Shiffrin, Rich — A quantum account for a mysterious universal finding</li>
+          <li>Teodorescu, Kinneret — Learned Helplessness and Learned Prevalence: Exploring the causal relations of perceived controllability, reward prevalence and exploration</li>
+          <li>Westfall, Holly — Improvement in Long-term Memory Retention Created by Learning in an Exploratory State</li>
+        </ul>
+
+        <h3>Day 3, June 25, 4:15 PM</h3>
+        <ul>
+          <li>Cao, Rui — Categorization and Familiarity Processes in Memory Search</li>
+          <li>Hanson, Andrew — The Bugcatcher</li>
+          <li>Kowler, Eileen — Traveling in and out of blind alleys: Strategies of eye movement planning during maze solving and other tasks</li>
+          <li>Little, Dan — How do information processing systems deal with incongruent information?</li>
+          <li><i>Sloutsky, Vladimir (Chair)</i> — Language and Cognition: A Whorfian baby meets non-Whorfian reality</li>
+          <li>Steyvers, Mark — Aggregating Human Judgments in Ranking Problems</li>
+        </ul>
+
+        <h3>Day 4, June 26, 4:15 PM</h3>
+        <ul>
+          <li>Allen, Colin — Biographically plausible data sets and big data in the computational humanities</li>
+          <li>Jones, Matt — A theory of between-trial variability in diffusion models</li>
+          <li><i>Lewandowsky, Steve (Chair)</i> — Evidence for Removal of Information from Working Memory</li>
+          <li>Ramsey, Bill — Rethinking our Conception of Cognition</li>
+          <li>Shiffrin, Rich — Moving past BMS and MDL: Making model evaluation rational</li>
+          <li>Watanabe, Takeo — Roles of attention and reward in perceptual learning</li>
+        </ul>
+
+        <h3>Day 5, June 27, 4:15 PM</h3>
+        <ul>
+          <li>Cheng, Patricia — Analytic versus Empirical Knowledge of the Concept of Causal Invariance</li>
+          <li><i>Deyoe, Edgar (Chair)</i> — Attentional Field Properties from Single Voxels</li>
+          <li>Lu, Zhong-Lin — Quick methods: Bayesian adaptive methods for estimating psychological functions</li>
+          <li>Ludwig, Kirk — Is Distributed Cognition Group Level Cognition?</li>
+          <li>Rand, Kristina Marie — Attention Requirements of Navigation with Severely Degraded Viewing</li>
+          <li>Teodorescu, Andrei — Absolutely Relative or Relatively Absolute — A study of relativity in decision making</li>
+        </ul>
+
+        <h3>Day 6, June 28, 4:15 PM</h3>
+        <ul>
+          <li><i>Holden, John (Chair)</i> — Attractor Dynamics Support Cognition</li>
+          <li>Ketels, Shaw — Testing two pedagogical prescriptions in the use of classroom response systems</li>
+          <li>Narens, Louis — Context and Probability Theory</li>
+          <li>Sasaki, Yuka — Enhanced Spontaneous Oscillations in the Supplementary Motor Area Are Associated with Sleep-Dependent Offline Learning of Finger-Tapping Motor-Sequence Task</li>
+          <li>Sperling, George — Visual Attention Filters for Color</li>
+          <li>Vandekerckhove, Joachim — Latent variable methods for data fusion</li>
+        </ul>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research (talks or posters) until you send the registration fee.</p>
+
+        <p>This year the registration fee pays not only for rental of the conference room, equipment rentals, snacks and drinks at conference breaks and the opening reception, but also for catering of breakfasts and dinners. Registration fees are therefore higher than in previous years, but lodging costs are lower, so net costs are similar.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Timing</th><th>Conference attendees</th><th>Friends &amp; family (eating with group)</th></tr></thead>
+          <tbody>
+            <tr><th>Prior to February 1, 2014</th><td>$650</td><td>$500</td></tr>
+            <tr><th>After February 1, 2014</th><td>$750</td><td>$600</td></tr>
+          </tbody>
+        </table>
+
+        <div class="asic-note">Registration and payments are made via the Indiana University Conference Bureau. If a registration payment is made but the attendee cancels prior to May 1, the fee is refunded minus a $25 handling fee. After May 1 and prior to the conference, a refund is still made, but the handling fee rises to $75.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is held at the Moab Valley Inn, 711 S. Main St., Moab, Utah 84532.</p>
+
+        <p>Hotel website: <a href="http://www.moabvalleyinn.com" target="_blank" rel="noopener">moabvalleyinn.com</a>. Attendees must make their own reservations with the hotel — ask for the ASIC conference rate.</p>
+
+        <h3>Amenities</h3>
+        <p>The Moab Valley Inn has an indoor/outdoor swimming pool, hot tub, fitness center, and ample parking.</p>
+
+        <h3>Lodging prices</h3>
+        <p>Rates are for rooms only (in past European ASIC conferences lodging included breakfast and dinner; this year meals are catered separately, so lodging is correspondingly lower and registration fees are higher). Reservations should be made as early as possible, starting in fall 2013.</p>
+        <table>
+          <thead><tr><th>Room type</th><th>Price per room per day (+13.6% tax)</th></tr></thead>
+          <tbody>
+            <tr><th>Standard (two queens or one king)</th><td>$99</td></tr>
+            <tr><th>Triple Queen</th><td>$130</td></tr>
+            <tr><th>Suite (two queens or one king)</th><td>$125</td></tr>
+          </tbody>
+        </table>
+        <p>Standard and triple rooms have a refrigerator and coffee maker. Suites add a jetted tub, microwave, sink, bar and small sitting area.</p>
+
+        <h3>Hotel contact &amp; reservations</h3>
+        <p>
+          Phone: 435-259-4419 · Fax: 435-259-4332<br>
+          Email: <a href="mailto:info@moabvalleyinn.com">info@moabvalleyinn.com</a>
+        </p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Food &amp; Dining</h2>
+        <p class="asic-lede">Breakfasts, conference breaks, and most dinners are catered at the Moab Valley Inn, with the cost folded into the registration fee.</p>
+
+        <p>The Moab Valley Inn has two conference rooms, one used for presentations and the other for dining and breaks. Dining choices include vegetarian options, likely offered buffet style, varying from day to day.</p>
+
+        <p>Breakfasts begin at 7 AM (special arrangements can be made if an activity requires an earlier start). Each day the conference begins with light snacks and liquid refreshments from about 3:50 to 4:15, followed by talks (with a 15-minute refreshment break midway), followed by dinner at about 8 or 8:15 PM.</p>
+
+        <p>The first day of the conference has a reception from 3:30–4:15 for checking in and obtaining name badges.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Travel to and about the Moab Valley Inn, Moab, Utah.</p>
+
+        <p>For maps of the Moab area, see <a href="http://www.moabadventurecenter.com/maps/" target="_blank" rel="noopener">moabadventurecenter.com/maps</a>.</p>
+
+        <div class="asic-note">Those with time to do so would be advised to consider flying to Las Vegas and renting a car, driving to Moab via the southern approach through the Grand Canyon (and other sites en route), and returning via the northern routing through Zion and Bryce Canyon.</div>
+
+        <h3>By plane</h3>
+        <p>Main airports giving access to Moab, by distance:</p>
+        <ul>
+          <li>Moab Valley Airport, Utah — 16 miles</li>
+          <li>Grand Junction Regional Airport, Colorado — 120 miles</li>
+          <li>Salt Lake City International Airport, Utah — 240 miles</li>
+          <li>Las Vegas, Nevada — 461 miles</li>
+        </ul>
+        <p>Most attendees fly to one of these and rent a car — car rentals in this area are a good value, the drives traverse dramatic scenery, and most sites worth visiting are at driving distance from Moab.</p>
+
+        <h3>By bus / shuttle</h3>
+        <p>See <a href="http://www.discovermoab.com/shuttle.htm" target="_blank" rel="noopener">discovermoab.com/shuttle.htm</a>.</p>
+
+        <h3>By car</h3>
+        <p>US Highway 70 has an exit 30 miles north of Moab via State Highway 191 — the route taken by most drivers.</p>
+
+        <h3>Local transport</h3>
+        <p>Some spectacular local sites are best approached with special vehicles such as four-wheel drives with high clearance, available both on organized tours and for local rental (see <a href="http://www.discovermoab.com/autorental.htm" target="_blank" rel="noopener">discovermoab.com/autorental.htm</a>).</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The opportunities for outdoor activities in the summer in the Moab area are endless: walking, hiking, scrambling, rock climbing, canyoneering, slickrock biking, road biking, kayaking, backcountry safaris, and more.</p>
+
+        <p>Adjacent to Moab there are two National Parks (Arches and Canyonlands), one State Park (Deadhorse Point), and the Colorado River. A car will be advisable to access most activities and scenic sites.</p>
+
+        <h3>Hiking</h3>
+        <div class="asic-photo">
+          <img src="images/activities_003.jpg" alt="Desert terrain near Moab, Utah">
+        </div>
+        <p>There are numerous hikes of all lengths and difficulties in the National and State Parks and the general Moab area — it is hard to find one that is not both spectacular and surreal. Sun protection and enough water are key considerations, since days start cool but heat up dramatically by noon.</p>
+
+        <h3>Rock climbing</h3>
+        <p>Climbing around Moab is on red sandstone that varies widely in quality: Wingate sandstone is hard and supports crack climbing; Entrada sandstone is softer and rounded; Cutler sandstone is a conglomerate. A good book covering many of the area's climbs is Stewart Green's <i>Best Climbs Moab</i>. We typically arrange one, possibly two, group climbing days for all climbers from complete novices to experts, offered free of charge to attendees, families, and friends.</p>
+
+        <h3>Tower climbing</h3>
+        <div class="asic-photo">
+          <img src="images/activities_004a.jpg" alt="Ancient Arts tower near Moab">
+          <p>The corkscrew atop Ancient Arts, one of thousands of towers around Moab</p>
+        </div>
+        <p>"Ancient Arts" is perhaps the best of the towers accessible to non-experts, an experience of a lifetime with the help of a guide. Other relatively easy and accessible towers include Castleton Tower; some, like Moses Tower in Taylor Canyon and Washer Woman Tower in Canyonlands, require longer expeditions best planned for days prior to or after the conference.</p>
+
+        <h3>Sport climbing</h3>
+        <p>The primary sport climbing area is Wall Street, a towering 500-foot cliff directly adjacent to UT 279 (Potash Road), sandwiched between the Colorado River and the cliff, with hundreds of climbs and approximately zero approach.</p>
+
+        <h3>Crack climbing &amp; bouldering</h3>
+        <p>There is a great deal of crack climbing throughout the area, including the world-renowned Indian Creek. Bouldering is less developed but still possible, with Big Bend among the excellent areas.</p>
+      </section>
+
+      <!-- CLIMATE -->
+      <section class="asic-section" id="climate">
+        <h2>Climate, Weather &amp; Clothing</h2>
+        <p class="asic-lede">Moab is in the American Southwest on a high desert plateau (altitude 4,021 ft), with hot and dry summer days and mild evenings.</p>
+
+        <div class="asic-photo">
+          <img src="images/climate_001.jpg" alt="Hot air ballooning near Moab">
+          <p>Hot air ballooning near Moab</p>
+        </div>
+
+        <p>In June, highs average 93°F and lows average 57°F. There is relatively little rain, with the occasional afternoon or evening shower (June averages about 1/2 inch of rain).</p>
+
+        <div class="asic-note">Come with sunscreen, and cool but sun-protective clothing; some warmer clothes for late evenings and early mornings are also advisable. Since it can become uncomfortably hot in the sun by about noon, plan outdoor activities accordingly. Some people take an umbrella on hikes for shade.</div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Patrick Craig</b><br>
+          Phone: (812) 856-6037<br>
+          <a href="mailto:pjcraig@indiana.edu">pjcraig@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2014)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2014');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

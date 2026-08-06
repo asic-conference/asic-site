@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2005 — Briançon, France | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Fourth Annual Summer Interdisciplinary Conference, Briançon, France, July 25–31, 2005.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2005">
+  <style>
+    #asic2005{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2005 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2005 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2005 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2005 .asic-back:hover{color:#fff;}
+    #asic2005 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2005 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2005 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2005 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2005 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2005 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2005 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2005 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2005 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2005 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2005 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2005 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2005 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2005 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2005 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2005 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2005 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2005 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2005 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2005 .asic-section p{margin:0 0 14px;}
+    #asic2005 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2005 .asic-section li{margin:4px 0;}
+    #asic2005 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2005 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2005 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2005 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2005 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2005 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2005 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2005 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2005 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2005 th,#asic2005 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2005 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2005 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2005 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2005 .asic-photo img{max-width:100%; border-radius:8px; display:block; margin:0 auto;}
+    #asic2005 .asic-photo p{
+      color:#9a9384; font-size:14px; font-style:italic; margin:8px 0 0;
+    }
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2005{border-radius:0;}
+      #asic2005 .asic-shell{flex-direction:column;}
+      #asic2005 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2005 .asic-nav .asic-navhead{display:none;}
+      #asic2005 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2005 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2005 .asic-main{padding:26px 20px 40px;}
+      #asic2005 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2005 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">The Fourth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2005</h1>
+    <div class="asic-meta">
+      <span><b>Briançon</b>, France</span>
+      <span><b>July 25–31, 2005</b></span>
+      <span>Alpe Hotel Club</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2005 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel &amp; Lodging</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">🗓️</span> Schedule</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2005</h2>
+        <p class="asic-lede">The Fourth Annual Summer Interdisciplinary Conference (ASIC 2005) was held at the Alpe Hotel Club in Briançon, France, in the Southern French Alps, July 25–31. Richard M. Shiffrin of Indiana University-Bloomington was the organizer.</p>
+
+        <div class="asic-photo">
+          <img src="images/briancon_ete.jpg" alt="Briançon, France in summer">
+          <p>Briançon, France — site of ASIC 2005.</p>
+        </div>
+
+        <p>Dates were chosen to allow coordinated travel to both ASIC and the Cognitive Science Society Conference, held July 20–23, 2005 in Stresa, Italy, on Lago Maggiore, about 2.5 hours' travel from Briançon.</p>
+
+        <p>The ASIC conference used the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and the talks/posters are in the later afternoon/early evening, followed by dinner. The date was chosen to make it convenient for attendees to bring family and friends. The conference was open to all interested parties, and an invitation was not needed to attend. Due to the small number of spots for speakers, the organizer selected speakers, and other participants were allowed to present posters on a day set aside for this purpose. The subject is interdisciplinary, within the broad frame of Cognitive Science.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference was open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation was not needed.</p>
+
+        <div class="asic-photo">
+          <img src="images/waterfall.jpg" alt="Waterfall near Briançon">
+          <p>Alpine scenery near Briançon.</p>
+        </div>
+
+        <h3>Conference aims</h3>
+        <p>The conference covered a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science</li>
+          <li>machine intelligence and learning</li>
+          <li>linguistics</li>
+          <li>philosophy</li>
+        </ul>
+        <p>The conference especially invited talks emphasizing theory, mathematical modeling, and computational modeling (including neural networks and artificial intelligence). Talks were required to be comprehensible and interesting to a wide scientific audience, with speakers providing overviews of current research areas as well as their own recent progress.</p>
+
+        <h3>Conference format</h3>
+        <p>There was a single speaking session each day, excepting one day devoted to posters. The conference started Monday, July 25, with registration 14:30–16:15, a reception 15:30–16:15, followed by a full session and then dinner. The following sessions, excepting Thursday, each began with drinks and light snacks from 16:00–16:15, followed by a speaking session (with a brief mid-session break), followed by dinner. Thursday was devoted to posters, beginning at 16:00 with drinks and light snacks, followed by dinner. Dinners were buffet style, including vegetarian options, with a deluxe buffet/banquet following the final session on Saturday, July 30.</p>
+        <div class="asic-note">This conference format freed most of the day for various activities with colleagues, family, and friends. The time frame allowed day trips to nearby sites and cities, but travel to more distant sites was best arranged for days preceding and following the conference.</div>
+
+        <h3>Correspondence</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2005)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+        <p>Email: <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a></p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Registration fee for ASIC 2005 was $200 USD, covering room and equipment rentals, snacks, banquet, and more.</p>
+
+        <p>There were two ways to pay the registration fee:</p>
+        <ul>
+          <li>Send a check for the correct amount to ASIC 2005, c/o Richard M. Shiffrin, Psychology Dept., Indiana University, Bloomington, IN 47405.</li>
+          <li>Pay online by PayPal (this entailed a $5 handling fee).</li>
+        </ul>
+      </section>
+
+      <!-- TRAVEL & LODGING -->
+      <section class="asic-section" id="travel">
+        <h2>Travel &amp; Lodging</h2>
+        <p class="asic-lede">Briançon (population 11,300) is most accessible from Grenoble (1.5 hrs), or Milan, Lyon, and Marseille (2.5 hrs); it is approximately 2.5 hrs from Stresa by car.</p>
+
+        <div class="asic-photo">
+          <img src="images/briancon.jpg" alt="Briançon, France">
+          <p>Briançon, in the Southern French Alps.</p>
+        </div>
+
+        <p>Although Briançon is served by both buses and trains, most attendees rented a car. The distance from Milan (or Malpensa airport) or Stresa to Briançon is about 150 miles.</p>
+
+        <h3>Lodging: Alpe Hotel Club</h3>
+        <p>
+          Avenue du Dauphine, 5100, Briançon – Serre Chevalier, France<br>
+          About 800m from the old fortress town, Vieille Ville, at 1026m<br>
+          Between Parc National des Ecrins (west) and Parc Naturel Regional du Queyras (south)<br>
+          Téléférique nearby to Prorel — 2566m
+        </p>
+        <p><b>Amenities:</b> rooms with TV, hair dryer, bath, phone; hotel pool, fitness room, sauna, Turkish bath.</p>
+        <p><b>Reservations:</b> Telephone 33 4 92 200 200 (press 2 for the front desk); fax 33 4 92 200 143.</p>
+        <p><b>Dates:</b> July 25 (Mon) to July 31 (Sun); 90 rooms held for the conference.</p>
+
+        <h3>Rates</h3>
+        <table>
+          <tbody>
+            <tr><th>Double occupancy</th><td>52€/person/night, half board, or 312€ for 6 nights</td></tr>
+            <tr><th>Single occupancy</th><td>72€/night, or 432€ for 6 nights</td></tr>
+            <tr><th>1st child (0–11 yrs) with 2 adults</th><td>Free</td></tr>
+            <tr><th>2nd child (0–3 yrs) with 2 adults</th><td>Free</td></tr>
+            <tr><th>2nd child (4–11 yrs) with 2 adults</th><td>−70% of adult rate</td></tr>
+            <tr><th>3rd person in room, any age &gt; 11</th><td>−40%</td></tr>
+          </tbody>
+        </table>
+        <p>Meals were buffet style; continental breakfast and dinner were included in the room rates, with drinks extra and vegetarian options included. The hotel could also provide meals to attendees lodging elsewhere: breakfast 8€/day, dinner 18€/day. The final banquet (deluxe buffet, plus wine, beer, drinks) was part of the registration fee.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Briançon has an historic old walled city, Vauban, southeast of the new city and the hotel, and sits at 1,200 meters at the start of the Serre Chevalier valley — home to France's 4th-largest ski resort, with cable cars open in summer.</p>
+
+        <div class="asic-photo">
+          <img src="images/churchetc.jpg" alt="Historic architecture near Briançon">
+          <p>The historic fortified town of Vieille Ville, near Briançon.</p>
+        </div>
+
+        <p>Not far west of Briançon lies Parc National des Ecrins, with many high peaks topped by Barre des Ecrins at 4,102 m; Parc Naturel Regional du Queyras lies to the southeast. Both parks are rich in botanical treasures, wildlife, scenery, and trails.</p>
+
+        <p>The area has a tennis club, swimming club, bowling, and a large health club/fitness center. Both the Tour de France and the Giro d'Italia typically route through Briançon and its nearby mountain passes. There are many marked bike touring routes (VTT), hiking trails from town and throughout the national parks, and quite a few Via Ferrata nearby. There is sailing at Lac de Serre Ponçon (Europe's largest lake), plus rafting, kayaking, airboats, canyoneering, parapenting, mountaineering, rock climbing, and caving, with plentiful firms and local guides.</p>
+
+        <h3>Possible activities</h3>
+        <ul>
+          <li>Hiking, biking, Via Ferrata</li>
+          <li>Mountaineering, fitness/health club, rock climbing</li>
+          <li>Rafting, kayaking, parapenting</li>
+          <li>Air boats, canyoneering, bowling</li>
+          <li>Wildlife/botanical touring, swimming, caving</li>
+          <li>Tennis, sailing</li>
+        </ul>
+      </section>
+
+      <!-- SCHEDULE -->
+      <section class="asic-section" id="schedule">
+        <h2>Schedule</h2>
+        <p class="asic-lede">Tentative schedule for ASIC 2005 (as of May 27). All times are evening (PM) unless otherwise noted.</p>
+
+        <table>
+          <thead><tr><th>Day</th><th>Time</th><th>Session</th></tr></thead>
+          <tbody>
+            <tr><th rowspan="2">Mon, July 25</th><td>4:15–6:15</td><td>I: Embodied Cognition: Grounding Perception and Cognition</td></tr>
+            <tr><td>6:30–8:30</td><td>II: Language and Text Processing</td></tr>
+            <tr><th rowspan="2">Tue, July 26</th><td>4:15–6:15</td><td>III: Induction of Concepts</td></tr>
+            <tr><td>6:30–8:30</td><td>IV: Category and Concept Formation</td></tr>
+            <tr><th rowspan="2">Wed, July 27</th><td>4:15–6:15</td><td>V: Visual Features and Visual Processing</td></tr>
+            <tr><td>6:30–8:30</td><td>VI: Perception, Action, Decision, Memory</td></tr>
+            <tr><th>Thu, July 28</th><td>4:00–8:30</td><td>Poster session</td></tr>
+            <tr><th rowspan="2">Fri, July 29</th><td>4:15–6:15</td><td>VII: Memory and Learning</td></tr>
+            <tr><td>6:30–8:30</td><td>VII (cont'd): Memory and Learning</td></tr>
+            <tr><th rowspan="2">Sat, July 30</th><td>4:15–6:15</td><td>VIII: New Methods, Results, Developments</td></tr>
+            <tr><td>6:30–8:30</td><td>VIII (cont'd), followed by closing Banquet</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email was the preferred way to reach the organizer.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2005)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinator</h3>
+        <p><b>Krystal Klein</b>, Indiana University – Bloomington — <a href="mailto:krklein@indiana.edu">krklein@indiana.edu</a></p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2005');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

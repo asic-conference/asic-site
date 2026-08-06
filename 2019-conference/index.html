@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2019 — Seefeld, Austria | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Eighteenth Annual Summer Interdisciplinary Conference, Hotel Bergresort, Seefeld, Austria, June 17–22, 2019.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2019">
+  <style>
+
+    #asic2019{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2019 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2019 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2019 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2019 .asic-back:hover{color:#fff;}
+    #asic2019 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2019 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2019 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2019 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2019 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2019 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2019 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2019 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2019 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2019 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2019 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2019 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2019 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2019 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2019 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2019 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2019 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2019 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2019 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2019 .asic-section p{margin:0 0 14px;}
+    #asic2019 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2019 .asic-section li{margin:4px 0;}
+    #asic2019 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2019 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2019 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2019 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2019 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2019 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2019 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2019 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2019 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2019 th,#asic2019 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2019 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2019 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2019 .asic-photo{
+      border:1px dashed #c9c2b4; background:#faf8f3; border-radius:8px;
+      padding:22px; text-align:center; color:#9a9384; font-size:14px;
+      font-style:italic; margin:0 0 18px;
+    }
+    #asic2019 .asic-figure{margin:0 0 20px; text-align:center;}
+    #asic2019 .asic-figure img{max-width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12);}
+    #asic2019 .asic-figure figcaption{margin-top:8px; font-size:14px; font-style:italic; color:var(--muted);}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2019{border-radius:0;}
+      #asic2019 .asic-shell{flex-direction:column;}
+      #asic2019 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2019 .asic-nav .asic-navhead{display:none;}
+      #asic2019 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2019 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2019 .asic-main{padding:26px 20px 40px;}
+      #asic2019 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2019 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Eighteenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2019</h1>
+    <div class="asic-meta">
+      <span><b>Seefeld</b>, Austria</span>
+      <span><b>June 17–22, 2019</b> · Monday–Saturday</span>
+      <span>Hotel Bergresort</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2019 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2019</h2>
+        <p class="asic-lede">The Eighteenth Annual Summer Interdisciplinary Conference, held at Hotel Bergresort in Seefeld, Austria.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_001.png" alt="Austrian Alps near Seefeld, at Wildsee">
+          <figcaption>Austrian Alps near Seefeld, at Wildsee</figcaption>
+        </figure>
+
+        <p>The conference had talks every afternoon and evening on the six consecutive days, Monday June 17 to Saturday June 22, 2019 (the last talks were held the evening of June 22). The dates were chosen to reduce possible conflicts with the Cognitive Science Society meetings (July 24–27 in Montreal) and the Mathematical Psychology Meetings likely coordinated with that meeting.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_003.jpg" alt="Hotel Bergresort">
+          <figcaption>Hotel Bergresort</figcaption>
+        </figure>
+
+        <p>Hotel Bergresort is highly rated, award-winning, and has spa facilities and a superb restaurant; see the <a href="https://www.bergresort.at/en/" target="_blank" rel="noopener">hotel website</a>. The meetings, catered breaks, and breakfasts and dinners were held in the hotel.</p>
+
+        <h3>Seefeld</h3>
+        <p>Seefeld is 20 km northwest of Innsbruck Airport, about 30 minutes by car. It lies on a plateau at 1,200 m elevation, amid mountains, adjacent to a peak rising to 2,300 m.</p>
+
+        <h3>Activities</h3>
+        <p>There are a huge number of outdoor activities in or near Seefeld, including hiking, mountain and road biking, rock climbing, mountaineering, via ferrata, parasailing, canyoning, touring, golf, tennis, and adventure parks.</p>
+
+        <h3>Organizer</h3>
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer (see the Contact tab for all contact info).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC conferences is interdisciplinary, with a primary emphasis on a wide variety of scientific domains within the broad frame of cognitive science. ASIC follows the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussion among participants, talks are in the late afternoon and early evening, followed by dinner.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties and their family and friends — no invitation is needed to attend. Due to the small number of speaking slots, if too many attendees wish to speak, the organizer adapts talk lengths and/or selects speakers.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations. The conference began with registration and a reception with wine, beer, drinks and food from about 15:30–16:15 on Monday, June 17. On subsequent days there were drinks and light snacks from about 15:45–16:15, followed by a session of about seven or eight spoken presentations that may have included a mid-session drink break. The last evening of talks was Saturday, June 22.</p>
+
+        <p>For a listing of all past ASIC sites, see the <a href="../">previous ASIC sites document</a>.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Registration was made through the Indiana University Conference Bureau, with the fee covering conference-room rental, equipment, and catering for breaks and receptions.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>Fee</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2019</th><td>$300</td></tr>
+            <tr><th>January 1 – March 1, 2019</th><td>$350</td></tr>
+            <tr><th>After March 1, 2019</th><td>$400</td></tr>
+          </tbody>
+        </table>
+
+        <p>Guest vouchers for others attending receptions, breaks, and dinners were $15 per day for breaks only. Each person not staying at the hotel who wished to join the buffet dinner there paid 45 euro (55 euro on Saturday), directly to the hotel.</p>
+
+        <div class="asic-note">If a registration payment was made but the attendee cancelled prior to May 17, 2019, the fee was refunded minus a $20 handling fee; after May 17 and prior to the conference, the handling fee rose to $50.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms was held at Hotel Bergresort in Seefeld, Austria.</p>
+
+        <figure class="asic-figure">
+          <img src="images/lodge_002.jpg" alt="Hotel Bergresort amenities">
+          <figcaption>Hotel Bergresort amenities</figcaption>
+        </figure>
+
+        <p>This award-winning hotel has good restaurants, a large conference room more than adequate for ASIC's needs, free parking, free internet, low-price pet accommodation, a health and wellness spa, fitness center, sauna, two pools, and a Jacuzzi; see the <a href="https://www.bergresort.at/en/" target="_blank" rel="noopener">hotel website</a>.</p>
+
+        <h3>Lodging rates (inclusive, breakfast and dinner)</h3>
+        <table>
+          <thead>
+            <tr><th>Occupancy</th><th>Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>One person</th><td>145.80 €/day</td></tr>
+            <tr><th>Two persons in one room</th><td>198.60 €/day</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Conference rooms</h3>
+        <p>ASIC used the hotel's large conference room (168 m²), set up classroom style, well equipped technically, with space at the rear for the reception food and drink that started each session.</p>
+
+        <h3>Parking &amp; internet</h3>
+        <p>Free and ample above-ground parking, underground parking at 5 euro/day, and free internet in both guest rooms and the conference room.</p>
+
+        <h3>Reservations</h3>
+        <p>To obtain conference rates, email the organizer for the conference code. Reservations could be made by email (<a href="mailto:bergresort@kaltschmid.info">bergresort@kaltschmid.info</a>) or telephone (+43 5212 2191).</p>
+
+        <h3>Cancellation policy</h3>
+        <ul>
+          <li>Free up to two months prior to arrival</li>
+          <li>40% penalty: two months to one month prior</li>
+          <li>70% penalty: one month to one week prior</li>
+          <li>90% penalty: last week prior to arrival</li>
+        </ul>
+
+        <h3>Schedule</h3>
+        <p>Each day began with a reception with refreshments and light food near or in the conference room, starting about 15:30–15:45. Talks ran roughly 16:00–20:00, followed by group dinner no later than 20:15.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining &amp; Receptions</h2>
+        <p class="asic-lede">A generous breakfast was included in the daily lodging price, available starting at 7:30 AM.</p>
+
+        <p>A five-course dinner was served in the hotel restaurant when sessions ended, including vegetarian and vegan choices. No dinner seatings were allowed after 20:15, so conference sessions were scheduled to end in time for the group to move to dinner.</p>
+
+        <div class="asic-note">Attendees staying elsewhere could join the main group for dinner at a charge of 45 euro (55 euro Saturday). The hotel also offered a free midday/afternoon snack in the restaurant, 13:30–16:30.</div>
+
+        <h3>Daily receptions</h3>
+        <p>Each day there was a catered reception with drinks and finger food, likely sited at the rear of the conference room, prior to the speaking session — about 15:15 on June 17, about 15:45 on subsequent days. The registration fee covered these receptions; guests and family members attending only receptions had a reduced registration fee.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Hotel Bergresort is in Seefeld, about 30 minutes by car or train from Innsbruck Airport.</p>
+
+        <p><b>By car from Innsbruck Airport:</b> Use B171 to A12, 5.5 km to B177, then B177 16 km to Seefeld; exit at Münchner Straße and drive south 400 m to the hotel entrance. The hotel has free above-ground parking and underground parking at 5 euro/day.</p>
+
+        <p><b>By train from Innsbruck Airport:</b> Trains run every 20 minutes; travel time is about 30 minutes. Tirol Bahnhof in Seefeld is about 1.3 km south of the hotel along Münchner Straße. A variety of taxi and limo transfer options are also available; the hotel can arrange airport transport and, with advance notice, free shuttle service from the Seefeld train station.</p>
+
+        <p>Other airports to consider: Munich (162 km, about 1 hr 50 min by car) and Salzburg (200 km, about 2 hrs by car).</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Numerous outdoor and adventure activities both in the immediate Seefeld area and within a day tour and return by 16:00.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_001.jpg" alt="Hiking in the Seefeld area">
+          <figcaption>Hiking in the Seefeld area</figcaption>
+        </figure>
+
+        <h3>Hiking</h3>
+        <p>See <a href="https://www.seefeld.com/en/walking" target="_blank" rel="noopener">seefeld.com/walking</a>, including its "ten most beautiful summit tours," and <a href="https://www.tyrol.com/places/a-seefeld-in-tirol/hiking" target="_blank" rel="noopener">tyrol.com</a>.</p>
+
+        <h3>Rock climbing</h3>
+        <p>Numerous regions offer sport climbing and bouldering at all difficulty levels; see <a href="https://www.climbers-paradise.com/en/" target="_blank" rel="noopener">climbers-paradise.com</a> and <a href="https://www.tyrol.com/things-to-do/sports/climbing/climbing-regions" target="_blank" rel="noopener">tyrol.com</a>. The guidebook <i>Sportclimbing in Tirol</i> (2014, German and English) is recommended. As usual, ASIC offered one or two group climbing days at reduced pricing, aimed at all climbers but particularly newcomers, with topropes placed for novices and more challenging routes for stronger climbers in the same area.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_003.jpg" alt="Rock climbing near Seefeld">
+          <figcaption>Rock climbing near Seefeld</figcaption>
+        </figure>
+
+        <h3>Canyoning</h3>
+        <p>See <a href="https://www.tyrol.com/things-to-do/sports/canyoning" target="_blank" rel="noopener">tyrol.com</a> — participants don wetsuits and, with guides, descend a mountain stream in a narrow canyon, suitable for families and children.</p>
+
+        <h3>Parasailing</h3>
+        <p>Tandem flights with an expert guide; see <a href="https://www.seefeld.com/en/further-topics/paragliding" target="_blank" rel="noopener">seefeld.com/paragliding</a>.</p>
+
+        <h3>Road &amp; mountain biking</h3>
+        <p>The Seefeld area has many opportunities for both forms of biking; see <a href="https://www.seefeld.com/en/further-topics/mountain-bikerace-bikee-bike" target="_blank" rel="noopener">seefeld.com</a>.</p>
+
+        <h3>Via ferrata</h3>
+        <p>The Seefeld region has numerous via ferrata — mountain paths and cliffs affixed with cables and ladders, offering safe passage even in the event of a slip or fall, suitable for all including children and families.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_011.jpg" alt="Via ferrata in the Seefeld region">
+          <figcaption>Via ferrata in the Seefeld region</figcaption>
+        </figure>
+
+        <h3>Leisure activities</h3>
+        <p>The area has many leisure activities particularly suitable for family and children, including golf, tennis, and adventure parks.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinators</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Oyedotun Oyesanmi</b><br>
+          Phone: (812) 855-6420<br>
+          <a href="mailto:oyesanmi@iu.edu">oyesanmi@iu.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2019)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2019');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

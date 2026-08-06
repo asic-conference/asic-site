@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2011 — Boí Valley, Pyrenees, Spain | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Tenth Annual Summer Interdisciplinary Conference, Caldes de Boí Spa Resort, Boí Valley, Pyrenees, Spain, July 7–12, 2011.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2011">
+  <style>
+    #asic2011{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2011 *{box-sizing:border-box;}
+
+    #asic2011 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2011 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2011 .asic-back:hover{color:#fff;}
+    #asic2011 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2011 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2011 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2011 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2011 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    #asic2011 .asic-shell{display:flex; align-items:flex-start;}
+
+    #asic2011 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2011 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2011 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2011 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2011 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2011 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2011 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    #asic2011 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2011 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2011 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2011 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2011 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2011 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2011 .asic-section p{margin:0 0 14px;}
+    #asic2011 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2011 .asic-section li{margin:4px 0;}
+    #asic2011 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2011 a:hover{color:var(--alpenglow);}
+
+    #asic2011 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2011 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    #asic2011 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2011 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2011 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2011 .asic-btn.alt:hover{background:#a44d1f;}
+
+    #asic2011 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2011 th,#asic2011 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2011 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2011 tbody th{background:#fafaf7; font-weight:600;}
+
+    #asic2011 .asic-photo{margin:0 0 22px; text-align:center;}
+    #asic2011 .asic-photo img{max-width:100%; height:auto; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.15);}
+    #asic2011 .asic-photo p{color:#7c7566; font-size:14px; font-style:italic; margin:8px 0 0;}
+
+    #asic2011 .asic-day{margin:0 0 20px; padding:14px 16px; background:var(--stone); border-radius:8px;}
+    #asic2011 .asic-day h4{font-family:"Fraunces",Georgia,serif; font-size:17px; margin:0 0 8px; color:var(--granite-2);}
+    #asic2011 .asic-day table{margin:0 0 6px; background:#fff;}
+
+    @media(max-width:760px){
+      #asic2011{border-radius:0;}
+      #asic2011 .asic-shell{flex-direction:column;}
+      #asic2011 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2011 .asic-nav .asic-navhead{display:none;}
+      #asic2011 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2011 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2011 .asic-main{padding:26px 20px 40px;}
+      #asic2011 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2011 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Tenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2011</h1>
+    <div class="asic-meta">
+      <span><b>Boí Valley</b>, Pyrenees, Spain</span>
+      <span><b>July 7–12, 2011</b></span>
+      <span>Manantial Hotel, Caldes de Boí Spa Resort</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2011 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🥾</span> Activities</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">🗓️</span> Sessions</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2011</h2>
+        <p class="asic-lede">The Tenth Annual Summer Interdisciplinary Conference, held at the Manantial Hotel, part of the Caldes de Boí Spa Resort in the Pyrenees of Spain, Thursday, July 7 – Tuesday, July 12, 2011.</p>
+
+        <div class="asic-photo">
+          <img src="images/cavallers-dam.jpg" alt="Cavallers dam and lake near the Caldes de Boí resort">
+          <p>The Cavallers dam and lake, a few km from the hotel.</p>
+        </div>
+
+        <p>The hotel is a few hours' driving time from Barcelona, in the highest and most remote part of the Spanish Pyrenees, at an altitude of about 1,500 m, in the midst of peaks rising to over 3,000 m, and very close to the Cavallers dam and lake. Many outdoor activities are easily accessible, including sport, mixed and traditional rock climbing, mountaineering, hiking, and rafting, all starting within a few km of the hotel. Breakfasts and dinners are taken at the hotel — there are no close alternatives.</p>
+
+        <p>ASIC 2011 occurs at a time allowing combined travel to attend two closely related meetings held in Boston, MA: the 2011 Annual Meetings of the Society for Mathematical Psychology, July 15–19, and the 2011 Annual Meetings of the Cognitive Science Society, July 20–23 — though there is also time to return home first before a trip to Boston. Many attendees will want to take the opportunity before or after ASIC to travel elsewhere in Spain, particularly Barcelona.</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> or mailed to Richard M. Shiffrin at Indiana University (see the Contact tab for the address).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC is interdisciplinary, within the broad frame of cognitive science. ASIC uses the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants, and talks and posters are in the later afternoon and early evening, followed by dinner. The conference is open to all interested parties, and an invitation is not needed to attend. Due to the small number of spots for speakers, the organizer selects the attendees who give talks; additional attendees have the opportunity to present posters.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>modeling of cognition</li>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science and artificial intelligence</li>
+          <li>machine intelligence and learning</li>
+          <li>methodology and statistics</li>
+          <li>linguistics, psycholinguistics and computational linguistics</li>
+          <li>philosophy of mind, cognitive science</li>
+        </ul>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day. If the number of participants exceeds the number of speaking slots (about 42), the first half session on a chosen day will be devoted to posters. The conference starts with registration and a reception from 15:30–16:15 on Thursday, July 7. On subsequent days (except a poster day) there are drinks and light snacks from about 16:00–16:15, followed by a session of seven spoken presentations including a mid-session drink break.</p>
+        <p>This format frees most of the day for discussions with colleagues or other activities with colleagues, family, and friends. The time frame allows day trips to nearby sites, but return should be arranged in time for the sessions.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research (talks or posters) until you submit the registration fee, preferably by PayPal.</p>
+
+        <p>This fee pays for rental of the conference room, equipment rentals, snacks and drinks at conference breaks, the opening reception, and the banquet charges.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>By check or PayPal</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to Jan. 1, 2011</th><td>$200</td></tr>
+            <tr><th>Jan. 1 – March 1, 2011</th><td>$250</td></tr>
+            <tr><th>After March 1, 2011</th><td>$300</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase additional guest vouchers for other persons attending the opening reception and/or final banquet.</p>
+
+        <h3>How to pay</h3>
+        <ol>
+          <li>Online by PayPal (preferred).</li>
+          <li>Send a check for the correct amount to ASIC 2011, c/o Richard M. Shiffrin, Psychology Dept., Indiana University, Bloomington, IN 47405.</li>
+        </ol>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms sufficient for our conference needs is held at the Manantial Hotel, Caldes de Boí Spa Resort, adjacent to the Parc Nacional d'Aigüestortes &amp; Estany de Sant Maurici.</p>
+
+        <div class="asic-photo">
+          <img src="images/hotel-manantial.jpg" alt="Hotel El Manantial at the Caldes de Boí Spa Resort">
+          <p>Hotel El Manantial (4-star), Caldes de Boí, Pyrenees.</p>
+        </div>
+
+        <p>Hotel website: <a href="http://www.caldesdeboi.com/html/boi/" target="_blank" rel="noopener">caldesdeboi.com</a>. The hotel has 4 floors with 3 single rooms, 66 double rooms, 8 family rooms, 8 junior suites and 7 suites. Rooms have Wi-Fi, bathroom, hairdryer, telephone, minibar/fridge, and central heating, with free outdoor parking. Guests have access to a bar, gardens, a public internet terminal, hot baths and spa, room and laundry services, one indoor and four outdoor swimming pools, a furnished sun terrace, a gym, and a sauna.</p>
+
+        <p>The resort is famous for hot springs of many types, pools and spa treatments — after a day adventuring in the mountains, and before the talks, it is a nice treat to take a hot mineral bath.</p>
+
+        <h3>Rates</h3>
+        <p>Lodging rates include breakfast and dinner for each person each day. Reservations should be made as early as possible starting in the fall of 2010.</p>
+        <ul>
+          <li><b>One person in a room</b> (two twin beds or one queen): €120/day.</li>
+          <li><b>Two persons in a room</b>: €152/day.</li>
+        </ul>
+        <p>Other larger rooms are available on request. Bookings can be made by email to <a href="mailto:aisasi@caldesdeboi.com">aisasi@caldesdeboi.com</a>.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining</h2>
+        <p class="asic-lede">The Caldes de Boí Spa Resort has several restaurants, and the staff will cater all breakfasts and dinners — there isn't time to drive to alternative restaurants.</p>
+
+        <p>Dining charges are included in the daily lodging fee. The registration fee pays for the food and drink at session breaks, the extra food and drink at the opening reception, and the conference banquet.</p>
+
+        <p>Each day the conference begins with light snacks and drinks at about 16:00–16:15, followed by talks, with a 15-minute break and more drinks about midway through (around 18:00). The first day of the conference, July 7, has a reception with wine, beer, and more elaborate snacks from 3:30–4:15. There is a rotating selection of food choices, including meat, fish, and vegetarian options.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Most participants will fly to Barcelona and rent a car to drive to the resort — about four hours.</p>
+
+        <p>Driving directions from Barcelona: take A2 (some toll roads) to exit 461 onto N230 north (bypassing Lleida to the north). Take N230 just past El Pont de Suert, then bear northeast on L-500 past Barruera, continuing on LV-5000 to Caldes de Boí. Google Maps provides good driving directions.</p>
+
+        <h3>Flying to Barcelona</h3>
+        <p>Flights from the US usually arrive in Barcelona in the early morning after an overnight flight. Return flights to the US leave no later than about 10:30–11:30 AM, arriving in the US by early afternoon. Many participants will want to spend a day or more in Barcelona before or after ASIC, or both.</p>
+        <p>A closer, smaller airport, Alguaire, is reachable via Paris, Milan, or London — the drive from there is about 1.5 hours. It's also possible to fly to a French airport near the Pyrenees and cross by car through tunnels; Toulouse, about 3.5 hours away, is one option.</p>
+
+        <h3>Public transportation to the resort</h3>
+        <p>Travel by public transportation from Barcelona to the resort is possible but complicated: a combination of taxi, train, and bus is needed to reach the town of Pont de Suert, from which a taxi covers the final stage (about 30 euro). Trains do not go to Pont de Suert; buses run five times a day (departures 6:45, 9:00, 14:15, 16:00, 20:45), taking four to five hours, with a return price of about 49 euro. The first stage — getting from the airport to the Barcelona Nord train/bus station — can be done by taxi (20–30 euro, 25–30 minutes) or by train/bus/metro combinations.</p>
+
+        <h3>Useful links</h3>
+        <ul>
+          <li>Bus travel throughout Spain: ALSA (<a href="http://www.alsa.es/portal/site/Alsa" target="_blank" rel="noopener">alsa.es</a>)</li>
+          <li>Train travel in Spain: <a href="http://www.renfe.com/EN/viajeros/index.html" target="_blank" rel="noopener">renfe.com</a></li>
+          <li>Barcelona travel questions: <a href="http://www.barcelona-tourist-guide.com/" target="_blank" rel="noopener">barcelona-tourist-guide.com</a></li>
+        </ul>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The area around the Caldes de Boí Spa Resort and the adjacent Aigüestortes National Park offers many activities, from hiking and rock climbing to canyoning and mountain biking.</p>
+
+        <div class="asic-photo">
+          <img src="images/refugio-ventosa.jpg" alt="Refugio Ventosa and surrounding peaks">
+          <p>Refugio Ventosa and surround, about a two-hour hike from the hotel.</p>
+        </div>
+
+        <h3>Hiking</h3>
+        <p>There is a great deal of hiking in the area, from short scenic walks of 1–2 hours to multi-day treks. The hotel sits in a fairly deep valley (Val de Boí) that extends up to the Cavallers dam and lake; the Aigüestortes National Park is adjacent, just to the east. A renowned long-distance route, Carros del Foc, connects nine equipped refugios throughout the park (about 50 miles round trip with roughly 5,300 m of climbing and descending — not for a conference day).</p>
+        <p>Shorter hikes suitable for a return by 4 PM include Punta Alta (3,014 m, about 3.5–4 hours from the Cavallers dam), the walk to Refugio Ventosa (about two hours, 300 m climb, 6 km, with good views of Lake Negre and Lake Travessani), Aut Peak (about 4 hours up, 3.5 hours down, ~1,135 m climbing), and Estany Llong (a maintained 10.5 km trail along the river Nicholas, about 3.5 hours up).</p>
+
+        <h3>Rock climbing</h3>
+        <div class="asic-photo">
+          <img src="images/climbing.jpg" alt="Climber on the cliffs near Caldes de Boí">
+          <p>Sport and multi-pitch climbing near the Cavallers dam.</p>
+        </div>
+        <p>A few kilometers from the hotel is the Cavallers sport climbing area, surrounding the dam and lake of the same name — several hundred sport climbs across about seven sectors, mostly single-pitch but with a number of multi-pitch routes as well, all within a short walk of parking. Useful guidebooks include <i>Pyrenees Rock</i> by Andreas and Katrin Motset (English/German) and <i>Roca Caliente en los Pirineos Cavallers</i> by Luis Alfonso and Xavier Buxó (Spanish), which also covers the Travessani and Estany Llong areas.</p>
+        <p>ASIC usually arranges one or two group climbing days for everyone from beginners to experts.</p>
+
+        <h3>Other activities</h3>
+        <div class="asic-photo">
+          <img src="images/paragliding.jpg" alt="Paragliding over the Pyrenees">
+          <p>Parasailing is among the adventure options in the region.</p>
+        </div>
+        <p>Excellent mountain biking and road biking opportunities exist throughout the area. Canyoning, rafting, caving, parasailing, and via ferrata are also available — see the Catalonian Sporting website at <a href="http://www.rural-pyrenees-guide.com/catalonia-sports.html" target="_blank" rel="noopener">rural-pyrenees-guide.com</a> for more detail.</p>
+      </section>
+
+      <!-- SCHEDULE / SESSIONS -->
+      <section class="asic-section" id="schedule">
+        <h2>Sessions</h2>
+        <p class="asic-lede">A single speaking session is held each day, with seven talks per day, at the Caldes de Boí Spa Resort Conference Center, about 50 m from the Hotel Manantial.</p>
+
+        <p>The conference starts with registration and a reception at the Conference Center from 3:30–4:15 on Thursday, July 7. On subsequent days there are drinks and light snacks from 16:00–16:15, followed by a session of seven spoken presentations including a mid-session drink break; dinner follows the session. One dinner is the conference banquet.</p>
+
+        <div class="asic-day">
+          <h4>Thursday, July 7</h4>
+          <table>
+            <tbody>
+              <tr><td><b>3:30–4:15</b></td><td>Opening reception, Conference Room</td></tr>
+              <tr><td><b>4:15–8:00</b></td><td>Session — chair Dave Huber. Speakers: John Anderson (using neural imaging to uncover the sequential structure of thought); Flavia Filimon (perceptual decision making); Bob French (TRACX: a recognition-based connectionist framework for sequence segmentation); Stefan Herzog (blending cognitive processes within one mind); Dave Huber (transitions from positive to negative short-term word priming); Matt Jones (the role of attention in motor control); Louis Narens (Steven's methods of magnitude estimation and production).</td></tr>
+              <tr><td><b>8:15</b></td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="asic-day">
+          <h4>Friday, July 8</h4>
+          <table>
+            <tbody>
+              <tr><td><b>4:00–8:00</b></td><td>Session — chair Marco Zorzi. Speakers: Michael Dougherty (tools to theories and back again); Bill Ramsey (properly understanding dynamicism in cognitive science); Lynne Reder (familiarity of elements affects knowledge formation); Joachim Steil (proto-objects in a TVA-based computational model of visual attention); Nachum Ulanovsky (neural codes for space in the hippocampus and entorhinal cortex of bats); Michael Wierzchoń (comparing measures of consciousness in artificial grammar learning); Marco Zorzi (emergence of a "visual number sense" in hierarchical generative models).</td></tr>
+              <tr><td><b>8:15</b></td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="asic-day">
+          <h4>Saturday, July 9</h4>
+          <table>
+            <tbody>
+              <tr><td><b>4:00–8:15</b></td><td>Session — chair Rene Zeelenberg. Speakers: Stéphanie Chambaron-Ginhac (impact of retention interval on implicit food memory); Patricia Cheng (applying causal learning to mathematics education); Chris Donkin (the structure of short-term memory scanning); Drew Hendrickson (is categorical perception really verbally mediated perception?); Jared Hotaling (planning in multi-stage risky decision-making); Shaw Ketels (attentional focus and the learning of a complex motor task); Ben Murdock (trial and error learning); David Neville (subliminal processing in long-term memory); Adam Sanborn (a rational model of intuitive dynamics); Rene Zeelenberg (study time distribution, learning and retention).</td></tr>
+              <tr><td><b>8:30</b></td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="asic-day">
+          <h4>Sunday, July 10</h4>
+          <table>
+            <tbody>
+              <tr><td><b>4:00–8:00</b></td><td>Session — chair Rosie Cowell. Speakers: Rosie Cowell (what is the blood oxygenation level dependent signal?); Thomas Hills (modeling executive processing in information search); George Sperling (measuring the spatial resolution and cognitive capacity of visual selective attention); Richard Shiffrin (a dynamic activation model for accuracy and response time in recognition memory); Greg Cox (modeling recognition of different stimulus classes with a dynamic activation model); Vladimir Sloutsky (selective attention and categorization: what develops?); E.J. Wagenmakers (a Bayesian test for the "hot hand" phenomenon).</td></tr>
+              <tr><td><b>8:15</b></td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="asic-day">
+          <h4>Monday, July 11</h4>
+          <table>
+            <tbody>
+              <tr><td><b>4:00–8:00</b></td><td>Session — chair Eddy Davelaar. Speakers: Eddy Davelaar (serial recall in SAM); John Dunn (feedback delay and feedback type on perceptual category learning); Birte Forstmann (neural correlates of trial-to-trial fluctuations in response caution); Stephan Lewandowsky (SOB-CS: an interference model of complex span); Jonathan Nelson (optimality, heuristics, and children's sequential information search); Shimon Ullman (detecting hands: combining learning with innate concepts); Johannes Ziegler (how to say "no" to a nonword).</td></tr>
+              <tr><td><b>8:15</b></td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="asic-day">
+          <h4>Tuesday, July 12</h4>
+          <table>
+            <tbody>
+              <tr><td><b>4:00–8:00</b></td><td>Session — chair Brad Love. Speakers: Mirjam Jenny (conjunctive probability assessment from experience with weighted averaging); Brad Love (forecasting and classification using absolute and rate information); Klaus Oberauer (evidence against decay in verbal working memory); Giovanni Pezzulo (action understanding through the reuse of one's own skills); Michael Ramscar (the evolution of noun classification in two Germanic languages); Roger Ratcliff (speed of processing and individual differences); Christoph Weidemann (beyond confidence ratings: how can cognitive states be assessed?).</td></tr>
+              <tr><td><b>8:15</b></td><td>Dinner</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Address correspondence to</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2011)<br>
+          c/o Prof. Richard Shiffrin, Psychology Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinator</h3>
+        <p>Please direct questions concerning the website to:</p>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Muhammad Nubli Mohd Kasa</b><br>
+          Indiana University – Bloomington
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2011');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

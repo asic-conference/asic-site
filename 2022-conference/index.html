@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2022 — Chamonix, France | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The 21st Annual Summer Interdisciplinary Conference, Chalet Hotel Le Prieuré, Chamonix, France, June 16–21, 2022.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2022">
+  <style>
+
+    #asic2022{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2022 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2022 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2022 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2022 .asic-back:hover{color:#fff;}
+    #asic2022 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2022 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2022 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2022 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2022 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2022 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2022 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2022 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2022 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2022 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2022 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2022 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2022 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2022 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2022 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2022 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2022 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2022 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2022 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2022 .asic-section p{margin:0 0 14px;}
+    #asic2022 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2022 .asic-section li{margin:4px 0;}
+    #asic2022 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2022 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2022 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2022 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2022 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2022 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2022 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2022 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2022 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2022 th,#asic2022 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2022 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2022 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2022 .asic-photo{
+      border:1px dashed #c9c2b4; background:#faf8f3; border-radius:8px;
+      padding:22px; text-align:center; color:#9a9384; font-size:14px;
+      font-style:italic; margin:0 0 18px;
+    }
+    #asic2022 .asic-figure{margin:0 0 20px; text-align:center;}
+    #asic2022 .asic-figure img{max-width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12);}
+    #asic2022 .asic-figure figcaption{margin-top:8px; font-size:14px; font-style:italic; color:var(--muted);}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2022{border-radius:0;}
+      #asic2022 .asic-shell{flex-direction:column;}
+      #asic2022 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2022 .asic-nav .asic-navhead{display:none;}
+      #asic2022 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2022 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2022 .asic-main{padding:26px 20px 40px;}
+      #asic2022 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2022 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">21st Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2022</h1>
+    <div class="asic-meta">
+      <span><b>Chamonix</b>, France</span>
+      <span><b>June 16–21, 2022</b> · Thursday–Tuesday</span>
+      <span>Chalet Hotel Le Prieuré</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2022 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2022</h2>
+        <p class="asic-lede">The 21st Annual Summer Interdisciplinary Conference, held at Chalet Hotel Le Prieuré, 149 Allée Recteur Payot, 74400 Chamonix Mont-Blanc, France.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_001.PNG" alt="The town of Chamonix">
+          <figcaption>The town of Chamonix</figcaption>
+        </figure>
+
+        <p>The conference had talks every afternoon and evening on the six consecutive days, Thursday June 16 to Tuesday June 21, 2022 (the last talks were held the evening of June 21).</p>
+
+        <p>Chalet Hotel Le Prieuré has excellent reviews, refurbished rooms with excellent views, two restaurants, and conference facilities; see the <a href="https://www.prieurechamonix.com/en/" target="_blank" rel="noopener">hotel website</a>. The meetings, catered breaks, breakfasts, and all but one dinner were held in the hotel — the evening of Sunday, June 19 was left open for attendees to dine at any of the hundreds of local restaurants.</p>
+
+        <h3>Chamonix</h3>
+        <p>Chamonix sits in the heart of the Alps, adjacent to Mont Blanc, in eastern France near the borders of Italy and Switzerland. The nearest airport is Geneva, a little over an hour by car and two hours by train, though Chamonix is also readily accessible by car, train, and bus from a number of other international airports.</p>
+
+        <h3>Activities</h3>
+        <p>Chamonix and the surrounding area is one of the world's most scenic destinations and one of the world's capitals for both adventure and leisure sports. Summer activities include hiking, scrambling and peak bagging, via ferrata, mountain and road biking, rock climbing, mountaineering, paragliding, white-water rafting, kayaking, canyoning, glacier walking, and leisure activities such as sightseeing, fishing, tennis, and golf.</p>
+
+        <h3>Organizer</h3>
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer (see the Contact tab for all contact info).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC conferences is interdisciplinary, with a primary emphasis on a wide variety of scientific domains within the broad frame of cognitive science. ASIC follows the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussion among participants, talks are in the late afternoon and early evening, followed by dinner. The dates are chosen to make it convenient for attendees to bring family and friends.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties and their family and friends — no invitation is needed to attend. Due to the small number of speaking slots, if too many attendees wish to speak, the organizer adapts talk lengths and/or selects speakers.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations. The conference began with registration and a reception with drinks and food starting about 15:30 on Thursday, June 16. On subsequent days there were drinks and light snacks starting about 15:40, followed by about seven or eight spoken presentations beginning at 16:00, ending about 20:00 and followed by dinner. The last evening of talks was Tuesday, June 21.</p>
+
+        <p>For a listing of all past ASIC sites, see the <a href="../">previous ASIC sites document</a>.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Registration was made through the Indiana University Conference Bureau, with the fee covering conference-room rental, equipment, and catering for breaks and receptions.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>Fee</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2022</th><td>$300</td></tr>
+            <tr><th>January 1 – March 1, 2022</th><td>$350</td></tr>
+            <tr><th>After March 1, 2022</th><td>$400</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the per-attendee registration fee, guest vouchers for others attending receptions and breaks were $25 per guest per day.</p>
+
+        <p>Attendees staying at sites other than the conference hotel could take dinner at the conference hotel for 29 euro per person per dinner, paid directly to the hotel.</p>
+
+        <div class="asic-note">If a registration payment was made but the attendee cancelled prior to April 15, 2022, the fee was refunded; cancellations after that date were refunded minus a $20 handling fee.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms was held at Chalet Hotel Le Prieuré in the center of Chamonix, France.</p>
+
+        <figure class="asic-figure">
+          <img src="images/lodging_007a.png" alt="View from the lawn of Chalet Hotel Le Prieuré">
+          <figcaption>View from the lawn of Chalet Hotel Le Prieuré</figcaption>
+        </figure>
+
+        <p>Lodging, breaks, conference presentations, breakfasts, and all but one dinner were held at the hotel — Sunday, June 19 was left open for attendees to choose dinner among the hundreds of restaurants in Chamonix. The hotel has a variety of room types, A/C, paid on-site parking, free high-speed internet, a bar, two restaurants, a banquet room, and conference facilities. See the <a href="https://www.prieurechamonix.com/en/" target="_blank" rel="noopener">hotel website</a>.</p>
+
+        <h3>Lodging rates</h3>
+        <p>Rates given below are inclusive and include breakfast and dinner, except for June 19 when dinner was open (lodging price reduced by 29 euro per adult that day). Prices include VAT but exclude a tourist tax of 1.5 euro.</p>
+        <table>
+          <thead>
+            <tr><th>Occupancy</th><th>Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>One adult, half board</th><td>140 €/day</td></tr>
+            <tr><th>Two adults in one room, half board (each)</th><td>92.5 €/day</td></tr>
+            <tr><th>Three adults in a triple, half board (each)</th><td>80 €/day</td></tr>
+            <tr><th>Four adults in a quad, half board (each)</th><td>89.5 €/day</td></tr>
+          </tbody>
+        </table>
+        <p>Children under 12 staying in the same room were free.</p>
+
+        <h3>Reservations</h3>
+        <p>Best reserved by email or telephone; the hotel's ASIC contact was Alicia Duplat, <a href="mailto:Events.prieure@prieurechamonix.com">Events.prieure@prieurechamonix.com</a>, +33 (0)4 50 53 20 72.</p>
+
+        <h3>Cancellation insurance</h3>
+        <p>A special option was offered: for 5% of the booking fee (non-refundable), attendees could cancel at any time up to and during the conference — for example a single room for six days (840 euro) would cost 42 euro to insure.</p>
+
+        <h3>Cancellation penalties without insurance</h3>
+        <ul>
+          <li>Free until March 11, 2022</li>
+          <li>5% of total booking: March 11 – April 11</li>
+          <li>20% of total booking: April 11 – May 11</li>
+          <li>50% of total booking: May 11 – June 4</li>
+          <li>100%: after June 4</li>
+        </ul>
+
+        <h3>Schedule</h3>
+        <p>Each day began with a reception with refreshments and light food near or in the conference room, starting about 15:30–15:40. Talks ran roughly 16:00–20:00, followed by group dinner at the hotel (except June 19).</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining &amp; Receptions</h2>
+        <p class="asic-lede">Breakfast was included in the daily lodging price.</p>
+
+        <figure class="asic-figure">
+          <img src="images/meals_001.PNG" alt="Dining at Chalet Hotel Le Prieuré">
+          <figcaption>Dining at Chalet Hotel Le Prieuré</figcaption>
+        </figure>
+
+        <p>Buffet breakfast was available 7:00–10:00 AM. Except for Sunday, June 19, a buffet dinner was served in the hotel restaurant when the sessions ended, including vegetarian and vegan choices. On June 19 attendees dined at their choice of restaurants in Chamonix (with the half-board lodging price reduced by 29 euro per adult that day).</p>
+
+        <div class="asic-note">Attendees staying elsewhere could join the main group for dinner at a charge of 29 euro.</div>
+
+        <h3>Daily receptions</h3>
+        <p>Each day there was a catered reception with drinks and finger food near the conference room prior to the speaking session — about 15:30 on June 16, about 15:40 on subsequent days. The registration fee covered these receptions; guests and family members attending only receptions had a reduced registration fee.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Chalet Hotel Le Prieuré is at 149 Allée Recteur Payot, 74400 Chamonix, near the center of town.</p>
+
+        <p>There are several international airports offering access by rental car, shuttle, train, or bus (estimated times below are for driving; shuttle, bus, or train may require waiting for connections):</p>
+        <ul>
+          <li>Geneva, Switzerland — about 1.25 hrs</li>
+          <li>Lyon and Grenoble, France — about 2.2 hrs</li>
+          <li>Milan, Italy — about 2.5 hrs (via the Mont Blanc tunnel)</li>
+          <li>Bern, Switzerland — about 3 hrs</li>
+        </ul>
+
+        <p>The Chamonix bus station is about a five-minute walk to or from the hotel. Local buses run through the valley every 30 minutes and are free with a card given to attendees at the hotel.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Chamonix is considered by many the adventure capital of the world, with numerous outdoor activities both in the immediate area and within a day's tour and return by 16:00. See <a href="https://www.chamonix.com" target="_blank" rel="noopener">chamonix.com</a> for maps and details. Recommended guide service: Mountain Path (Blaise Agresti, +33 (0)6 85 31 21 81), see <a href="https://www.mountain-path.com/" target="_blank" rel="noopener">mountain-path.com</a>.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_004.PNG" alt="The Mont Blanc massif">
+          <figcaption>The Mont Blanc massif</figcaption>
+        </figure>
+
+        <h3>Hiking</h3>
+        <p>Too many hiking and walking tours to list; see <a href="https://www.chamonix.com/hiking-summer,94,en.html" target="_blank" rel="noopener">chamonix.com</a> and <a href="https://chamonixallyear.com/must-do-chamonix-summer-hikes-and-walks/" target="_blank" rel="noopener">chamonixallyear.com</a>. Chamonix sits in a valley between the Mont Blanc massif on one side and the Aiguilles Rouges on the other. The cable car ride to the top of the Aiguille du Midi provides access to and views of Mont Blanc and the Mer de Glace; from there, access to some climbs and hikes on the Mer de Glace requires a scary walk down a "knife edge" snow ridge, so many prefer the train to the lower Montenvers site.</p>
+
+        <h3>Mountaineering</h3>
+        <p>Peaks in the Mont Blanc massif include Mont Blanc (4,810m), Mont Maudit (4,465m), Mont Blanc du Tacul (4,248m), Grandes Jorasses (4,208m), Aiguille Verte (4,122m), Aiguille de Bionnassay (4,066m), Dent du Géant (4,013m), Les Droites (4,000m), Aiguille du Midi (3,843m), and Les Drus (3,754m). These require technical climbing and enough time that attempts are best made before or after the ASIC conference.</p>
+
+        <h3>Scrambling &amp; peak bagging</h3>
+        <p>Across the valley, the Aiguilles Rouges rise to about 3,000m with peaks accessible by hiking and scrambling.</p>
+
+        <h3>Rock climbing</h3>
+        <p>Day climbing is available in the Mont Blanc massif — e.g. taking the cable car to the Aiguille du Midi, walking down the knife-edge snow ridge, and climbing the famous Rebuffat route back to the cable car, or the easier but equally spectacular Cosmique Ridge Route (difficulty 4); see <a href="http://www.chamonixtopo.com/alpine-climbing/cosmiques-arete-aiguille-du-midi/" target="_blank" rel="noopener">chamonixtopo.com</a>. There is a large set of single- and multi-pitch climbing areas both near Chamonix and in the Aiguilles Rouges. As usual, ASIC offered one or two group climbing days at reduced pricing, aimed at all climbers but particularly newcomers — novices taught on easy toprope routes, stronger climbers on more challenging routes in the same area. Indoor climbing is also available for bad-weather days.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_012.PNG" alt="Novice climbing near Chamonix">
+          <figcaption>Novice climbing near Chamonix</figcaption>
+        </figure>
+
+        <h3>Via ferrata</h3>
+        <p>A family-friendly favorite offering high mountain exposure and scenic views without technical climbing skill, attaching to iron cables affixed to the rock faces.</p>
+
+        <h3>Canyoning</h3>
+        <p>Participants don wetsuits and, with guides, descend a mountain stream in a narrow canyon — no experience required, suitable for families and children.</p>
+
+        <h3>Parasailing (parapente)</h3>
+        <p>Tandem flights with an expert guide, lifting off from a hillside or cliff, ascending thermals and landing in a field.</p>
+
+        <h3>Road &amp; mountain biking</h3>
+        <p>The Chamonix area has many opportunities for both forms of biking; see <a href="https://www.chamonix.com/mountain-biking,35,en.html" target="_blank" rel="noopener">chamonix.com</a>.</p>
+
+        <h3>White-water rafting</h3>
+        <p>Another favorite activity for families and individuals.</p>
+
+        <h3>Leisure activities</h3>
+        <p>The area has many leisure activities including golf, tennis, and adventure parks.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-219-5892
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2022)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2022');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

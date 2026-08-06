@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2018 — Loano, Italian Riviera | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Seventeenth Annual Summer Interdisciplinary Conference, Loano2 Village, Italian Riviera, Italy, June 17–22, 2018.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2018">
+  <style>
+    #asic2018{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2018 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2018 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2018 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2018 .asic-back:hover{color:#fff;}
+    #asic2018 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2018 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2018 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2018 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2018 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2018 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2018 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2018 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2018 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2018 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2018 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2018 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2018 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2018 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2018 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2018 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2018 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2018 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2018 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2018 .asic-section p{margin:0 0 14px;}
+    #asic2018 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2018 .asic-section li{margin:4px 0;}
+    #asic2018 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2018 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2018 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2018 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2018 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2018 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2018 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2018 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2018 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2018 th,#asic2018 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2018 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2018 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2018 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2018 .asic-photo img{max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto;}
+    #asic2018 .asic-photo p{margin:8px 0 0; font-size:14px; font-style:italic; color:#9a9384;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2018{border-radius:0;}
+      #asic2018 .asic-shell{flex-direction:column;}
+      #asic2018 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2018 .asic-nav .asic-navhead{display:none;}
+      #asic2018 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2018 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2018 .asic-main{padding:26px 20px 40px;}
+      #asic2018 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2018 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Seventeenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2018</h1>
+    <div class="asic-meta">
+      <span><b>Loano</b>, Italian Riviera, Italy</span>
+      <span><b>June 17–22, 2018</b> · six days of talks</span>
+      <span>Loano2 Village</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2018 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🌊</span> Home</button>
+      <button class="asic-tab" data-tab="talks"><span class="ic">📝</span> Talks &amp; Submissions</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2018</h2>
+        <p class="asic-lede">The Seventeenth Annual Summer Interdisciplinary Conference, held at Loano2 Village near Loano on the Italian Riviera, on each of six consecutive days, June 17–22, 2018.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_001.png" alt="Gallinara Island near Loano">
+          <p>Gallinara Island near Loano</p>
+        </div>
+
+        <p>The dates were chosen to reduce possible conflicts with the Cognitive Science Society meetings held July 25–28 in Madison, Wisconsin, and the Mathematical Psychology Meetings held in Madison just prior to those days.</p>
+
+        <div class="asic-note">
+          <b>Interested in attending?</b> If you have a 5% or higher chance of attending, list yourself, your probability, and your email on the "Potential Attendees" page of the original site.
+        </div>
+
+        <p>Loano2 Village (<a href="http://www.loano2village.it/en/" target="_blank" rel="noopener">loano2village.it/en</a>) is highly rated and has excellent facilities and food. The meetings, catered breaks, and buffet breakfasts and dinners are held in the resort.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_002.jpg" alt="Rock climbing near Final Ligure">
+          <p>Typical rock climbing near Final Ligure, not far from Loano, Italy</p>
+        </div>
+
+        <p>Loano2 Village is just a few kilometers inland and uphill from many white sand beaches. There are many water activities available in the area. Mountains rise from the beaches to about 3,000–4,000 feet all along the Italian Riviera, offering convenient access to hiking, rock climbing, biking and mountain biking, and canyoning. There are also many attractive villages and towns along the coast.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_003.jpg" alt="Pools at Loano2 Village">
+          <p>Pools at Loano2 Village</p>
+        </div>
+
+        <p>Travel to the resort is quite easy, by bus, train, and auto. There are nearby airports at Genoa (80 km), Nice (110 km) and Turin (160 km), but most international attendees will find it most convenient to fly to Milan (200 km), about 2.25 hours distant by auto. By auto from Loano2 Village it does not take long (up to 90 minutes) to reach the eastern Italian Riviera (e.g. Portofino) or the French Riviera (e.g. Nice or Monaco–Montecarlo).</p>
+
+        <div class="asic-photo">
+          <img src="images/index_004.jpg" alt="Typical beach on the Italian Riviera">
+          <p>Typical beach on the Italian Riviera — Varigotti</p>
+        </div>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> (see the Contact tab for all contact info).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of the ASIC conferences is interdisciplinary, but with a primary emphasis upon a wide variety of scientific domains within the broad frame of Cognitive Science. ASIC uses the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants. The talks are in the later afternoon/early evening, followed by dinner. The dates have been chosen to make it convenient for attendees to bring family and friends.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties, and their family and friends. An invitation is NOT needed to attend. However, due to the small number of spots for speakers, the organizer will select the attendees to give talks, and choose the lengths of talks. We encourage you to send the conference information to friends and colleagues.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects, with a particular but not exclusive focus on topics in cognitive science, including:</p>
+        <ul>
+          <li>modeling of cognition</li>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science and artificial intelligence</li>
+          <li>machine intelligence and learning</li>
+          <li>methodology and statistics</li>
+          <li>linguistics, psycholinguistics and computational linguistics</li>
+          <li>philosophy of mind, cognitive science</li>
+        </ul>
+        <p>We especially invite talks emphasizing theory, mathematical modeling, and computational modeling (including neural networks and artificial intelligence). Nonetheless, we require talks that are comprehensible and interesting to a wide scientific audience.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations. If the number of participants exceeds the number of speaking slots (about 42), the organizer will select some talks to be of shorter duration, and if necessary choose the speakers who will have the opportunity to present.</p>
+
+        <p>For a listing of other ASIC sites, see the <a href="../" target="_blank" rel="noopener">previous ASIC sites</a> page.</p>
+      </section>
+
+      <!-- TALKS & SUBMISSIONS -->
+      <section class="asic-section" id="talks">
+        <h2>Talks &amp; Submissions</h2>
+        <p class="asic-lede">Whether or not you have already sent some of this information to the organizer by email, please provide authors, affiliations, emails, a title, and an abstract.</p>
+
+        <p>Please provide a list of authors (with the presenter indicated), their affiliations, and emails; a title; and an abstract (limit 250 words). These may be changed later, so do not hesitate to send them as early as possible. The organizer uses these to plan the conference and organize the sessions.</p>
+
+        <div class="asic-note">This year ASIC introduced a new feature: to speak you must also add your presentation slides and information in PDF format to the website prior to the start of the conference. Include extra text slides where necessary so the presentation is self-explanatory to attendees who peruse it online.</div>
+
+        <p>If attendance allows regular length talks, these are limited to 30 minutes, a time that includes interruptions for questions and final discussion — plan for about 20–24 minutes of actual speaking. Talks should be aimed not at specialists but at a general scientific audience.</p>
+
+        <p>There is room on the program for about 42 30-minute talks. If more than 42 attendees want to present, the organizer will either choose some talks to be of shorter duration, or in extremity, decide which attendees will give presentations. When registering, please indicate if you might be willing to (1) give a shorter talk, or (2) forego giving a talk.</p>
+
+        <p>To add or edit this information on the website you need a code — the same code used to make lodging reservations, obtainable by emailing the organizer at <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>. Contact <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a> with questions about the submission system.</p>
+
+        <p>Authors, titles, and abstracts must be posted at least two weeks before the conference; the presentation slides must be posted by the conference start.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research until you register and send the registration fee.</p>
+
+        <p>If you have a 5% or greater chance of attending ASIC 2018, list yourself on the "Potential Attendees" page. Once reasonably sure of attending, fill out the registration form and submit your registration fee, which pays for rental of the conference room, conference equipment rentals, catering costs for snacks and drinks at conference breaks and receptions, and several other miscellaneous costs.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Timing</th><th>To Indiana Conference Bureau</th></tr></thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2018</th><td>$300</td></tr>
+            <tr><th>January 1 – March 1, 2018</th><td>$360</td></tr>
+            <tr><th>After March 1, 2018</th><td>$420</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase guest vouchers for other persons attending receptions, breaks, and dinners. The fee for guest attendance at breaks only is $15 per day (paid to the Indiana Conference Bureau). The fee for each person not at the hotel who wishes to join the buffet dinner is 35 or 40 euros depending on the day, and 25 euros for children staying elsewhere — paid directly to the hotel.</p>
+
+        <div class="asic-note">Registration and payments are made via the Indiana University Conference Bureau. If a registration payment is made but the attendee cancels prior to May 17, the fee is refunded minus a $25 handling fee. After May 17 and prior to the conference, a refund is still made, but the handling fee rises to $50.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is held at Loano2 Village, an excellent hotel with good restaurants on the western Italian Riviera.</p>
+
+        <p>Hotel website: <a href="http://www.loano2village.it/" target="_blank" rel="noopener">loano2village.it</a>. Lodging rates below include breakfast and dinner. Reservations should be made early, starting in fall 2017.</p>
+
+        <h3>Rates (per person, per day, "junior rooms")</h3>
+        <table>
+          <tbody>
+            <tr><th>One person</th><td>110 Euro/day</td></tr>
+            <tr><th>Two persons in one room</th><td>160 Euro/day</td></tr>
+          </tbody>
+        </table>
+        <p>Three or four people are lodged in "family classic rooms": each adult is charged 90 Euro/day; children 2–11 are charged 36 Euro/day; children 12–16 are charged 54 Euro/day.</p>
+
+        <h3>Conference rooms</h3>
+        <p>The hotel has about four or five well-equipped conference rooms of various sizes, and will provide one sufficient for our needs (seats at tables, and space for refreshments and food at breaks).</p>
+
+        <h3>Parking &amp; internet</h3>
+        <p>There is free and ample parking, and free internet throughout.</p>
+
+        <h3>Reservations</h3>
+        <p>To obtain the conference rate, email the organizer to obtain the conference code. Reservations can be made by email or telephone: <b>Telephone</b> +39 019.67911 · <b>Email</b> <a href="mailto:info@loano2village.it">info@loano2village.it</a>.</p>
+
+        <div class="asic-note warn">
+          <b>Deposits &amp; cancellation.</b> Reservations are made and held with a credit card and a code from the organizer. No deposit charges are taken until Feb 1, and cancellations are free of charge if made prior to that date. Reservations made after Feb 1 and prior to April 17 require a 20% deposit (prior reservations are assessed this deposit on Feb 1); cancellations in that window are free except for a 10 Euro handling fee. Reservations after April 17 require a 50% deposit. Cancellations from April 17 to June 1 are refunded minus 10%; after June 1 payment in full is required, and cancellation until June 16 is allowed at a penalty of 50% of the total.
+        </div>
+
+        <h3>Location</h3>
+        <p>Loano2 Village is on the western Italian Riviera, about 1.3 km from the center of Loano and about 1.5 km from the railway station (where there are taxis). Most attendees will probably drive; driving directions are on the hotel website. The nearest airports are Genoa (~80 km) and Côte d'Azur (~125 km); many international attendees will use Milan (~250 km, about 2.5 hours driving).</p>
+
+        <h3>Beaches &amp; pools</h3>
+        <p>The hotel has large and attractive pools. There are also a variety of white sand beaches starting about ten minutes from the hotel. A few beaches are public but most (and the closest) are private and require a daily fee; the hotel has a shuttle to the closest beaches.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Meals, Dining &amp; Breaks</h2>
+        <p class="asic-lede">A generous breakfast buffet is included in the daily lodging price.</p>
+
+        <p>Breakfast is available from 7:30–10:00 daily. Multi-course buffet dinners with vegetarian and vegan choices are available in the hotel restaurants when the sessions end, starting about 20:15–20:30.</p>
+
+        <div class="asic-note">Attendees staying elsewhere may join the main group for dinner at a charge of 35–40 euros (depending on the day); children staying elsewhere may join for 25 euros.</div>
+
+        <h3>Daily schedule</h3>
+        <p>Each day the conference begins with a reception with refreshments and light food near or in the conference room, starting at about 15:30–15:45. Talks run from about 16:00 to 20:00, followed by group dinner at the hotel.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Travel to Loano2 Village is quite easy, by bus, train, and auto.</p>
+
+        <p>There are nearby airports at Genoa (80 km), Nice (110 km) and Turin (160 km), but most international attendees will find it most convenient to fly to Milan (200 km), about 2.25 hours distant by auto. Trains to Loano are available from the major airports, and various bus services are also available; see the hotel website for details.</p>
+
+        <p>There is ample parking at Loano2 Village. Once at the Village, many sites on the Italian Riviera are easy to reach — for example, by auto it takes about 90 minutes to reach the eastern Italian Riviera (e.g. Portofino) or the French Riviera (e.g. Nice or Monaco–Montecarlo). There are many attractive villages and towns all along the coast.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">There are numerous activities close to Loano2 Village, and easily reached along the Italian Riviera.</p>
+
+        <div class="asic-photo">
+          <img src="images/activities_001.jpg" alt="Activities on the Italian Riviera">
+        </div>
+
+        <p>Activities include many water and beach activities, rock climbing both along the coast and at two very large sites with thousands of equipped routes (Finale Ligure and Val Pennavaire), road and mountain biking, canyoning, hiking and trekking, and much more.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2018)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2018');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

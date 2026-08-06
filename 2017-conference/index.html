@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2017 — Interlaken, Switzerland | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Sixteenth Annual Summer Interdisciplinary Conference, City Hotel Oberland, Interlaken, Switzerland, July 15–20, 2017.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2017">
+  <style>
+    #asic2017{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2017 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2017 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2017 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2017 .asic-back:hover{color:#fff;}
+    #asic2017 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2017 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2017 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2017 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2017 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2017 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2017 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2017 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2017 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2017 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2017 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2017 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2017 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2017 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2017 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2017 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2017 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2017 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2017 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2017 .asic-section p{margin:0 0 14px;}
+    #asic2017 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2017 .asic-section li{margin:4px 0;}
+    #asic2017 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2017 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2017 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2017 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2017 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2017 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2017 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2017 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2017 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2017 th,#asic2017 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2017 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2017 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2017 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2017 .asic-photo img{max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto;}
+    #asic2017 .asic-photo p{margin:8px 0 0; font-size:14px; font-style:italic; color:#9a9384;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2017{border-radius:0;}
+      #asic2017 .asic-shell{flex-direction:column;}
+      #asic2017 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2017 .asic-nav .asic-navhead{display:none;}
+      #asic2017 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2017 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2017 .asic-main{padding:26px 20px 40px;}
+      #asic2017 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2017 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Sixteenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2017</h1>
+    <div class="asic-meta">
+      <span><b>Interlaken</b>, Switzerland</span>
+      <span><b>July 15–20, 2017</b> · six days of talks</span>
+      <span>City Hotel Oberland</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2017 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">⛰️</span> Home</button>
+      <button class="asic-tab" data-tab="talks"><span class="ic">📝</span> Talks &amp; Submissions</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2017</h2>
+        <p class="asic-lede">The Sixteenth Annual Summer Interdisciplinary Conference, held at City Hotel Oberland in Interlaken, Switzerland, July 15–20, 2017.</p>
+
+        <p>There are presentation sessions in the evening on each of six days, so attendees should plan to leave no earlier than July 21. The dates were chosen to allow attendance at the Mathematical Psychology annual meeting in Warwick, UK (July 22–25) and the Cognitive Science Society annual meeting in London, UK (July 26–29).</p>
+
+        <div class="asic-note">
+          <b>Interested in attending?</b> If you have a 5% or higher chance of attending, list yourself and your probability on the "Potential Attendees" page of the original site.
+        </div>
+
+        <p>City Hotel Oberland is in the center of Interlaken, with three adjacent buildings, two bars and three restaurants (<a href="http://www.city-oberland.ch/en/" target="_blank" rel="noopener">city-oberland.ch/en</a>). The meetings and catered breaks are held in one of the three hotel buildings. All dinners are held at the hotel, with a banquet on the final night including beer, wine, and some special offerings — the extra cost is included in the registration fee.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_001.png" alt="The north face of the Eiger, near Interlaken">
+          <p>The north face of the Eiger, a famous mountain just south of Interlaken</p>
+        </div>
+
+        <p>Interlaken is a resort town at an altitude of about 1,800 ft, surrounded by mountains rising to about 13,000 ft. The city lies between the scenic lakes of Thun and Brienz, connected by the river Aare running through town. It is known as the adventure sports capital of Switzerland. Interlaken is a short distance by train, car or bus from a deep valley with two branches: one leads to Grindelwald, a famous mountain resort at the base of the Eiger and Jungfrau, and the other leads to a dramatic adjacent valley containing the towns of Wengen, Lauterbrunnen, and Murren. There is a famous train ride that starts at Interlaken and allows a round trip via one valley and a return via the other, both reaching Kleine Scheidegg where a cog-train climbs steeply via tunnels through the Eiger and eventually reaches the Jungfraujoch at 11,400 ft.</p>
+
+        <p>Travel to Interlaken is made easy by the Swiss rail system, by bus, by well-maintained roads, and by several nearby international airports: Bern Belp (~1 hr), Zurich Kloten (~2 hrs), and Basel Mulhouse (~2 hrs).</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> (see the Contact tab for all contact info).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of the ASIC conferences is interdisciplinary, with a primary focus lying in the broad frame of Cognitive Science. ASIC uses the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants. The talks are in the later afternoon/early evening, followed by dinner. The dates have been chosen to make it convenient for attendees to bring family/friends.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>modeling of cognition</li>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science and artificial intelligence</li>
+          <li>machine intelligence and learning</li>
+          <li>methodology and statistics</li>
+          <li>linguistics, psycholinguistics and computational linguistics</li>
+          <li>philosophy of mind, cognitive science</li>
+        </ul>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day, intentionally organized to maximize the dissimilarity of each day's presentations. If the number of participants exceeds the number of speaking slots (about 42 at 30 minutes each), the organizer will adjust talk duration, the presence of any break, and if necessary choose a subset of attendees to present.</p>
+
+        <p>The conference starts with registration and a reception with drinks and food from about 15:30–16:15 on July 15. On subsequent days there are drinks and light snacks from 15:40–16:00. Each of the six days has a presentation session of seven (or more) spoken presentations, followed by a buffet dinner at the hotel. The last evening (July 20) closes with a banquet dinner, so plan to depart no earlier than July 21.</p>
+
+        <p>For a listing of other ASIC sites, see the <a href="../" target="_blank" rel="noopener">previous ASIC sites</a> page.</p>
+      </section>
+
+      <!-- TALKS & SUBMISSIONS -->
+      <section class="asic-section" id="talks">
+        <h2>Talks &amp; Submissions</h2>
+        <p class="asic-lede">Whether or not you have already sent some of this information to the organizer by email, please provide a list of authors, affiliations, emails, a title, and an abstract.</p>
+
+        <p>Provide a list of authors (with the presenter indicated), their affiliations, and emails; a title; and an abstract (limit 250 words). These may be changed later, so do not hesitate to send them as early as possible — the organizer uses these to plan the conference and organize the sessions.</p>
+
+        <p>If attendance allows regular length talks, these are limited to 30 minutes, a time that includes interruptions for questions and final discussion — plan for about 20–24 minutes of actual speaking. Talks should be aimed not at specialists but at a general scientific audience.</p>
+
+        <p>There is room on the program for about 42 30-minute talks. If more than 42 attendees want to present, the organizer will either choose some talks to be of shorter duration, or in extremity, decide which attendees will give presentations. When registering, please indicate if you might be willing to (1) give a shorter talk, or (2) forego giving a talk.</p>
+
+        <div class="asic-note">To add this information to the website you should use the same code you will use to make lodging reservations. This code can be obtained by emailing the organizer at <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>. Contact <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a> with questions.</div>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research until you register and send the registration fee.</p>
+
+        <div class="asic-photo">
+          <img src="images/registration_001.jpg" alt="Giessbach Falls, near Interlaken">
+          <p>Giessbach Falls</p>
+        </div>
+
+        <p>If you have a 5% or greater chance of attending ASIC 2017, list yourself on the "Potential Attendees" page. Once reasonably sure of attending, fill out the registration form and submit your registration fee, which pays for rental of the conference room, conference equipment rentals, catering costs for snacks and drinks at conference breaks and receptions, several other miscellaneous costs, and the final banquet.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Timing</th><th>To Indiana Conference Bureau</th></tr></thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2017</th><td>$300</td></tr>
+            <tr><th>January 1 – March 1, 2017</th><td>$360</td></tr>
+            <tr><th>After March 1, 2017</th><td>$420</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase additional guest vouchers for other persons attending receptions, breaks, and dinners. The fee for guest attendance at breaks only is $15 per day, paid to the Indiana Conference Bureau. The fee for each person not at the hotel who wishes to join the buffet dinner is 30 CHF (60 CHF for the final night banquet), paid directly to the hotel.</p>
+
+        <div class="asic-note">Registration and payments are made via the Indiana University Conference Bureau. If a registration payment is made but the attendee cancels prior to June 1, the fee is refunded minus a $25 handling fee. After June 1 and prior to the conference, a refund is still made, but the handling fee rises to $75. For attendees not present on July 20, contact the organizer for a reduction of the registration fee.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is held at City Hotel Oberland, Interlaken, Switzerland — an excellent hotel with good restaurants.</p>
+
+        <p>Hotel website: <a href="http://www.city-oberland.ch/en/" target="_blank" rel="noopener">city-oberland.ch/en</a>. Lodging rates include breakfast and dinner. Reservations should be made early, starting in fall 2016.</p>
+
+        <h3>Rates (per attendee, per day)</h3>
+        <table>
+          <tbody>
+            <tr><th>One person, single or double room</th><td>175 CHF/day</td></tr>
+            <tr><th>Two persons in a double room</th><td>285 CHF/day</td></tr>
+          </tbody>
+        </table>
+        <p>There are other rates for suites that depend on the ages of children; the hotel provides such rates on request.</p>
+
+        <div class="asic-note">
+          <b>Note on rates.</b> This ASIC responded to many requests to hold an ASIC in Switzerland, chosen despite prices higher than other ASICs. The CHF was roughly on par with the US dollar at the time of writing. Costs are not too high compared with US hotel prices (especially in large cities) — even in the small town of Mammoth Lakes, site of ASIC 2015, lodging+meal rates were $238 for one and $298 for two.
+        </div>
+
+        <h3>Deposit &amp; cancellation</h3>
+        <p>Reservations are made and held with a credit card and a code available from the organizer. No deposit charges are taken until Feb 1, 2017, and cancellations are free of charge if made prior to Feb 1. Reservations made after Feb 1 and prior to April 30 require a 20% deposit (prior reservations assessed this deposit on Feb 1); cancellations in that window are free except for a 20 CHF handling fee. Reservations after April 30 require a 50% deposit; cancellations from April 30 to June 30 are refunded minus 10%. After July 1 payment in full is required, and cancellation until July 6 is allowed at a penalty of 50% of the total.</p>
+
+        <h3>Parking &amp; internet</h3>
+        <p>Parking at the hotel is very limited (9 spots at most); most attendees are advised to use public parking in town. There is nearby underground parking at 12.50 CHF/day, or check in, obtain a free bus pass, drive to the Ost Train Station and park there at 5 CHF/day, returning by foot (~400 m) or bus. Wireless internet is free in public areas and guest rooms.</p>
+
+        <h3>Address &amp; telephone</h3>
+        <p>
+          City Hotel Oberland<br>
+          Höheweg 7, 3800 Interlaken, Switzerland<br>
+          Phone: +41 (0)33 827 87 87 · Fax: +41 (0)33 827 87 70<br>
+          Email: <a href="mailto:bookings@city-oberland.ch">bookings@city-oberland.ch</a>
+        </p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Meals, Dining &amp; Breaks</h2>
+        <p class="asic-lede">Breakfast and dinner buffets at the hotel are included in the daily lodging price.</p>
+
+        <p>Breakfast is open from 6:30–10:00. Four-course buffet dinners with vegetarian and vegan choices are open at about 20:15–20:30.</p>
+
+        <div class="asic-note">Attendees staying elsewhere may join the main group for dinner each of the first five nights at a charge of 30 CHF, or 60 CHF for the final night banquet, paid to the hotel.</div>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Travel to and around Interlaken and Grindelwald.</p>
+
+        <p>It is a good idea to explore the area with Google Maps and Google Earth before you go.</p>
+
+        <h3>By plane</h3>
+        <p>The main international airports giving the best access to Interlaken are:</p>
+        <ul>
+          <li>Airport Bern Belp — train time 1 hr 20 min; driving time 45 minutes</li>
+          <li>Airport Basel Mulhouse — train time 2 hrs 20 min; driving time 1 hr 55 min</li>
+          <li>Airport Zurich Kloten — train time 2 hrs 10 min; driving time 1 hr 45 min</li>
+        </ul>
+
+        <h3>By train</h3>
+        <p>In addition to trains from the airports, the Swiss Rail Network is known for punctual transport from all major cities, with easy access by train from almost all cities in Europe.</p>
+
+        <h3>By car</h3>
+        <p>Interlaken is easily accessed by the Swiss highway system. It is advisable to check in at the hotel, obtain a free Interlaken bus pass, and drive to and park at the Ost train station (5 CHF/day), returning by foot or bus.</p>
+
+        <h3>Transport within and between Interlaken and Grindelwald</h3>
+        <p>There is extensive public transportation within Interlaken; a free bus pass for transport within the city is available upon check-in. Grindelwald is 30 minutes distant by car and 50 minutes by train. One of the highlights of any visit is a train that brings visitors high on the Jungfrau (to 3,454 meters elevation), accessible from either Interlaken or Grindelwald.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The Interlaken/Grindelwald area offers a wide variety of spectacular outdoor activities, ranging from tourism and viewpoints to high adventure.</p>
+
+        <h3>Hiking</h3>
+        <p>The area is renowned for hiking and offers thousands of venues ranging from simple hikes with little difficulty (including walks along the shores of Brienz and Thun and river Aare) to non-technical but difficult and long climbs to local peaks with dramatic views. For the somewhat adventurous, guided hikes/scrambles to local mountain peaks are offered by attendee and ASIC speaker Professor Harald Atmanspacher from ETH Zurich, a licensed mountain guide.</p>
+
+        <h3>Via Ferrata</h3>
+        <div class="asic-photo">
+          <img src="images/activities_007.png" alt="Via Ferrata near Interlaken">
+        </div>
+        <p>Via Ferrata are paths along and between cliff faces and peaks, protected by cables and ladders affixed to the mountainsides. Users wear a harness and slings with carabiners, providing complete protection in conditions that would otherwise be limited to technical rock climbers. There are quite a few Via Ferrata in the area, highly recommended as somewhat more spectacular alternatives to hiking.</p>
+
+        <h3>Mountain biking and road biking</h3>
+        <p>There are very large numbers of venues for road biking and mountain biking in the area, giving the same spectacular views offered by hiking and Via Ferrata.</p>
+
+        <h3>Rock climbing</h3>
+        <div class="asic-photo">
+          <img src="images/activities_012.png" alt="Rock climbing near Interlaken">
+        </div>
+        <p>Although the area is famous for mountaineering (the Eiger, Jungfrau, etc.), there are an uncountable number of excellent rock climbing venues close enough to Interlaken for day climbing, offering single and multi-pitch routes at all levels of difficulty. As usual we offer at least one and probably two group climbing days, where guides set up top ropes on easy climbs and introduce novices, while better climbers move to more challenging climbs in the same area. There is a climbing shop at Kletterhalle Interlaken AG, Jungfraustrasse 44, just 1.5 blocks from the hotel.</p>
+
+        <h3>Mountaineering</h3>
+        <p>There are numerous accessible peaks near Interlaken and Grindelwald, many reachable in day trips by hiking and/or scrambling. The famous, very high-altitude peaks such as the Eiger and Jungfrau are long, technical, committing, require a guide and ropes, and are generally best attempted on days prior to or after the conference.</p>
+
+        <h3>Canyoning</h3>
+        <p>Suitable for beginners with no experience but exciting and enjoyable. One wears a wetsuit, enters a stream in a narrow canyon high in the mountains, and descends by walking, scrambling, floating, and sliding; where cliffs are encountered the guide lowers the client on a rope.</p>
+
+        <h3>Whitewater rafting</h3>
+        <p>Suitable for all ages, though some of the more serious whitewater situations might require older, more experienced rafters.</p>
+
+        <h3>Parasailing</h3>
+        <p>Tandem parasailing with an expert guide offers a wonderful experience — floating on thermal drafts above the local scenery. Other adventure sports available include skydiving, bungee jumps, and wing suit flying, plus regular lake sports: swimming, sailing, and boating.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <div class="asic-photo">
+          <img src="images/contact_002.png" alt="Richard and Alissa Shiffrin in Sardinia">
+          <p>Richard and Alissa Shiffrin hanging out in Sardinia</p>
+        </div>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2017)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2017');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

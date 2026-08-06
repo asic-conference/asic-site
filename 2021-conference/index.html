@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2021 — San Martino di Castrozza, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Twentieth Annual Summer Interdisciplinary Conference, Grand Hotel Des Alpes, San Martino di Castrozza, Italy, July 14–19, 2021.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2021">
+  <style>
+
+    #asic2021{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2021 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2021 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2021 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2021 .asic-back:hover{color:#fff;}
+    #asic2021 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2021 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2021 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2021 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2021 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2021 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2021 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2021 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2021 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2021 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2021 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2021 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2021 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2021 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2021 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2021 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2021 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2021 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2021 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2021 .asic-section p{margin:0 0 14px;}
+    #asic2021 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2021 .asic-section li{margin:4px 0;}
+    #asic2021 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2021 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2021 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2021 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2021 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2021 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2021 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2021 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2021 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2021 th,#asic2021 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2021 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2021 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2021 .asic-photo{
+      border:1px dashed #c9c2b4; background:#faf8f3; border-radius:8px;
+      padding:22px; text-align:center; color:#9a9384; font-size:14px;
+      font-style:italic; margin:0 0 18px;
+    }
+    #asic2021 .asic-figure{margin:0 0 20px; text-align:center;}
+    #asic2021 .asic-figure img{max-width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12);}
+    #asic2021 .asic-figure figcaption{margin-top:8px; font-size:14px; font-style:italic; color:var(--muted);}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2021{border-radius:0;}
+      #asic2021 .asic-shell{flex-direction:column;}
+      #asic2021 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2021 .asic-nav .asic-navhead{display:none;}
+      #asic2021 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2021 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2021 .asic-main{padding:26px 20px 40px;}
+      #asic2021 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2021 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Twentieth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2021</h1>
+    <div class="asic-meta">
+      <span><b>San Martino di Castrozza</b>, Italy</span>
+      <span><b>July 14–19, 2021</b> · Wednesday–Monday</span>
+      <span>Grand Hotel Des Alpes</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2021 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2021</h2>
+        <p class="asic-lede">The Twentieth Annual Summer Interdisciplinary Conference, held at Grand Hotel Des Alpes, Via Passo Rolle 118, 38054 San Martino di Castrozza TN, in the Dolomites of Italy.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_006.jpg" alt="Views of and from San Martino">
+          <figcaption>Views of and from San Martino</figcaption>
+        </figure>
+
+        <p>The conference had talks every afternoon and evening on the six consecutive days, Wednesday July 14 to Monday July 19, 2021 (the last talks were held the evening of July 19). These dates were chosen to allow attendees to combine ASIC 2021 with the Mathematical Psychology Meetings and the Cognitive Science Society Meetings, held later that July in Vienna, Austria.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_007.png" alt="Grand Hotel Des Alpes">
+          <figcaption>Grand Hotel Des Alpes</figcaption>
+        </figure>
+
+        <p>Grand Hotel Des Alpes is highly rated with two well-regarded restaurants; see the <a href="https://www.hoteldesalpes.it/en/" target="_blank" rel="noopener">hotel website</a>. It has a conference room that ASIC used when attendance allowed (otherwise a city conference center 200 meters distant). Breakfasts and dinners were held in the hotel, with breaks catered at the meeting-room site.</p>
+
+        <h3>San Martino di Castrozza</h3>
+        <p>San Martino sits in the eastern Dolomites of Italy, about two hours by car north of Venice — a famous resort town in both winter and summer, offering a huge range of activities in summer.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_008.jpg" alt="Aerial view of San Martino">
+          <figcaption>Aerial view of San Martino</figcaption>
+        </figure>
+
+        <p>The nearest international airports are Venice (about two hours south by car) and Innsbruck (about three hours north by car), also accessible by train and bus.</p>
+
+        <h3>Activities</h3>
+        <p>San Martino and the surrounding area offer a huge array of summer activities, including hiking, scrambling and peak bagging, via ferrata, mountain and road biking, rock climbing, mountaineering, paragliding, and canyoning, plus leisure activities such as sightseeing, fishing, tennis, and golf.</p>
+
+        <h3>Organizer</h3>
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer (see the Contact tab for all contact info).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC conferences is interdisciplinary, with a primary emphasis on a wide variety of scientific domains within the broad frame of cognitive science. ASIC follows the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussion among participants, talks are in the late afternoon and early evening, followed by dinner.</p>
+
+        <div class="asic-note">The 2020 conference was cancelled due to the pandemic.</div>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties and their family and friends — no invitation is needed to attend. Due to the small number of speaking slots, if too many attendees wish to speak, the organizer adapts talk lengths and/or selects speakers.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations. The conference began with registration and a reception with drinks and food from about 15:30–16:15 on Wednesday, July 14. On subsequent days there were drinks and light snacks from about 15:45–16:15, followed by a session of about seven or eight spoken presentations that may have included a mid-session break. The last evening of talks was Monday, July 19.</p>
+
+        <p>For a listing of all past ASIC sites, see the <a href="../">previous ASIC sites document</a>.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Registration was made through the Indiana University Conference Bureau, with the fee covering conference-room rental, equipment, and catering for breaks and receptions.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>Attendee</th><th>Guests (age 6+)</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to Feb. 15, 2021</th><td>$200</td><td>$120</td></tr>
+            <tr><th>Feb. 16 – May 15, 2021</th><td>$250</td><td>$150</td></tr>
+            <tr><th>After May 15, 2021</th><td>$300</td><td>$180</td></tr>
+          </tbody>
+        </table>
+        <p>"Guests" are friends and family members not attending talks but attending the reception at the start of each session.</p>
+
+        <p>Persons staying at sites other than Grand Hotel Des Alpes could take dinner at the conference hotel for 25 euro per person per dinner, paid directly to the hotel.</p>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms was held at Grand Hotel Des Alpes in San Martino di Castrozza, in the Dolomites of Italy, about two hours north of Venice.</p>
+
+        <p>This highly rated 4* hotel has an excellent restaurant; see the <a href="https://www.hoteldesalpes.it/en/" target="_blank" rel="noopener">hotel website</a>. Address: Via Passo Rolle 118, 38054 Primiero San Martino di Castrozza, Italy. Telephone: +39 0439 769069 (manager Maurizio Rimaldi does not speak English well; an Italian speaker on the call may help). The hotel has a pool, hot tub, high-speed wifi, spa, bar/lounge, free parking, business center, and shuttle bus service.</p>
+
+        <h3>Lodging rates (half board, includes breakfast and dinner)</h3>
+        <p>Each attendee made their own reservation, paying lodging charges directly at checkout.</p>
+        <table>
+          <thead>
+            <tr><th>Room type</th><th>Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>One person, smaller room (5 available)</th><td>107 €/day</td></tr>
+            <tr><th>One person, larger room (7 available)</th><td>122 €/day</td></tr>
+            <tr><th>One person, additional larger rooms</th><td>140 €/day</td></tr>
+            <tr><th>Two persons in a double</th><td>92 €/person/day</td></tr>
+          </tbody>
+        </table>
+        <p>Some doubles could accommodate additional beds for families, with discounts for children under 12 (30%), under 7 (40%), and under 2 (60%). Four connecting doubles were also available for families at 92 €/day per person regardless of age. Attendees staying elsewhere could take meals with the group at 25 euro per person per meal.</p>
+
+        <h3>Reservations</h3>
+        <p>Email the organizer for the conference code; reservations could then be made by email (<a href="mailto:informazioni@hoteldesalpes.it">informazioni@hoteldesalpes.it</a>) or telephone (+39 0439 769069).</p>
+
+        <h3>Cancellation policy</h3>
+        <p>Free cancellation until May 10; 10% penalty after May 10; 15% penalty after June 10; 100% penalty after July 4 (an emergency cancellation after July 4 allowed the deposit to be used for a future stay).</p>
+
+        <h3>Schedule</h3>
+        <p>Each day began with a reception with refreshments and light food near or in the conference room, starting about 15:30–15:45. Talks ran roughly 16:00–20:00, followed by group dinner.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining &amp; Receptions</h2>
+        <p class="asic-lede">A generous buffet breakfast was included in the daily lodging price.</p>
+
+        <p>Breakfast was available 8:00–10:00 AM (an earlier start could be arranged with the hotel the evening before). A dinner with menu options was served in the hotel restaurant when sessions ended, including vegetarian and vegan choices — attendees were asked to order the prior night to reduce dinner time.</p>
+
+        <div class="asic-note">Attendees staying elsewhere could join the main group for dinner at a charge of 25 euro.</div>
+
+        <h3>Daily receptions</h3>
+        <p>Each day there was a catered reception with drinks and finger food near the conference room (whether at the hotel or the city conference room) prior to the speaking session — about 15:15 on July 14, about 15:45 on subsequent days. The registration fee covered these receptions; guests and family members attending only receptions had a reduced registration fee.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">San Martino is in Trentino, in the heart of the Dolomites UNESCO World Heritage Site.</p>
+
+        <p>Detailed transportation options: <a href="https://www.sanmartino.com/EN/getthere/" target="_blank" rel="noopener">sanmartino.com/getthere</a>. San Martino can be reached by car, bus, or train plus a bus ride. The closest international airport is Venice Marco Polo (car travel a little over two hours), with regional airports and more distant international airports such as Milan Malpensa and Innsbruck also options.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">San Martino is an outstanding outdoor adventure destination in the Dolomites of Italy, with 145 hiking trails, 27 long-distance trails, and 5 thematic trails, plus two summer cable cars (Colverde-Rosetta and Tognola).</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_001.jpg" alt="Hiking in the San Martino area">
+          <figcaption>Hiking in the San Martino area</figcaption>
+        </figure>
+
+        <h3>Hiking</h3>
+        <p>See <a href="https://www.outdooractive.com/en/hikes/san-martino-di-castrozza-primiero-vanoi/hiking-in-san-martino-di-castrozza-primiero-vanoi/2521924/" target="_blank" rel="noopener">outdooractive.com</a> and <a href="https://www.sanmartino.com/EN/hikes/" target="_blank" rel="noopener">sanmartino.com/hikes</a> for many options.</p>
+
+        <h3>Mountaineering, scrambling &amp; peak bagging</h3>
+        <p>More than 100 choices, ranging from strenuous hikes to scrambles to technical ascents; see <a href="https://www.outdooractive.com/en/mountaineering-tours/san-martino-di-castrozza-primiero-vanoi/mountaineering-in-san-martino-di-castrozza-primiero-vanoi/5441074/" target="_blank" rel="noopener">outdooractive.com</a>. Some routes require technical equipment or too much time for a conference day and are best done before or after ASIC.</p>
+
+        <h3>Rock climbing</h3>
+        <p>Many rock-climbing areas near San Martino allow a return in time for the conference. As usual, ASIC offered one or two group climbing days at reduced pricing, aimed at all climbers but particularly newcomers, with topropes placed for novices and more challenging routes for stronger climbers in the same area.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_004.jpg" alt="Rock climbing near San Martino">
+          <figcaption>Rock climbing near San Martino</figcaption>
+        </figure>
+
+        <h3>Via ferrata</h3>
+        <p>A family-friendly favorite offering high mountain exposure and scenic views without technical climbing skill, attaching to iron cables affixed to the rock faces.</p>
+
+        <figure class="asic-figure">
+          <img src="images/act_007.jpg" alt="Via ferrata examples near San Martino">
+          <figcaption>Via ferrata examples near San Martino</figcaption>
+        </figure>
+
+        <h3>Canyoning</h3>
+        <p>Excellent canyoning opportunities in Val Noana — participants don wetsuits and, with guides, descend a mountain stream in a narrow canyon, suitable for families and children.</p>
+
+        <h3>Parasailing</h3>
+        <p>Tandem flights with an expert guide, lifting off from a hillside or cliff, ascending thermals and landing in a field. Several local guiding services offer this experience.</p>
+
+        <h3>Road &amp; mountain biking</h3>
+        <p>The San Martino area has many opportunities for both forms of biking.</p>
+
+        <h3>White-water rafting</h3>
+        <p>A favorite activity for families and individuals, at several areas near (though not immediately adjacent to) San Martino.</p>
+
+        <h3>Leisure activities</h3>
+        <p>The area has many leisure activities including golf, tennis, and adventure parks.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-219-5892
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2021)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2021');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

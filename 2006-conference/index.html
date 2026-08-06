@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2006 — Åndalsnes, Norway | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Fifth Annual Summer Interdisciplinary Conference, Åndalsnes, Norway, July 2–7, 2006.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2006">
+  <style>
+    #asic2006{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2006 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2006 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2006 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2006 .asic-back:hover{color:#fff;}
+    #asic2006 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2006 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2006 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2006 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2006 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2006 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2006 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2006 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2006 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2006 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2006 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2006 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2006 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2006 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2006 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2006 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2006 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2006 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2006 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2006 .asic-section p{margin:0 0 14px;}
+    #asic2006 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2006 .asic-section li{margin:4px 0;}
+    #asic2006 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2006 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2006 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2006 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2006 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2006 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2006 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2006 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2006 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2006 th,#asic2006 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2006 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2006 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2006 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2006 .asic-photo img{max-width:100%; border-radius:8px; display:block; margin:0 auto;}
+    #asic2006 .asic-photo p{
+      color:#9a9384; font-size:14px; font-style:italic; margin:8px 0 0;
+    }
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2006{border-radius:0;}
+      #asic2006 .asic-shell{flex-direction:column;}
+      #asic2006 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2006 .asic-nav .asic-navhead{display:none;}
+      #asic2006 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2006 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2006 .asic-main{padding:26px 20px 40px;}
+      #asic2006 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2006 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">The Fifth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2006</h1>
+    <div class="asic-meta">
+      <span><b>Åndalsnes</b>, Norway</span>
+      <span><b>July 2–7, 2006</b></span>
+      <span>Grand Hotel Bellevue</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2006 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="climate"><span class="ic">🌦️</span> Climate &amp; Clothing</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">🗓️</span> Schedule</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2006</h2>
+        <p class="asic-lede">The Fifth Annual Summer Interdisciplinary Conference (ASIC 2006) was held at the Grand Hotel Bellevue in Åndalsnes, Norway, on the Romsdalfjord on the western coast, July 2–7. Richard M. Shiffrin of Indiana University-Bloomington was the organizer.</p>
+
+        <div class="asic-photo">
+          <img src="images/cover.jpg" alt="Åndalsnes, Norway">
+          <p>Åndalsnes, Norway, on the Romsdalfjord — site of ASIC 2006.</p>
+        </div>
+
+        <p>The ASIC conference used the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and the talks/posters are in the later afternoon/early evening, followed by dinner. The date was chosen to make it convenient for attendees to bring family and friends. The conference was open to all interested parties, and an invitation was not needed to attend. Due to the small number of spots for speakers, the organizer selected speakers, and subject to demand other participants were allowed to present posters on a day and time set aside for this purpose. The subject is interdisciplinary, within the broad frame of Cognitive Science.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference was open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation was not needed.</p>
+
+        <div class="asic-photo">
+          <img src="images/concert.jpg" alt="Evening concert at ASIC 2006">
+          <p>An evening concert during ASIC 2006.</p>
+        </div>
+
+        <h3>Conference aims</h3>
+        <p>The conference covered a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science and artificial intelligence</li>
+          <li>machine intelligence and learning</li>
+          <li>linguistics, psycholinguistics and computational linguistics</li>
+          <li>philosophy of mind, cognitive science</li>
+        </ul>
+        <p>The conference especially invited talks emphasizing theory, mathematical modeling, and computational modeling (including neural networks and artificial intelligence). Talks were required to be comprehensible and interesting to a wide scientific audience, with speakers providing overviews of current research areas as well as their own recent progress.</p>
+
+        <h3>Conference format</h3>
+        <p>The conference started with registration and a reception from 15:30–16:30 on Sunday, July 2. On subsequent days there were drinks and light snacks from 16:15–16:30. On all days through Friday, July 7, a session ran from 16:30 to 20:30, including a mid-session drink break, followed by a buffet dinner at the hotel with vegetarian options. The final day's dinner was a deluxe banquet buffet with wine and beer included.</p>
+        <div class="asic-note">This conference format freed most of the day for various activities with colleagues, family, and friends. The time frame allowed day trips to nearby sites and cities, but travel to more distant sites was best arranged for days preceding and following the conference.</div>
+
+        <h3>Correspondence</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2006)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+        <p>Email: <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> (seconded to Krystal Klein)</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">The registration fee covered room and equipment rentals, snacks, banquet, and more. The fee rose in steps as the conference date approached.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Payment prior to</th><th>By check</th><th>By PayPal</th></tr></thead>
+          <tbody>
+            <tr><th>Jan 1, 2006</th><td>$150</td><td>$155</td></tr>
+            <tr><th>Mar 1, 2006</th><td>$175</td><td>$180</td></tr>
+            <tr><th>May 1, 2006</th><td>$200</td><td>$205</td></tr>
+            <tr><th>Later</th><td>$225</td><td>$230</td></tr>
+          </tbody>
+        </table>
+        <p>There were two ways to pay: send a check to ASIC 2006, c/o Richard M. Shiffrin, Psychology Dept., Indiana University, Bloomington, IN 47405; or pay online by PayPal (a $5 handling fee applied).</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel to and about Åndalsnes</h2>
+        <p class="asic-lede">A car for local transport during the conference is useful, though sharing cars for daily outings is possible. There is regular bus service and a rail line serving Åndalsnes, but having the freedom to travel on one's own schedule is a great advantage.</p>
+
+        <div class="asic-photo">
+          <img src="images/air.jpg" alt="Aerial view of the Romsdal mountains">
+          <p>Aerial view of the mountains surrounding Åndalsnes.</p>
+        </div>
+
+        <h3>Automobile</h3>
+        <p>Hertz was the conference's preferred rental provider, with agencies in Oslo, Bergen, Ålesund, Molde, and Åndalsnes, offering a 10% discount off their "Affordable Travel" rates with a printed coupon.</p>
+        <div class="asic-note warn">Norwegian rental agencies tend to add hidden extra charges — always confirm the all-inclusive price, with unlimited mileage and all extras (insurance, Norwegian VAT, fuel, airport pickup fees) included at time of reservation.</div>
+        <ul>
+          <li><b>From Bergen:</b> E39 north through fjordland (ferries, bridges, tunnels), connecting to E136 near Åndalsnes — 440 km, about 7.25 hrs driving (excluding ferries).</li>
+          <li><b>From Oslo:</b> E6 then E136, following the rail line and passing the Trollveggen cliffs — 448 km, about 6.5 hrs.</li>
+          <li><b>From Ålesund:</b> E39 then E136 — 121 km, about 1.8 hrs.</li>
+          <li><b>From Molde:</b> mainly route 64 — 55 km, about 1.2 hrs, plus the Afarnes ferry crossing (every 30–40 minutes).</li>
+        </ul>
+
+        <h3>Air</h3>
+        <p>Most international flights arrive in Oslo or Bergen; travelers continue to Åndalsnes by car, rail, bus, or additional internal flights. Internal flights typically land at Ålesund (121 km) or Molde (55 km), continuing by car or bus.</p>
+
+        <h3>Rail</h3>
+        <p>Regular rail service runs direct from Oslo to Åndalsnes, taking about 5–6 hours, with several daily departures each direction.</p>
+
+        <h3>Bus</h3>
+        <p>Norway's bus network, led by Nor-Way Bussekspress, is far more extensive than its rail network and also spectacularly scenic, with connections to trains and ferries throughout the country.</p>
+
+        <h3>Combined itineraries</h3>
+        <p>A popular option: take the train from Oslo to Bergen (with a side trip on the spur rail line to the fjord at Flåm), then a boat tour through the fjords — including the Sognefjord — to Ålesund, Molde, or nearby Romsdalfjord sites, connecting by bus or car to Åndalsnes, and returning to Oslo by train through Romsdalen.</p>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">ASIC 2006 was held at the Grand Hotel Bellevue in Åndalsnes, well designed for the conference with a large meeting room set up classroom style and audio-visual capability in place.</p>
+
+        <div class="asic-photo">
+          <img src="images/house.jpg" alt="Grand Hotel Bellevue area, Åndalsnes">
+          <p>Near the Grand Hotel Bellevue, Åndalsnes.</p>
+        </div>
+
+        <p>The hotel has about 80 rooms, singles and doubles, with 50 held for the ASIC group starting Sunday, July 2 through Friday, July 7 (checkout Saturday, July 8); additional days could be accommodated before the hotel filled.</p>
+        <p>Reservations were made directly with the hotel: telephone 47-71-22-75-00, fax 47-71-22-60-38, email <a href="mailto:booking@grandhotel.no">booking@grandhotel.no</a>.</p>
+
+        <h3>Prices</h3>
+        <p>As of September 7, 2005, the exchange rate was 6.2652 Kroner per US$1. The charge per room per day for ASIC attendees was K 1070 for a single and K 1270 for a double, including daily breakfast and dinner for each person.</p>
+        <div class="asic-note">The registration fee (sent to the organizer, not the hotel) covered food, drink, and hotel charges for the opening reception, daily drinks/snacks, and the closing banquet. The hotel could provide lunch for an additional K 155.</div>
+        <p>A few attendees each year preferred to camp in nearby areas; there are quite a few nice campsites, many with cabins, in the Åndalsnes area, though most require a car to reach the daily meetings.</p>
+      </section>
+
+      <!-- CLIMATE & CLOTHING -->
+      <section class="asic-section" id="climate">
+        <h2>Climate, Weather &amp; Clothing</h2>
+        <p class="asic-lede">The weather in Åndalsnes is almost always quite pleasant in July, with high temperatures generally about 18°C (65°F).</p>
+
+        <p>Because sunlight extends almost 24 hours, low temperatures do not differ very much from the highs. Although the nearby mountains rise almost 6,000 ft. from the fjords, this elevation difference is not sufficient to cause large temperature differences except in bad weather.</p>
+
+        <p>Fjordland is on the west coast of Norway, facing the North Atlantic, so even in July it is relatively common to find unsettled weather for short stretches. Precipitation occurs on about half the days of the month for at least a brief period, but only about eight days see more than 0.12 inches, and only about two days see more than 0.4 inches.</p>
+
+        <div class="asic-note">Bring clothing for the possibility of rain and wind, and at least some clothes for cool conditions — especially for hikes or other outdoor activities away from roads or high in the mountains.</div>
+
+        <p>On days with particularly poor weather in Åndalsnes, it is usually possible to drive inland, up the Romsdal valley toward Bjorli and Dombås, and reach good weather after 30–40 km.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The official guide service for ASIC 2006 was Norgesguidene, offering rock climbing, mountaineering, scrambling, and hiking around Åndalsnes.</p>
+
+        <div class="asic-photo">
+          <img src="images/hiking.jpg" alt="Hiking near Åndalsnes">
+          <p>Hiking in the mountains around Åndalsnes.</p>
+        </div>
+
+        <h3>Rock climbing</h3>
+        <div class="asic-photo">
+          <img src="images/tour.jpg" alt="Climber on a Romsdal cliff face">
+          <p>Rock climbing on a Romsdal cliff face.</p>
+        </div>
+        <p>The most famous local feature is Trollveggen, the largest cliff face in Europe, rising about 5,500 feet from the road (the top 3,000 feet overhanging). Attendees were not expected to climb it — the routes are unstable, extremely difficult, and the easiest option is 48 pitches long — but numerous excellent rock climbing sites exist nearby, from single-pitch areas to very long multi-pitch faces on both sides of the Romsdal valley.</p>
+        <p>Recommended guided climbs included Romsdalshorn (Norwegian grade 4−, 8–10 hrs, a Norwegian classic), Venjetind via the Standard Route (an easy scramble to the highest peak in Romsdalen, 6,000 ft.), Bispen via the east ridge (seven pitches of grade 4+), and day climbs at the crags Norafjell and Hornaksla.</p>
+
+        <h3>Group tours (Tuesday and Thursday)</h3>
+        <ul>
+          <li><b>Walk to the top of the Trollwall</b> — 6–7 hours round trip from Trollstigen, 700 NOK per person.</li>
+          <li><b>Scramble up Bispen via the north ridge</b> — 6–7 hours, some exposure, 700 NOK per person.</li>
+          <li><b>Walk up the Finnan glacier</b> — 6–7 hours, views into the Innfjorden, 600 NOK per person.</li>
+        </ul>
+
+        <h3>Hiking</h3>
+        <p>A locally available sheet listed about 20 marked hikes in the Åndalsnes area, graded from A (easy) to B+ (harder). Notable routes included Åndalsnes–Nesaksla, a steep 2-hour round trip rising directly from town with a beautiful view over Åndalsnes, Isfjorden, and the Romsdalfjord, and Trolltindene, an 8-hour round trip up to the back side of the Trollveggen.</p>
+
+        <div class="asic-note">Recommended equipment for the tours: warm underwear, a warm sweater or jacket, windbreaker and trousers, rain clothing or gore-tex, hood and gloves, sunglasses and sun cream, a small backpack, and gaiters or mountain walking boots, since some tours cross snow-covered terrain.</div>
+      </section>
+
+      <!-- SCHEDULE -->
+      <section class="asic-section" id="schedule">
+        <h2>Schedule</h2>
+        <p class="asic-lede">A single speaking session ran each evening from 16:30 to 20:30, chaired by a different attendee each day, followed by dinner.</p>
+
+        <table>
+          <thead><tr><th>Day</th><th>Time</th><th>Session</th></tr></thead>
+          <tbody>
+            <tr><th rowspan="3">Sun, July 2</th><td>15:45–16:30</td><td>Reception and registration</td></tr>
+            <tr><td>16:30</td><td>Welcome remarks — Rich Shiffrin</td></tr>
+            <tr><td>16:45–20:00</td><td>Visual Attention (chair: Eddy Davelaar); Philosophy of Cognitive Science: Where does the mind stop? (chair: Colin Allen)</td></tr>
+            <tr><th>Mon, July 3</th><td>16:30–20:15</td><td>Perceptual Learning (chair: Takeo Watanabe); Memory and Learning I (chair: Jeroen Raaijmakers)</td></tr>
+            <tr><th>Tue, July 4</th><td>16:30 onward</td><td>Decision Making I: Learning (chair: Joerg Rieskamp), plus further sessions</td></tr>
+          </tbody>
+        </table>
+        <p>Dinner followed the sessions each evening, typically starting between 8:00 and 8:30 PM. Sunday's chair was Colin Allen, with dinner at 8.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email was the preferred way to reach the organizer.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2006)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinators</h3>
+        <p><b>Krystal Klein</b> and <b>Fang Fang</b>, Indiana University – Bloomington</p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2006');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

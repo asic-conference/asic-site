@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2015 — Mammoth Lakes, California | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Fourteenth Annual Summer Interdisciplinary Conference, Westin Monache Resort, Mammoth Lakes, California, July 10–15, 2015.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2015">
+  <style>
+    #asic2015{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2015 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2015 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2015 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2015 .asic-back:hover{color:#fff;}
+    #asic2015 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2015 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2015 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2015 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2015 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2015 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2015 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2015 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2015 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2015 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2015 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2015 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2015 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2015 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2015 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2015 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2015 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2015 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2015 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2015 .asic-section p{margin:0 0 14px;}
+    #asic2015 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2015 .asic-section li{margin:4px 0;}
+    #asic2015 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2015 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2015 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2015 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2015 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2015 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2015 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2015 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2015 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2015 th,#asic2015 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2015 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2015 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2015 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2015 .asic-photo img{max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto;}
+    #asic2015 .asic-photo p{margin:8px 0 0; font-size:14px; font-style:italic; color:#9a9384;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2015{border-radius:0;}
+      #asic2015 .asic-shell{flex-direction:column;}
+      #asic2015 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2015 .asic-nav .asic-navhead{display:none;}
+      #asic2015 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2015 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2015 .asic-main{padding:26px 20px 40px;}
+      #asic2015 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2015 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Fourteenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2015</h1>
+    <div class="asic-meta">
+      <span><b>Mammoth Lakes</b>, California, USA</span>
+      <span><b>July 10–15, 2015</b> · six days of talks</span>
+      <span>Westin Monache Resort</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2015 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="talks"><span class="ic">📝</span> Talks &amp; Submissions</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2015</h2>
+        <p class="asic-lede">The Fourteenth Annual Summer Interdisciplinary Conference, held at the Westin Monache Resort in Mammoth Lakes, California, July 10–15, 2015.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_000.jpg" alt="Bouldering at Way Lake, Mammoth Lakes">
+          <p>Bouldering at Way Lake, Mammoth Lakes</p>
+        </div>
+
+        <p>The dates were chosen to make it possible for attendees to travel on July 16 to Southern California for the Mathematical Psychology Meetings held July 17–20 at the Hyatt Regency in Newport Beach (workshops/tutorials on the 17th), a special "industry meets mathematical psychology" conference on July 21, and then the Cognitive Science Society Annual Meetings in Pasadena, July 22–25 (workshops on the 22nd). The Westin is an excellent four-star hotel — <a href="http://www.westinmammoth.com" target="_blank" rel="noopener">westinmammoth.com</a>.</p>
+
+        <p>The Mammoth Lakes/Yosemite airport is 10 minutes from Mammoth Lakes, with one flight a day to and from Los Angeles on Alaska Airlines. Driving time from Los Angeles airport is about five hours.</p>
+
+        <p>Mammoth Lakes is at about 8,000 feet elevation on the eastern slopes of the Sierra Nevada mountains, providing pleasant summer temperatures and outstanding scenery and choices of outdoor activities. It also provides the best and easiest summer access to Yosemite National Park.</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer: email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>.</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of the ASIC conferences is interdisciplinary, within the broad frame of Cognitive Science. ASIC uses the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants. The talks are in the later afternoon/early evening, followed by dinner. The date has been chosen to make it convenient for attendees to bring family/friends. The conference is open to all interested parties, and an invitation is NOT needed to attend. However, due to the small number of spots for speakers, the organizer will select the attendees to give talks, and choose the lengths of talks.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including: modeling of cognition; neuroscience and cognitive neuroscience; psychology (perception, psychophysics, attention, information processing, memory and cognition); computer science and artificial intelligence; machine intelligence and learning; methodology and statistics; linguistics, psycholinguistics and computational linguistics; and philosophy of mind and cognitive science. We especially invite talks emphasizing theory, mathematical modeling, and computational modeling.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day, intentionally organized to maximize the dissimilarity of each day's presentations. If the number of participants exceeds the number of speaking slots (about 42), the organizer will select some talks to be of shorter duration, and if necessary choose the speakers who will present.</p>
+
+        <p>The conference starts with registration and a reception with wine, beer, drinks and food from 15:30–16:15 on Friday, July 10. On subsequent days there are drinks and light snacks from ~16:00–16:15, followed by a session of about seven spoken presentations that include a mid-session drink break. The last evening of talks is Wednesday, July 15, so plan to depart no earlier than Thursday, July 16.</p>
+      </section>
+
+      <!-- TALKS & SUBMISSIONS -->
+      <section class="asic-section" id="talks">
+        <h2>Talks &amp; Submissions</h2>
+        <p class="asic-lede">Whether or not you have already sent this information to the organizer by email, please provide a list of authors, affiliations, emails, a title, and an abstract.</p>
+
+        <p>Provide a list of authors (with the presenter indicated), their affiliations, and emails; a title; and an abstract (limit 250 words). These may be changed later, so do not hesitate to send them as early as possible. The organizer uses these to plan the conference and organize the sessions.</p>
+
+        <p>Regular talks are limited to 30 minutes, a time that includes interruptions for questions and final discussion — plan for about twenty minutes of actual speaking. Talks should be aimed not at specialists but at a general scientific audience.</p>
+
+        <div class="asic-note">There is room on the program for about 42 30-minute talks. If more than 42 attendees want to present, the organizer will either choose some talks to be of shorter duration, or in extremity, decide which attendees will give presentations. When registering, please indicate if you might be willing to (1) give a shorter talk, or (2) forego giving a talk.</div>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">If you are planning to attend ASIC 2015, fill out the registration form and submit your registration fee.</p>
+
+        <p>This fee pays for rental of the conference room, equipment rentals, snacks and drinks at conference breaks, the group rock climbing day(s), and the opening reception.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Timing</th><th>Professional attendees</th><th>Guests, 10+ years</th></tr></thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2015</th><td>$250</td><td>$50</td></tr>
+            <tr><th>January 1 – March 1, 2015</th><td>$300</td><td>$75</td></tr>
+            <tr><th>After March 1, 2015</th><td>$350</td><td>$100</td></tr>
+          </tbody>
+        </table>
+
+        <p>Registration and payments are made via the Indiana University Conference Bureau as indicated on the registration form.</p>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is held at the Westin Monache Resort in Mammoth Lakes, California — a four-star hotel with many services and facilities.</p>
+
+        <div class="asic-photo">
+          <img src="images/lodging_001.jpg" alt="Westin Monache Resort">
+        </div>
+
+        <p>Hotel website: <a href="http://www.westinmammoth.com" target="_blank" rel="noopener">westinmammoth.com</a>.</p>
+
+        <p>We recommend a package for room, breakfast and dinner. Attendees can choose a lodging-only package, but the complete package is the preferred choice: dining together as a group is an important component of the conference, fostering interdisciplinary collaboration and information gain.</p>
+
+        <div class="asic-note">Reservations require no deposit or payment until one week prior to ASIC. Full payments must be made at or before that date; such payments can be refunded until one week prior to ASIC but are then non-refundable. Because there is no cost to reserving, please do so as soon as possible if there is a reasonable chance you might attend.</div>
+
+        <h3>Rates (breakfast and dinner add $60/day/person)</h3>
+        <table>
+          <tbody>
+            <tr><th>Deluxe suite with view</th><td>$139/day — King bed, double pull-out sofa bed</td></tr>
+            <tr><th>One-bedroom suite</th><td>$169/day — King bedroom + living room with queen pull-out sofa bed; rollaway available</td></tr>
+            <tr><th>Two-bedroom suite</th><td>$289/day — King and Queen bedrooms + living room with queen pull-out sofa bed; rollaway available</td></tr>
+          </tbody>
+        </table>
+        <p>Room rates are subject to taxes and fees, currently about 14.75%.</p>
+
+        <h3>Hotel features</h3>
+        <p>Parking (valet or self), internet access, local and long-distance calls in the US, in-town shuttle service, and airport transfers from the nearby Mammoth Yosemite airport are included in the package. The hotel has a 24-hour fitness facility, an outdoor heated pool and hot tubs, and a business center.</p>
+
+        <h3>Reservations</h3>
+        <p>Call Micaela Castronova (or her representative) at 760-934-0411, using a code that the organizer provides upon email request to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>.</p>
+        <p>
+          Westin Monache Resort<br>
+          50 Hillside Drive · PO Box 388 · Mammoth Lakes, CA 93546<br>
+          Information: 760-934-0400
+        </p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Food &amp; Dining</h2>
+        <p class="asic-lede">Mammoth Lakes has many restaurants, but given the lateness of the conference talks and the value of group dining, we recommend the package rates including breakfast and dinner.</p>
+
+        <p>Meals are buffet style with a variety of choices including vegetarian options and entrees. The registration fee pays for food and drink at the opening reception and session breaks; alcoholic drinks are charged to individual attendees.</p>
+
+        <p>Each day after the opening day, the conference begins with light snacks and liquid refreshments at about 3:45–4:15, followed by talks, and a 15-minute break with more drinks about midway through the session (about 6:00). The first day (Friday, July 10) has a reception starting at 3:15 with name tags, information, schedules, and snacks and drinks. Dinner follows directly after the sessions, at approximately 8:15.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Travel to and around Mammoth Lakes, California.</p>
+
+        <p>It is worth exploring the area with Google Maps and Google Earth. One source of information is the Mammoth Lakes website: <a href="http://www.visitmammoth.com" target="_blank" rel="noopener">visitmammoth.com</a>, which has driving directions from Reno, San Francisco, Southern California and Los Angeles, and information about the Mammoth Yosemite Airport (about six miles from town, with limited regular service).</p>
+
+        <p>Another source of travel information is the Westin Monache Resort website, which has a zoomable local-area map: <a href="http://www.westinmammoth.com/local-area" target="_blank" rel="noopener">westinmammoth.com/local-area</a>.</p>
+
+        <p>The annual meetings of the Society for Mathematical Psychology and, immediately after, the Cognitive Science Society, are held in Southern California following ASIC. Attendees planning to attend either or both might find it most convenient to use Los Angeles airport either as a destination or a place from which to fly to Mammoth Yosemite Airport.</p>
+
+        <p>Those driving to ASIC from Southern California should note the possibility of stopping en route at Death Valley. From Mammoth Lakes there is relatively easy driving access to Yosemite National Park.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">A large variety of outdoor activities can be found around Mammoth Lakes, in the upper elevation portion of Yosemite National Park just to the west (Tuolumne Meadows), and in the eastern slopes of the Sierra Nevada mountains just to the south.</p>
+
+        <p>These include walking, hiking, scrambling, mountaineering, rock climbing, mountain biking, road biking, fishing, kayaking, golfing and much more.</p>
+
+        <h3>Climbing — Mammoth Lakes area</h3>
+        <p>One of the area activities is a group rock climbing day (or perhaps two), free to all who register and wish to come, aimed at introducing beginners and novices to outdoor rock climbing in a scenic venue. As has been the case for almost every ASIC conference, we are again lucky to have the services of Guido Bonvicini for climbing and other outdoor activities. There are a large number of rock climbing areas adjacent to or near Mammoth Lakes; a guide to local climbing is <i>Mammoth Area Rock Climbs</i>, 3rd Edition, by Marty Lewis.</p>
+
+        <div class="asic-photo">
+          <img src="images/activities_005.jpg" alt="Crystal Peak, Mammoth Lakes">
+          <p>Crystal Peak, Mammoth Lakes — an easy multipitch climb</p>
+        </div>
+
+        <p>There are also a variety of walls, including Dike Wall, and plentiful bouldering opportunities in the Way Lake area.</p>
+
+        <h3>Yosemite National Park &amp; Tuolumne Meadows</h3>
+        <p>Yosemite Valley is extremely crowded in mid-summer and, at relatively low altitude, very hot. However the high-altitude portion of Yosemite, Tuolumne Meadows, has good summer temperatures, is wonderful for hiking, photography, and rock climbing, and is easily reached from Mammoth Lakes via Tioga Pass (about 45 minutes by car).</p>
+
+        <p>A visit to the valley floor from Mammoth Lakes is possible during conference days but time-limited: allowing three hours each way and a return by 4 PM for talks leaves only about three hours in the valley itself. Views of Half Dome and Yosemite Valley are available from a short walk near Olmstead Point at the west end of Tuolumne Meadows.</p>
+
+        <div class="asic-photo">
+          <img src="images/activities_008.jpg" alt="The Great White Book, Tuolumne Meadows">
+          <p>The Great White Book, Tuolumne Meadows</p>
+        </div>
+
+        <p>The possibilities for rock climbing in Tuolumne Meadows are endless, given the profusion of granite domes; a book describing many of the main possibilities is <i>Tuolumne Free Climbs</i>, 2nd Edition, by Barnes, McNamara, and Roper. Many climbs are easy or intermediate in difficulty and involve many pitches, with some adjacent to the road or a short walk away, feasible on conference days.</p>
+
+        <div class="asic-photo">
+          <img src="images/activities_013.jpg" alt="Cathedral Peak, Tuolumne Meadows">
+          <p>Cathedral Peak, Tuolumne Meadows</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Patrick Craig</b><br>
+          Phone: (812) 856-6037<br>
+          <a href="mailto:pjcraig@indiana.edu">pjcraig@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2015)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2015');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

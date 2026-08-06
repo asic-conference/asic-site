@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2004 — Cavalese, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Third Annual Summer Interdisciplinary Conference, Cavalese, Val di Fiemme, Dolomiti, Italy, June 27 – July 2, 2004.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2004">
+  <style>
+    #asic2004{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2004 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2004 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2004 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2004 .asic-back:hover{color:#fff;}
+    #asic2004 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2004 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2004 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2004 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2004 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2004 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2004 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2004 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2004 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2004 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2004 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2004 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2004 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2004 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2004 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2004 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2004 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2004 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2004 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2004 .asic-section p{margin:0 0 14px;}
+    #asic2004 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2004 .asic-section li{margin:4px 0;}
+    #asic2004 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2004 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2004 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2004 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2004 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2004 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2004 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2004 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2004 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2004 th,#asic2004 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2004 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2004 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2004 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2004 .asic-photo img{max-width:100%; border-radius:8px; display:block; margin:0 auto;}
+    #asic2004 .asic-photo p{
+      color:#9a9384; font-size:14px; font-style:italic; margin:8px 0 0;
+    }
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2004{border-radius:0;}
+      #asic2004 .asic-shell{flex-direction:column;}
+      #asic2004 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2004 .asic-nav .asic-navhead{display:none;}
+      #asic2004 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2004 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2004 .asic-main{padding:26px 20px 40px;}
+      #asic2004 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2004 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">The Third Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2004</h1>
+    <div class="asic-meta">
+      <span><b>Cavalese</b>, Val di Fiemme, Dolomiti, Italy</span>
+      <span><b>June 27 – July 2, 2004</b></span>
+      <span>Hotel Grunwald</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2004 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel &amp; Lodging</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">🗓️</span> Schedule</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2004</h2>
+        <p class="asic-lede">The Third Annual Summer Interdisciplinary Conference (ASIC 2004) was held at Hotel Grunwald, in Cavalese, Val di Fiemme, Italy, in the Dolomites. Richard M. Shiffrin of Indiana University-Bloomington and Marco Zorzi of the University of Padova were co-organizers.</p>
+
+        <div class="asic-photo">
+          <img src="images/frontpic.jpg" alt="Mountains near Cavalese, Italy">
+          <p>The Dolomites above the Val di Fiemme.</p>
+        </div>
+
+        <p>The conference used the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and the talks are in the later afternoon/early evening, followed by dinner. The date was chosen to make it convenient for attendees from the United States to bring family and friends. The conference was open to all interested parties, and an invitation was not needed to attend. However, the limited time for talks meant the organizers selected the speakers from those arranging sessions or desiring to give individual talks. The subject is interdisciplinary, within the broad frame of Cognitive Science.</p>
+
+        <div class="asic-photo">
+          <img src="images/horsemountain.jpg" alt="Dolomite scenery near Cavalese">
+          <p>Scenery near Cavalese, in the Dolomites.</p>
+        </div>
+
+        <h3>Invitation</h3>
+        <p>The conference was open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation was not needed.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covered a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science</li>
+          <li>machine intelligence and learning</li>
+          <li>linguistics</li>
+          <li>philosophy</li>
+        </ul>
+        <p>The conference especially invited talks emphasizing theory, mathematical modeling, and computational modeling (including neural networks and artificial intelligence). Talks were required to be comprehensible and interesting to a wide scientific audience, with speakers providing overviews of current research areas as well as their own recent progress.</p>
+
+        <h3>Conference format</h3>
+        <p>The conference started with a reception on the first evening, Sunday, June 27, at 4 PM, followed by a partial session.</p>
+        <p>Each of the next five evenings, poster sessions ran from 4:00 to 4:30 PM, with drinks, light refreshments and snacks available during poster sessions and at the midway break. Talks began at 4:30 PM, with about 8 talks each evening plus a mid-session break, expected to finish about 8:45 PM. A banquet was held following the final session, on Friday, July 2. There were no parallel sessions.</p>
+        <div class="asic-note">This conference format freed most of the day for activities with colleagues, family, and friends. The time frame allowed day trips to nearby sites in the Dolomites, and even to some nearby cities in Northern Italy, but travel to more distant sites was best arranged for the days preceding and following the conference.</div>
+
+        <h3>Correspondence</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2004)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+        <p>Co-organizers: <a href="mailto:shiffrin@indiana.edu">Richard Shiffrin</a> (Indiana University) and Marco Zorzi (University of Padova).</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Attendees registered online or by mail; payment was always sent by regular mail.</p>
+
+        <p>To attend the conference, attendees either registered online or filled out a printable registration form and sent it, with a check for the registration fee, by regular mail to:</p>
+        <p>
+          ASIC 2004, c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          Bloomington, IN 47405
+        </p>
+        <div class="asic-note warn">Payment had to be sent via regular mail regardless of whether registration was submitted online or by mail.</div>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <tbody>
+            <tr><th>Early registration (before Jan 1, 2004)</th><td>$120 USD</td></tr>
+            <tr><th>Regular registration (after Jan 1, 2004, before the conference)</th><td>$150 USD</td></tr>
+            <tr><th>On-site registration</th><td>$175 USD</td></tr>
+          </tbody>
+        </table>
+        <p>All fees were payable by check (no credit cards), made out to Annual Summer Interdisciplinary Conference (or ASIC 2004) and sent to the organizer at the address above. Checks from attendees outside the US were drawn on a US bank, or sent as an international cashier's check or the equivalent.</p>
+        <div class="asic-note">The registration fee included the opening night reception, food, drink and facilities for all sessions, and the final banquet. Extra tickets were available for the opening reception ($10 USD/person) and the final banquet ($25 USD/person).</div>
+      </section>
+
+      <!-- TRAVEL & LODGING -->
+      <section class="asic-section" id="travel">
+        <h2>Travel &amp; Lodging</h2>
+        <p class="asic-lede">A major superhighway, the A4, runs across northern Italy, just south of the Dolomites, from Milan to Venice. About two-thirds of the way to Venice, the A22 heads north from Verona to the Brenner Pass and on to Innsbruck, Austria.</p>
+
+        <div class="asic-photo">
+          <img src="images/cavalese.jpg" alt="Cavalese, Italy">
+          <p>Cavalese, in the Val di Fiemme.</p>
+        </div>
+
+        <p>Flights to Milan, Verona, Venice, or Innsbruck were recommended as providing the easiest access to the conference. Attendees were advised to rent cars at the airport of entry, both to enable transport to Cavalese and to allow easy access to leisure activities and tourism.</p>
+
+        <h3>Directions to Hotel Grunwald</h3>
+        <p><b>By car:</b> Driving east from Ora on A22, one enters Cavalese on via Trento, passing piazza Partigiana, following via IX Novembre through piazza Dante, piazza Rizzoli and piazza C. Battisti, past the tower, to piazza Scopoli. From there, a right on vialle Mendini and a right onto via della Pieve leads to via Bresadola, where Hotel Grunwald is located.</p>
+        <p><b>By bus:</b> From Piazza Autostazione, via Banco della Reson leads into via Bresadola, with the hotel a further half block on the right.</p>
+
+        <h3>Lodging</h3>
+        <div class="asic-photo">
+          <img src="images/hotel_.jpg" alt="Hotel Grunwald, Cavalese, Italy">
+          <p>Hotel Grunwald, the ASIC 2004 conference hotel.</p>
+        </div>
+        <p>
+          Hotel Grunwald<br>
+          Cavalese (Trento) — via Bresadola, 3<br>
+          Val di Fiemme — Dolomiti — Italia<br>
+          Tel: 0462/340369, 340651, 231503 · Fax: 0462/231504<br>
+          Email: <a href="mailto:info@hotelgrunwald.it">info@hotelgrunwald.it</a>
+        </p>
+        <p>The conference hotel had a restaurant, sauna, Turkish bath, and heated swimming pool. Lodging reservations included dinner and breakfast (lunch available for a small supplement). ASIC reserved the entire hotel: 56 nicely appointed rooms, from one to four beds per room.</p>
+        <p>Rooms were available at 50 Euro per person for half board (double occupancy), including breakfast and dinner except drinks such as wine. Full board (lunch) added a supplement of 5 Euro per person/day; single-room occupancy added a supplement of 10 Euro/day. Children staying in the same room as parents were free for both lodging and meals.</p>
+        <div class="asic-note warn">Attendees made their own reservations directly with the hotel by phone, fax, or email, mentioning ASIC 2004 for the conference rate. The hotel required a deposit of 150 Euro per paying person (credit card or postal check).</div>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The conference was held in the Dolomites, a remarkable set of rocky crags in Northern Italy, with valleys typically starting about 3,000 feet and peaks rising to 10,000 feet.</p>
+
+        <div class="asic-photo">
+          <img src="images/climb.jpg" alt="Climbing in the Dolomites">
+          <p>Rock climbing in the Dolomites near Cavalese.</p>
+        </div>
+
+        <p>The area has enormous sheer cliffs rising from green valleys and beautiful lakes, large numbers of sharp pinnacles and spires, hiking paths, and extremely well-appointed mountain huts throughout the region. In addition to hiking, there are Via Ferrata ("iron walks") scattered throughout the mountains — paths threaded through cliffs and peaks with cables and iron ladders, allowing one to be attached to the cables at all times for a mountaineering-like experience while maintaining complete safety. Via Ferrata are rated for difficulty and are suitable for beginners and children.</p>
+
+        <p>Numerous opportunities exist for rock climbing throughout the area, mostly sport climbs with bolts every few feet, from one to twenty or more pitches, on Dolomitic limestone with many interesting features for face climbing.</p>
+
+        <div class="asic-photo">
+          <img src="images/biking.jpg" alt="Biking near Cavalese">
+          <p>Cavalese has a dedicated paved bicycle path winding through the countryside and mountains.</p>
+        </div>
+
+        <p>Other adventure activities in the area include canyoneering, parasailing, and mountain biking. Excellent touring by car is possible, and ski lifts operate in summer to bring visitors close to or on top of the peaks. For days before or after the conference, hut-to-hut hiking in the Dolomites was highly recommended — most huts are relatively inexpensive, situated in dramatic scenery, and offer fresh meals prepared with ingredients brought daily by cable from the valleys.</p>
+
+        <h3>Example activities and costs (per person, Euro; minimum group size varies)</h3>
+        <table>
+          <tbody>
+            <tr><th>Guided hike (moderate to difficult)</th><td>€25 (min. 5)</td></tr>
+            <tr><th>Guided visit to natural park — easy hike</th><td>€15 (min. 10)</td></tr>
+            <tr><th>Via Ferrata</th><td>€85 (min. 3)</td></tr>
+            <tr><th>Rock climbing course, 1–3 days, 9am–1pm</th><td>€65 (min. 3)</td></tr>
+            <tr><th>Climb of the Marmolada glacier (full day)</th><td>€90 (min. 2)</td></tr>
+            <tr><th>Canyoning (9am–1pm)</th><td>€52 (min. 5)</td></tr>
+          </tbody>
+        </table>
+
+        <p>For tourism during the conference, Trento and Bolzano are the closest cities, with Verona, Vicenza, Padova, and possibly Venice close enough for day trips that allow return to Cavalese in time for the evening sessions. Riva del Garda, on the northern tip of Lake Garda, is also a pleasant and accessible resort town.</p>
+      </section>
+
+      <!-- SCHEDULE -->
+      <section class="asic-section" id="schedule">
+        <h2>Schedule</h2>
+        <p class="asic-lede">Thirteen speaking sessions and five poster sessions ran across the six days of ASIC 2004 (schedule as of May 18, 2004).</p>
+
+        <table>
+          <thead><tr><th>Day</th><th>Time</th><th>Session</th></tr></thead>
+          <tbody>
+            <tr><th rowspan="2">Sun, June 27</th><td>17:30–19:00</td><td>I: Number Processing</td></tr>
+            <tr><td>19:15–20:45</td><td>II: Time and Recency Perception</td></tr>
+            <tr><th rowspan="2">Mon, June 28</th><td>16:30–18:00</td><td>III: Multiple Categorization and Memory Systems</td></tr>
+            <tr><td>18:20–20:30</td><td>IV: Categorization and Memory</td></tr>
+            <tr><th rowspan="3">Tue, June 29</th><td>16:30–18:00</td><td>V: Semantic and Conceptual Representation I</td></tr>
+            <tr><td>18:15–19:15</td><td>VI: Semantic and Conceptual Representation II</td></tr>
+            <tr><td>19:15–20:15</td><td>VII: Induction of Meaning and Language</td></tr>
+            <tr><th>Wed, June 30</th><td>16:30–20:45</td><td>VIII: Reasoning, Inference, Judgment I / IX: Neural Bases of Cognition</td></tr>
+            <tr><th>Thu, July 1</th><td>16:30–20:15</td><td>X: Perception and Information Processing / XI: Complex Systems; business meeting 20:15–20:40</td></tr>
+            <tr><th>Fri, July 2</th><td>16:30–20:45</td><td>XII: Multiple Systems of Memory / XIII: Memory; closing banquet 20:45</td></tr>
+          </tbody>
+        </table>
+        <p>Drinks, snacks and a poster session preceded most days' talks, generally from 16:00–16:30. Monday, June 28 daytime was a group excursion sponsored and funded by TICS.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email was the preferred way to reach the organizers.</p>
+
+        <h3>Conference co-organizers</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>
+        </p>
+        <p>
+          <b>Marco Zorzi</b><br>
+          University of Padova
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2004)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinator</h3>
+        <p><b>Krystal Klein</b>, Indiana University – Bloomington</p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2004');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

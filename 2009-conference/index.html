@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2009 — Sarre, Valle d'Aosta, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Eighth Annual Summer Interdisciplinary Conference, Sarre, Valle d'Aosta, Italy, July 22–27, 2009.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2009">
+  <style>
+    #asic2009{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2009 *{box-sizing:border-box;}
+
+    #asic2009 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2009 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2009 .asic-back:hover{color:#fff;}
+    #asic2009 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2009 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2009 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2009 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2009 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    #asic2009 .asic-shell{display:flex; align-items:flex-start;}
+
+    #asic2009 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2009 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2009 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2009 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2009 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2009 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2009 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    #asic2009 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2009 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2009 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2009 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2009 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2009 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2009 .asic-section p{margin:0 0 14px;}
+    #asic2009 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2009 .asic-section li{margin:4px 0;}
+    #asic2009 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2009 a:hover{color:var(--alpenglow);}
+
+    #asic2009 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2009 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    #asic2009 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2009 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2009 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2009 .asic-btn.alt:hover{background:#a44d1f;}
+
+    #asic2009 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2009 th,#asic2009 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2009 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2009 tbody th{background:#fafaf7; font-weight:600;}
+
+    #asic2009 .asic-photo{margin:0 0 22px; text-align:center;}
+    #asic2009 .asic-photo img{max-width:100%; height:auto; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.15);}
+    #asic2009 .asic-photo p{color:#7c7566; font-size:14px; font-style:italic; margin:8px 0 0;}
+
+    @media(max-width:760px){
+      #asic2009{border-radius:0;}
+      #asic2009 .asic-shell{flex-direction:column;}
+      #asic2009 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2009 .asic-nav .asic-navhead{display:none;}
+      #asic2009 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2009 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2009 .asic-main{padding:26px 20px 40px;}
+      #asic2009 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2009 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Eighth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2009</h1>
+    <div class="asic-meta">
+      <span><b>Sarre</b>, Valle d'Aosta, Italy</span>
+      <span><b>July 22–27, 2009</b></span>
+      <span>Hotel Etoile du Nord</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2009 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🥾</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2009</h2>
+        <p class="asic-lede">The Eighth Annual Summer Interdisciplinary Conference, held at the Etoile du Nord hotel in Sarre, Valle d'Aosta, Italy, Wednesday, July 22 – Monday, July 27, 2009.</p>
+
+        <div class="asic-photo">
+          <img src="images/gran-paradiso.jpg" alt="Gran Paradiso, Valle d'Aosta">
+          <p>Gran Paradiso, one of the peaks surrounding the Valle d'Aosta.</p>
+        </div>
+
+        <p>Hotel Etoile du Nord (<a href="http://www.etoiledunord.it/default_ENG.asp" target="_blank" rel="noopener">etoiledunord.it</a>) is in Sarre, a few km west of Aosta, the main city in Valle d'Aosta — the large and spectacular valley where Italy, France and Switzerland meet. Aosta is a couple of hours' drive west of Milan. Valle d'Aosta lies south of Mont Blanc, southwest of Monte Rosa and the Matterhorn, and north of Gran Paradiso.</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer. Email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a> or mailed to Richard M. Shiffrin at Indiana University (see the Contact tab for the address).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC is interdisciplinary, within the broad frame of cognitive science. ASIC uses the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants, and talks and posters are in the later afternoon and early evening, followed by dinner. The 2009 dates were also chosen to make it convenient to combine ASIC with the Cognitive Science Society Conference and the Mathematical Psychology Conference, held successively in Amsterdam from July 29 – August 4.</p>
+        <p>The conference is open to all interested parties, and an invitation is not needed to attend. Due to the small number of spots for speakers, the organizer selects the attendees who give talks, and additional attendees have the opportunity to present posters.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including modeling of cognition; neuroscience and cognitive neuroscience; psychology (perception, psychophysics, attention, information processing, memory and cognition); computer science and artificial intelligence; machine intelligence and learning; methodology and statistics; linguistics, psycholinguistics and computational linguistics; and philosophy of mind and cognitive science.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day. If the number of participants exceeds the number of speaking slots (about 42), the first half session on a chosen day is devoted to posters. The conference starts with registration and a reception from 15:00–16:30 on Wednesday, July 22. On subsequent days (except a poster day) there are drinks and light snacks from 16:15–16:30, followed by a session of seven spoken presentations including a mid-session drink break.</p>
+        <p>This format frees most of the day for activities with colleagues, family, and friends. The time frame allows day trips to nearby sites, but return should be arranged in time for the 16:15 session start.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation is not needed. We encourage you to send the conference information to friends and colleagues.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the request list for presenting research (talks or posters) until you submit the registration fee, preferably by PayPal.</p>
+
+        <p>This fee pays for room and equipment rentals, snacks, the banquet, and more.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>By check or PayPal</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to Jan. 1, 2009</th><td>$200</td></tr>
+            <tr><th>Jan. 1 – March 1, 2009</th><td>$260</td></tr>
+            <tr><th>After March 1, 2009</th><td>$320</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase additional guest vouchers for other persons attending the opening reception and/or final banquet.</p>
+
+        <h3>How to pay</h3>
+        <ol>
+          <li>Online by PayPal (preferred).</li>
+          <li>Send a check for the correct amount to ASIC 2009, c/o Richard M. Shiffrin, Psychology Dept., Indiana University, Bloomington, IN 47405.</li>
+        </ol>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">ASIC 2009 is held at Etoile du Nord, where a hold has been placed on 40 rooms.</p>
+
+        <div class="asic-photo">
+          <img src="images/hotel-etoile-du-nord.jpg" alt="Hotel Etoile du Nord, Sarre">
+          <p>Hotel Etoile du Nord, Sarre, Valle d'Aosta.</p>
+        </div>
+
+        <p>Hotel website: <a href="http://www.etoiledunord.it/default_ENG.asp" target="_blank" rel="noopener">etoiledunord.it</a>. After November 30, held rooms may be released to the general public, so early reservations are essential; late bookings may still be offered at the conference rate if any remain. Full refunds of the deposit are possible until March 1.</p>
+
+        <h3>Rates</h3>
+        <ul>
+          <li>€66 for two persons in a double room</li>
+          <li>€75 for two persons in a superior double room</li>
+          <li>€82 for one person in an economy room</li>
+          <li>€95 for one person in a standard room</li>
+          <li>€61 per person for three persons in a triple room</li>
+          <li>€54 per person for four persons in a quadruple room</li>
+          <li>€49 per person for five people in a quintuple room</li>
+          <li>Children 0–4 free; children 5–17 pay five euro less than the prices above.</li>
+        </ul>
+        <p>Booking requires a 20% deposit. Bookings can be made by email at <a href="mailto:office@terramica.eu">office@terramica.eu</a>, or by fax at +39.030.3758444.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining</h2>
+        <p class="asic-lede">Meals are taken at the dining hall at Etoile du Nord.</p>
+
+        <div class="asic-photo">
+          <img src="images/dining.jpg" alt="Dining at the conference hotel">
+          <p>Dining at Etoile du Nord.</p>
+        </div>
+
+        <p>Breakfast and buffet dinner are included as part of the lodging charges for all attendees and guests. Lunches can be taken, as desired, either at the hotel or at many restaurants in town; lunches to go for various outings can also be arranged.</p>
+
+        <p>Dining is buffet style, with a variety of options including vegetarian meals (not just salads). There is a banquet dinner at the hotel to end the conference, including wine and beer. The food and drink offerings at the opening reception, session starts, mid-session breaks, and a supplement for the opening reception and final banquet are paid for from participants' registration fees.</p>
+
+        <p><b>Breakfasts</b> are continental style and include bread, biscuits, croissants, jam, honey, butter, cereals, sliced cheese, yogurt, sliced salami, orange juice, milk, coffee and tea. For those wanting eggs and omelets, there is an additional charge of €5 per day.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Aosta lies in the northwest corner of Italy, where Italy meets France and Switzerland, in the large and spectacular Valle d'Aosta.</p>
+
+        <p>The valley has 13 major side valleys and lies south of the massif containing Mont Blanc (n/nw), Monte Rosa (n), and the Matterhorn (ne), and north of Gran Paradiso. A major superhighway, A5, runs west to Aosta from Milan (the Mont Blanc tunnel to Chamonix lies northwest of Aosta, and the St. Bernard tunnel to Switzerland lies north of Aosta).</p>
+
+        <p>The easiest access is by air through Milan, probably Malpensa airport, which lies west of Milan and is even closer to Aosta. Aosta is 168 km from Milan, somewhat closer from Malpensa. There are rail links (via Chivasso) and bus links from Milan to Aosta, but many attendees will probably rent a car — useful for visiting sites scattered around the large valley. There is also an airport in Aosta (Corrado Gex), and other nearby airports include Turin (Caselle), 121 km, and Geneva (Cointrin), 151 km.</p>
+
+        <p>For attendees continuing to Amsterdam for the Cognitive Science and Mathematical Psychology conferences, flights from Milan are plentiful, but drives through the Alps — via the Mont Blanc or St. Bernard tunnels — provide beautiful vistas. Driving distances from Aosta: Turin 114 km; Genoa 247 km; Chamonix (via Mont Blanc Tunnel) 57 km; Martigny, Switzerland (via Great St. Bernard Tunnel) 76 km; Geneva 134 km; Paris 668 km; Amsterdam 1,050 km.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The Valle d'Aosta region offers an enormous range of adventure and leisure activities, either self-guided or available as tours with guides.</p>
+
+        <div class="asic-photo">
+          <img src="images/hiking.jpg" alt="Hiking in the Valle d'Aosta">
+          <p>One of roughly 338 marked walks in the region.</p>
+        </div>
+
+        <p>A very useful resource is the regional tourism website at <a href="http://www.regione.vda.it/turismo/default_e.asp" target="_blank" rel="noopener">regione.vda.it/turismo</a> (click "Eng" if given the Italian version). We invite attendees to explore this extensive website at leisure — it gives more than sufficient information about all aspects of the region and its activities. For pictures of scenery in the various Aosta side valleys, see the Travel tab.</p>
+
+        <h3>Hiking</h3>
+        <p>The regional website lists and describes, with maps, approximately 338 walks (not counting the many multi-day treks possible).</p>
+
+        <h3>Rock climbing</h3>
+        <div class="asic-photo">
+          <img src="images/rock-climbing.jpg" alt="Rock climbing in the Valle d'Aosta">
+          <p>Rock climbing is popular throughout the valley.</p>
+        </div>
+        <p>The Aosta Valley has roughly 50 documented rock climbing areas — see <a href="http://www.worldtopo.com/masreg.php?regn=238" target="_blank" rel="noopener">worldtopo.com</a> for an overview.</p>
+
+        <h3>Other activities</h3>
+        <p>Via ferrata, mountaineering, bicycling and mountain biking, rafting, kayaking, fishing, swimming, paragliding, canyoning, summer skiing, golf, horse riding, adventure parks, and hot air ballooning are all available in the region. A cable car tour runs up and over the Mont Blanc massif to Chamonix.</p>
+
+        <h3>Culture</h3>
+        <p>For culture, the region is replete with old castles, museums, and historical sites, along with many seasonal events — the regional website lists these possibilities in detail.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Address correspondence to</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2009)<br>
+          c/o Prof. Richard Shiffrin, Psychology Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+
+        <h3>Webmaster / conference coordinator</h3>
+        <p>Please direct questions concerning the website to:</p>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Muhammad Nubli Mohd Kasa</b><br>
+          Indiana University – Bloomington
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2009');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

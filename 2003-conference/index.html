@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2003 — Squamish, BC | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Second Annual Summer Interdisciplinary Conference (ASIC II), Squamish, British Columbia, Canada, August 6–11, 2003.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2003">
+  <style>
+    #asic2003{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2003 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2003 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2003 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2003 .asic-back:hover{color:#fff;}
+    #asic2003 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2003 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2003 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2003 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2003 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2003 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2003 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2003 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2003 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2003 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2003 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2003 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2003 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2003 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2003 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2003 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2003 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2003 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2003 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2003 .asic-section p{margin:0 0 14px;}
+    #asic2003 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2003 .asic-section li{margin:4px 0;}
+    #asic2003 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2003 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2003 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2003 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2003 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2003 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2003 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2003 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2003 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2003 th,#asic2003 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2003 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2003 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2003 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2003 .asic-photo img{max-width:100%; border-radius:8px; display:block; margin:0 auto;}
+    #asic2003 .asic-photo p{
+      color:#9a9384; font-size:14px; font-style:italic; margin:8px 0 0;
+    }
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2003{border-radius:0;}
+      #asic2003 .asic-shell{flex-direction:column;}
+      #asic2003 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2003 .asic-nav .asic-navhead{display:none;}
+      #asic2003 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2003 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2003 .asic-main{padding:26px 20px 40px;}
+      #asic2003 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2003 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">The Second Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2003</h1>
+    <div class="asic-meta">
+      <span><b>Squamish</b>, British Columbia, Canada</span>
+      <span><b>August 6–11, 2003</b></span>
+      <span>Best Western Sea to Sky Hotel</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2003 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel &amp; Lodging</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2003 (ASIC II)</h2>
+        <p class="asic-lede">The Second Annual Summer Interdisciplinary Conference (ASIC II) was held in Squamish, British Columbia. Richard M. Shiffrin of Indiana University-Bloomington was the conference organizer.</p>
+
+        <div class="asic-photo">
+          <img src="images/toppic03.jpg" alt="Squamish, British Columbia mountains">
+          <p>Squamish, British Columbia — site of ASIC II.</p>
+        </div>
+
+        <p>The conference used the very successful format of ASIC I: days are free for leisure activities and the talks are in the later afternoon/early evening. The date was chosen to make it convenient for attendees to bring family and friends. The conference was open to all interested parties, and an invitation was not needed. The subject is interdisciplinary, within the broad frame of Cognitive Science.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference was open to all scholars who fit the very general theme of the conference, and their family and friends. An individual invitation was not needed — attendees were encouraged to spread the conference information to friends and colleagues.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covered a wide range of subjects in cognitive science, including:</p>
+        <ul>
+          <li>neuroscience, cognitive neuroscience</li>
+          <li>psychology (including perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>computer science</li>
+          <li>machine intelligence and learning</li>
+          <li>linguistics</li>
+          <li>and philosophy</li>
+        </ul>
+        <p>The conference especially invited talks emphasizing theory, mathematical modeling and computational modeling (including neural networks and artificial intelligence). Talks were required to be comprehensible and interesting to a wide scientific audience, with speakers providing overviews of current research areas as well as their own recent progress.</p>
+
+        <h3>Conference format</h3>
+        <p>The conference started with a reception on the first evening, Wednesday, August 6, at 5 PM, followed by a partial session.</p>
+        <p>Each of the next five evenings, sessions began about 4:00 PM. Drinks, light refreshments and snacks were available starting at 3:45 PM, prior to the start of the session, and at the midway break. A session consisted of 6–7 talks and a mid-session break, finishing at approximately 8:00–8:15 PM. A banquet was held following the final session of the conference.</p>
+        <div class="asic-note">The conference ended Monday evening with the banquet. Most attendees used the following day, Tuesday, as a travel day.</div>
+        <p>There were no parallel sessions or presentations. A separate room, day and time was set aside for poster presentations, both for those preferring this format to a spoken presentation and for any presenters who could not be allotted speaking slots.</p>
+
+        <h3>Correspondence</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC II)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+        <p>Email: <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a></p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">To attend the conference, attendees filled out a registration form and sent it, with a check for the registration fee, by regular mail.</p>
+
+        <p>Mailing address for the registration form and fee:</p>
+        <p>
+          ASIC II, c/o Prof. Richard Shiffrin<br>
+          Indiana University Cognitive Science Program<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <tbody>
+            <tr><th>Before May 1, 2003</th><td>$140 USD</td></tr>
+            <tr><th>After May 1, 2003</th><td>$155 USD</td></tr>
+            <tr><th>On-site payment</th><td>$175 USD</td></tr>
+          </tbody>
+        </table>
+        <p>All fees were payable by check (no credit cards), made out to Annual Summer Interdisciplinary Conference (or ASIC II) and sent to the organizer at the address above. Checks from attendees outside the US were drawn on a US bank, or sent as an international cashier's check or the equivalent.</p>
+
+        <div class="asic-note">The registration fee included the opening night reception, food, drink and facilities for all sessions, and the final banquet. Extra tickets were available for the opening reception ($10 USD/person) and the final banquet ($35 USD/person).</div>
+      </section>
+
+      <!-- TRAVEL & LODGING -->
+      <section class="asic-section" id="travel">
+        <h2>Travel &amp; Lodging</h2>
+        <p class="asic-lede">Squamish is located on Howe Sound, in the southwest corner of British Columbia — about 30 miles north of Vancouver, roughly halfway between Vancouver and the resort city of Whistler.</p>
+
+        <p>Most attendees flew into Vancouver International Airport. The scenic drive from the Vancouver airport took approximately 75 minutes, with rental cars, rail, bus, and limo/van service all available from Vancouver. Attendees could also fly to Seattle, though the drive to Squamish from there was substantial; a small airport in Squamish itself had taxi service available.</p>
+
+        <h3>Lodging</h3>
+        <div class="asic-photo">
+          <img src="images/bwseatosky.jpg" alt="Best Western Sea to Sky Hotel">
+          <p>Best Western Sea to Sky Hotel, Garibaldi Highlands, B.C.</p>
+        </div>
+        <p>The conference hotel was the <b>Best Western Sea to Sky Hotel</b> (40330 Tantulus Way, PO Box 310, Garibaldi Highlands, B.C. V0N 1T0), about 3 km north of the center of Squamish. The hotel had a restaurant, fitness room, sauna and jacuzzi, with several dining choices nearby. ASIC reserved the entire hotel, including a substantial number of standard rooms with two extra-long double beds, as well as several suites.</p>
+        <p>Attendees made their own reservations directly by calling 1-800-531-1530 or 1-604-898-4874, or by fax at 1-604-898-3692, mentioning ASIC for the conference rate.</p>
+
+        <table>
+          <tbody>
+            <tr><th>Standard (2 doubles)</th><td>Canadian $74</td></tr>
+            <tr><th>Suite (1 king, 2 doubles, 1 queen pull-out)</th><td>Canadian $84</td></tr>
+            <tr><th>3-bed (2 doubles, 1 queen pull-out)</th><td>Call for rate</td></tr>
+          </tbody>
+        </table>
+
+        <p>For additional demand, or for families wanting a waterslide and pool, the Squamish Super 8 Motel — about halfway between the Sea to Sky Hotel and town — was available at rates about Canadian $10 higher. Reservations: 1-800-800-8000 (or locally 1-604-815-0883; fax 1-604-815-0884).</p>
+        <p>Inexpensive lodging was also available in the area, including camping or the Squamish Hostel.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Squamish sits amidst mountains at the tip of Howe Sound, near the mouth of the Squamish, Mamquam and other rivers — adjacent to the most famous rock climbing face in Canada, the Stawamus Chief (roughly 2,000 ft. tall).</p>
+
+        <div class="asic-photo">
+          <img src="images/climb.jpg" alt="Rock climbing near Squamish">
+          <p>Climbing at Squamish, adjacent to the Stawamus Chief.</p>
+        </div>
+
+        <p>Squamish is most famous for its climbing, windsurfing, fishing and mountain biking, with superb opportunities in many other sports and recreations as well.</p>
+
+        <div class="asic-photo">
+          <img src="images/raft.jpg" alt="Whitewater rafting near Squamish">
+          <p>Whitewater rafting on the rivers near Squamish.</p>
+        </div>
+
+        <h3>Within easy distance of the hotel</h3>
+        <ul>
+          <li>Golf courses</li>
+          <li>Squash &amp; tennis</li>
+          <li>Kayaking &amp; boating</li>
+          <li>Swimming &amp; windsurfing</li>
+          <li>ATV tours</li>
+          <li>Whitewater rafting</li>
+          <li>Rock climbing &amp; mountain climbing</li>
+          <li>Hiking &amp; mountain hiking</li>
+          <li>Glacier air tours</li>
+          <li>Fishing &amp; horseback riding</li>
+          <li>Wilderness adventures &amp; underground mine exploration</li>
+          <li>Bird watching (estuary and bald eagles)</li>
+        </ul>
+
+        <p>Outfitters and area attractions mentioned on the original site included the BC Museum of Mining National Historic Site, Sea to Sky Eco Tours (ATV tours), Whistler River Adventures (rafting, fishing, jetboating), Sea to Sky Ocean Sports (kayaking, windsurfing, diving), Canadian Outback Adventure Company (whitewater rafting, heli-rafting, horseback riding), Sea to Sky Stables, the Squamish Estuary, and Furry Creek Golf and Country Club.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email was the preferred way to reach the organizer.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Richard M. Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC II)<br>
+          c/o Prof. Richard Shiffrin<br>
+          Psychology Department<br>
+          Indiana University<br>
+          1101 E. 10th St.<br>
+          Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2003');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

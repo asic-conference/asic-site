@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2023 — Kranjska Gora, Slovenia | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The 23rd Annual Summer Interdisciplinary Conference, Ramada Resort by Wyndham, Kranjska Gora, Slovenia, July 3–8, 2023.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2023">
+  <style>
+
+    #asic2023{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2023 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2023 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2023 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2023 .asic-back:hover{color:#fff;}
+    #asic2023 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2023 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2023 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2023 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2023 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2023 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2023 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2023 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2023 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2023 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2023 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2023 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2023 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2023 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2023 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2023 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2023 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2023 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2023 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2023 .asic-section p{margin:0 0 14px;}
+    #asic2023 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2023 .asic-section li{margin:4px 0;}
+    #asic2023 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2023 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2023 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2023 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2023 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2023 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2023 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2023 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2023 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2023 th,#asic2023 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2023 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2023 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2023 .asic-photo{
+      border:1px dashed #c9c2b4; background:#faf8f3; border-radius:8px;
+      padding:22px; text-align:center; color:#9a9384; font-size:14px;
+      font-style:italic; margin:0 0 18px;
+    }
+    #asic2023 .asic-figure{margin:0 0 20px; text-align:center;}
+    #asic2023 .asic-figure img{max-width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12);}
+    #asic2023 .asic-figure figcaption{margin-top:8px; font-size:14px; font-style:italic; color:var(--muted);}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2023{border-radius:0;}
+      #asic2023 .asic-shell{flex-direction:column;}
+      #asic2023 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2023 .asic-nav .asic-navhead{display:none;}
+      #asic2023 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2023 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2023 .asic-main{padding:26px 20px 40px;}
+      #asic2023 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2023 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">23rd Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2023</h1>
+    <div class="asic-meta">
+      <span><b>Kranjska Gora</b>, Slovenia</span>
+      <span><b>July 3–8, 2023</b> · Monday–Saturday</span>
+      <span>Ramada Resort by Wyndham</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2023 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2023</h2>
+        <p class="asic-lede">The 23rd Annual Summer Interdisciplinary Conference, held at the Ramada Resort by Wyndham, Borovska Cesta 99, 4280 Kranjska Gora, Slovenia.</p>
+
+        <figure class="asic-figure">
+          <img src="images/index_001.jpg" alt="The town of Kranjska Gora">
+          <figcaption>The town of Kranjska Gora</figcaption>
+        </figure>
+
+        <p>The conference had talks every afternoon and evening on the six consecutive days, Monday July 3 to Saturday July 8, 2023 (the last talks were held the evening of July 8).</p>
+
+        <p>The Ramada Resort is a 4* modern hotel with all the facilities ASIC attendees have come to expect; see the <a href="https://www.wyndhamhotels.com/ramada/kranjska-gora-slovenia/ramada-resort-kranjska-gora/overview" target="_blank" rel="noopener">hotel website</a>. The meetings, catered breaks, and breakfasts and dinners were held in the hotel.</p>
+
+        <h3>Kranjska Gora</h3>
+        <p>Kranjska Gora sits in the Julian Alps of Slovenia, on the northern edge of Triglav National Park (home to Triglav, the largest mountain in Slovenia — a national treasure and a hiking and climbing target for many Slovenians and visitors). It is about 40 minutes by car from the international airport near Kranj, north of Ljubljana, and about 2 hrs 50 min from Marco Polo Airport, Venice.</p>
+
+        <h3>Activities</h3>
+        <p>The area around the Julian Alps is extremely scenic, attractive for everything from casual sightseeing and leisure sports to adventure activities — about 30 minutes by car from the well-known lakeside town of Bled, and about an hour from the resort at Lake Bohinj on the other side of Triglav National Park. The area offers hiking, scrambling and peak bagging, via ferrata, mountain and road biking, rock climbing, mountaineering, paragliding, white-water rafting, kayaking, canyoning, and leisure activities such as sightseeing, fishing, tennis, and golf.</p>
+
+        <h3>Organizer</h3>
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer (see the Contact tab for all contact info).</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of ASIC conferences is interdisciplinary, with a primary emphasis on a wide variety of scientific domains within the broad frame of cognitive science. ASIC follows the successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussion among participants, talks are in the late afternoon and early evening, followed by dinner. The dates are chosen to make it convenient for attendees to bring family and friends.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties and their family and friends — no invitation is needed to attend. Due to the small number of speaking slots, if too many attendees wish to speak, the organizer adapts talk lengths and/or selects speakers.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations. The conference began with registration and a reception with drinks and food from about 15:30–16:00 on Monday, July 3. On subsequent days there were drinks and light snacks from about 15:40–16:00, followed by a session of about seven or eight spoken presentations, which could include a mid-session break. The last evening of talks was Saturday, July 8.</p>
+
+        <p>For a listing of all past ASIC sites, see the <a href="../">previous ASIC sites document</a>.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Registration was made through the Indiana University Conference Bureau, with the fee covering conference-room rental, equipment, and catering for breaks and receptions.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead>
+            <tr><th>Payment window</th><th>Fee</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2023</th><td>$300</td></tr>
+            <tr><th>January 1 – April 1, 2023</th><td>$350</td></tr>
+            <tr><th>After April 1, 2023</th><td>$400</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the per-attendee registration fee, guest vouchers for others attending receptions and breaks were $25 per guest per day.</p>
+
+        <p>Attendees staying at sites other than the conference hotel could take dinner at the conference hotel for 21 euro per person per dinner, paid directly to the hotel.</p>
+
+        <div class="asic-note">If a registration payment was made but the attendee cancelled prior to May 1, 2023, the fee was refunded; cancellations after that date were refunded minus a $20 handling fee.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms was held at the Ramada Resort by Wyndham, Borovska Cesta 99, 4280 Kranjska Gora, Slovenia.</p>
+
+        <figure class="asic-figure">
+          <img src="images/lodging_001.jpg" alt="Ramada Resort Kranjska Gora">
+          <figcaption>Ramada Resort, Kranjska Gora</figcaption>
+        </figure>
+
+        <p>The Ramada Resort has a variety of room types and, at no charge, high-speed wifi, parking, pool, fitness facilities, a children's animation program, a business center, and casino entry (30% discount for the sauna). See the <a href="https://www.wyndhamhotels.com/ramada/kranjska-gora-slovenia/ramada-resort-kranjska-gora/overview" target="_blank" rel="noopener">hotel website</a>.</p>
+
+        <h3>Airport pickup (per car or van, not per person)</h3>
+        <table>
+          <thead>
+            <tr><th>Airport</th><th>Car (1–3 people)</th><th>Van (4–8 people)</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Ljubljana Airport</th><td>100.00 EUR</td><td>160.00 EUR</td></tr>
+            <tr><th>Klagenfurt</th><td>100.00 EUR</td><td>160.00 EUR</td></tr>
+            <tr><th>Trieste Airport</th><td>190.00 EUR</td><td>260.00 EUR</td></tr>
+            <tr><th>Venice Airport</th><td>270.00 EUR</td><td>380.00 EUR</td></tr>
+            <tr><th>Zagreb</th><td>180.00 EUR</td><td>240.00 EUR</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Lodging rates</h3>
+        <p>Rates are inclusive except for a tourist tax of 3 euro per day per person, and are half-board (breakfast and dinner). Rates were available June 30 – July 12, 2023.</p>
+        <table>
+          <thead>
+            <tr><th>Occupancy</th><th>Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>One adult, half board</th><td>134 €/day</td></tr>
+            <tr><th>Two adults in one room, half board (both)</th><td>194 €/day</td></tr>
+          </tbody>
+        </table>
+        <p>For larger suites and children's pricing, contact <a href="mailto:info@hit-alpinea.si">info@hit-alpinea.si</a>.</p>
+
+        <h3>Reservations &amp; contact</h3>
+        <p>Email lodging requests to <a href="mailto:info@hit-alpinea.si">info@hit-alpinea.si</a>, or call the reservation department (Slovenia time, M–F 8 AM–6 PM, Sat 9 AM–3 PM): +386 4 589 20 62. Mention you are reserving for ASIC.</p>
+
+        <h3>Cancellation policy</h3>
+        <ul>
+          <li>Free cancellation until April 3, 2023</li>
+          <li>5% fee: April 4 – May 31, 2023</li>
+          <li>30% fee: June 1 – June 15, 2023</li>
+          <li>50% fee: June 16 – June 23, 2023</li>
+          <li>100% fee: after June 23, 2023</li>
+        </ul>
+
+        <h3>Schedule</h3>
+        <p>Each day began with a reception with refreshments and light food near or in the conference room, starting about 15:40. Talks ran roughly 16:00–20:00, followed by group dinner.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining &amp; Receptions</h2>
+        <p class="asic-lede">Breakfast was included in the daily lodging price.</p>
+
+        <p>Buffet breakfast was available 7:00–10:00 AM. Dinners were buffet style in the main restaurant when talks ended around 8:15, with numerous options including vegetarian choices (vegans were asked to notify the restaurant in advance when reserving). Water and non-alcoholic drinks were available at breakfast, but guests paid for all drinks at dinner.</p>
+
+        <div class="asic-note">Attendees staying elsewhere could join the main group for dinner at a charge of 21 euro. Attendees staying at the hotel who wished to dine elsewhere in Kranjska Gora could, with notice the evening prior, have the half-board lodging charge reduced by 6 euro.</div>
+
+        <h3>Daily receptions</h3>
+        <p>Each day there was a catered reception with drinks and finger food near the conference room prior to the speaking session — about 15:30 on July 3, about 15:40 on subsequent days. The registration fee covered these receptions; guests and family members attending only receptions had a reduced registration fee.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Kranjska Gora is at the north edge of Triglav National Park, close to where Italy, Austria, and Slovenia meet.</p>
+
+        <figure class="asic-figure">
+          <img src="images/travel_003.png" alt="Center of Kranjska Gora">
+          <figcaption>Center of Kranjska Gora</figcaption>
+        </figure>
+
+        <p>The Ramada Resort by Wyndham (not to be confused with the nearby Ramada Hotel and Suites) is at Borovska Cesta 99, 4280 Kranjska Gora. Most attendees flew to a nearby airport and traveled by bus, shuttle, train-plus-bus, or rental car.</p>
+
+        <p>The closest international airport is near Ljubljana (near the city of Kranj), about 50 minutes by car, with shuttle, bus, and train-plus-bus service also available. The next closest large international airport is Marco Polo Airport, Venice, about 2 hrs 40 minutes by car. There is also a smaller airport at Klagenfurt, Austria, about an hour by car.</p>
+
+        <p>Once in Kranjska Gora, bus services enable visits to local attractions and activities, though most attendees found it most convenient to have a car given the need to return to the hotel in time for conference talks.</p>
+
+        <p>Kranjska Gora was first mentioned in written sources in 1326, believed settled as early as the 11th century by Slovenes from Carantania. A railroad connection built in 1870 unofficially started the age of tourism. Today it is a world-renowned ski resort in winter and offers an array of outdoor activities in summer, with excellent road accessibility to Bohinj, Bled, Bovec, Ljubljana, and nearby Austria and Italy.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Wonderful opportunities for hiking, climbing, and adventure sports in the general area of Kranjska Gora, many suitable for day trips finishing in time for a return to the conference by 16:00.</p>
+
+        <figure class="asic-figure">
+          <img src="images/activities_001.jpg" alt="Window on Kopiscar Via Ferrata, Prisojnik, Julian Alps">
+          <figcaption>Window on Kopiscar Via Ferrata, Prisojnik, Julian Alps</figcaption>
+        </figure>
+
+        <h3>Hiking</h3>
+        <p>See <a href="https://www.alltrails.com/slovenia/-/kranjska-gora" target="_blank" rel="noopener">AllTrails</a>, <a href="https://www.moonhoneytravel.com/kranjska-gora-slovenia/" target="_blank" rel="noopener">Moon &amp; Honey Travel</a>, <a href="https://kranjska-gora.si/en/activities/category/hiking/" target="_blank" rel="noopener">kranjska-gora.si</a>, and <a href="https://www.slovenia.info/en/places-to-go/regions/alpine-slovenia/kranjska-gora" target="_blank" rel="noopener">slovenia.info</a> for numerous hiking options.</p>
+
+        <h3>Mountaineering</h3>
+        <p>Triglav (9,396 ft), the largest mountain in Slovenia, is the centerpiece of Triglav National Park, accessible by a combination of hiking and via ferrata or several climbing routes. Given Kranjska Gora's altitude (2,645 ft) and the logistics involved, ascending and returning in time for the conference is not possible — this peak is best scheduled for days before or after ASIC (the ascent normally takes two full days by any route).</p>
+
+        <h3>Rock climbing</h3>
+        <p>The Vršič Pass area offers a nice collection of rock climbing sites — smooth slabs with good rock offering 35 routes ranging from 18 to 100 meters. As usual, ASIC offered a group climbing day open to everyone from children to experts, on Wednesday, July 5, near Golica close to the Austrian border, about 45 minutes' drive, with a car caravan arranged for transport.</p>
+
+        <h3>Via ferrata</h3>
+        <p>There are quite a few via ferrata routes in the Kranjska Gora area, varying in length, difficulty, and scenic beauty — a family-friendly favorite offering high mountain exposure and scenic views without technical climbing skill.</p>
+
+        <h3>Canyoning</h3>
+        <p>Participants don wetsuits and, with guides, descend a mountain stream in a narrow canyon — no experience required, suitable for families and children.</p>
+
+        <h3>Parasailing</h3>
+        <p>Tandem flights with an expert guide, lifting off from a hillside or cliff, ascending thermals and landing in a field.</p>
+
+        <h3>Road &amp; mountain biking</h3>
+        <p>Many possibilities exist in the area of Kranjska Gora for both road and mountain biking.</p>
+
+        <h3>White-water rafting</h3>
+        <p>Another favorite activity for families and individuals.</p>
+
+        <h3>Leisure activities</h3>
+        <p>The area has many leisure activities including golf, tennis, and adventure parks.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-219-5892
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2023)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2023');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2016 — Selva, Val Gardena, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The Fifteenth Annual Summer Interdisciplinary Conference, Hotel Oswald, Selva, Val Gardena, Italian Dolomites, July 3–8, 2016.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2016">
+  <style>
+    #asic2016{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2016 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2016 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2016 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2016 .asic-back:hover{color:#fff;}
+    #asic2016 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2016 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2016 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2016 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2016 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2016 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2016 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2016 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2016 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2016 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2016 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2016 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2016 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2016 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2016 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2016 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2016 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2016 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2016 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2016 .asic-section p{margin:0 0 14px;}
+    #asic2016 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2016 .asic-section li{margin:4px 0;}
+    #asic2016 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2016 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2016 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2016 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2016 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2016 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2016 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2016 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2016 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2016 th,#asic2016 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2016 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2016 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2016 .asic-photo{margin:0 0 18px; text-align:center;}
+    #asic2016 .asic-photo img{max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto;}
+    #asic2016 .asic-photo p{margin:8px 0 0; font-size:14px; font-style:italic; color:#9a9384;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2016{border-radius:0;}
+      #asic2016 .asic-shell{flex-direction:column;}
+      #asic2016 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2016 .asic-nav .asic-navhead{display:none;}
+      #asic2016 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2016 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2016 .asic-main{padding:26px 20px 40px;}
+      #asic2016 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2016 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">Fifteenth Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2016</h1>
+    <div class="asic-meta">
+      <span><b>Selva, Val Gardena</b>, Italian Dolomites, Italy</span>
+      <span><b>July 3–8, 2016</b> · six days of talks</span>
+      <span>Hotel Oswald</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2016 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">⛰️</span> Home</button>
+      <button class="asic-tab" data-tab="schedule"><span class="ic">📅</span> Schedule &amp; Talks</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2016</h2>
+        <p class="asic-lede">The Fifteenth Annual Summer Interdisciplinary Conference, held at Hotel Oswald in Selva, Val Gardena, Italy, July 3–8, 2016.</p>
+
+        <p>The dates were chosen to reduce conflicts with the 2016 annual meetings of the Cognitive Science Society and the Mathematical Psychology Society, held in Philadelphia later in the summer.</p>
+
+        <div class="asic-photo">
+          <img src="images/index_001.jpg" alt="ASIC organizer Rich Shiffrin atop Torre Grande, near Cortina">
+          <p>ASIC organizer, Rich Shiffrin, atop Torre Grande, near Cortina</p>
+        </div>
+
+        <p>Hotel Oswald is a highly rated hotel with an excellent restaurant (<a href="http://www.hoteloswald.com/en/" target="_blank" rel="noopener">hoteloswald.com/en</a>). The meetings and catered breaks are held in a city conference room adjacent to the hotel, with lodging and dining at Hotel Oswald.</p>
+
+        <p>Possibly the most highly rated previous ASIC conference was held in 2013 in the adjacent valley to the east, in Cortina d'Ampezzo, and this year's site was chosen in an attempt to replicate that experience without repeating a prior site. The entire area is outstanding in every respect and has been a UNESCO World Natural Heritage site since 2009.</p>
+
+        <p>Travel to Selva is fairly easy from major airports at Venice, Milan, and Innsbruck, among others, by rental car or bus. Selva is surrounded by Dolomite mountain groups, many with lifts that operate in summer and bring visitors high into the mountains to hiking trails, biking trails, climbing areas, rifugios, and via ferrata.</p>
+
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer: email correspondence should be directed to <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a>.</p>
+
+        <h3>About the conference</h3>
+        <p>The subject matter of the ASIC conferences is interdisciplinary, within the broad frame of Cognitive Science. ASIC uses the very successful format of previous ASIC and AIC conferences: days are free for leisure activities and discussions among participants. The talks are in the later afternoon/early evening, followed by dinner. The date has been chosen to make it convenient for attendees to bring family/friends.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties, and their family and friends. An invitation is NOT needed to attend. However, due to the small number of spots for speakers, the organizer will select the attendees to give talks, and choose the lengths of talks.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference covers a wide range of subjects in cognitive science, including: modeling of cognition; neuroscience and cognitive neuroscience; psychology (perception, psychophysics, attention, information processing, memory and cognition); computer science and artificial intelligence; machine intelligence and learning; methodology and statistics; linguistics, psycholinguistics and computational linguistics; and philosophy of mind and cognitive science. We especially invite talks emphasizing theory, mathematical modeling, and computational modeling.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day, intentionally organized to maximize the dissimilarity of each day's presentations. If the number of participants exceeds the number of speaking slots (about 42), the organizer will select some talks to be of shorter duration, and if necessary choose the speakers who will present.</p>
+
+        <p>The conference starts with registration and a reception with wine, beer, drinks and food from about 15:30–16:15 on Sunday, July 3. On subsequent days there are drinks and light snacks from ~15:45–16:15, followed by a session of about seven spoken presentations that include a mid-session drink break. The last evening of talks is Friday, July 8, so plan to depart no earlier than Saturday, July 9.</p>
+
+        <p>Useful websites: <a href="http://www.hoteloswald.com/en/" target="_blank" rel="noopener">hoteloswald.com/en</a>, <a href="http://www.valgardena.it/en/" target="_blank" rel="noopener">valgardena.it/en</a>, <a href="http://www.val-gardena.com/en/" target="_blank" rel="noopener">val-gardena.com/en</a>.</p>
+      </section>
+
+      <!-- SCHEDULE & TALKS -->
+      <section class="asic-section" id="schedule">
+        <h2>Schedule &amp; Talks</h2>
+        <p class="asic-lede">Talk order each day was determined by the session chair. Total time for talk, questions, setup, and interruptions: 25 minutes.</p>
+
+        <p>Food and drink were available about 20 minutes prior to each session start, at the conference venue behind Hotel Oswald (across the bridge over the creek).</p>
+
+        <h3>Sunday, July 3, 4:00pm — Oberauer, Chair</h3>
+        <ul>
+          <li>Oberauer — Does rehearsal help immediate serial recall?</li>
+          <li>Walasek — Income inequality and positional consumption online</li>
+          <li>Sanborn — People are normative some of the time: Mixing combination rules</li>
+          <li>Regenwetter — The construct-behavior gap in behavioral decision research</li>
+          <li>Huber — Episodic memory and spatial navigation in the MTL</li>
+          <li>Sperling — Attention filters for features. New results</li>
+          <li>Anders — Merging regression with sequential sampling models</li>
+          <li>Cowell — Computational model of perceptual deficits in MTL amnesia</li>
+          <li>Franconeri — Visual exploration and communication of patterns in data</li>
+        </ul>
+
+        <h3>Monday, July 4, 4:00pm — Dunn, Chair</h3>
+        <ul>
+          <li>Dunn — Testing models of reasoning with signed difference analysis</li>
+          <li>van Ravenzwaaij — The EZ Diffusion Model: A powerful test of empirical effects</li>
+          <li>French — A new fading-Gaussian activation-based model of interval-timing</li>
+          <li>Landy — Systematic structure in ignorance and political misinformation</li>
+          <li>Gorea — Confidence levels during perception are discrete not continuous</li>
+          <li>Guest — What the success of brain imaging implies about the neural code</li>
+          <li>Halpern — Constrained optimization: Modeling selection in categorization</li>
+          <li>Holden — Intentional control of cognitive dynamics</li>
+          <li>Holmes — New approach for modeling decisions about changing information</li>
+        </ul>
+
+        <h3>Tuesday, July 5, 4:00pm — Donkin, Chair</h3>
+        <ul>
+          <li>Donkin — Exploring Bayesian decision rules in visual working memory</li>
+          <li>Ziegler — Modeling and predicting individual dyslexia patterns</li>
+          <li>McNamara — Individual differences in cue combination during navigation</li>
+          <li>Lewandowsky — Quantitative constraints on intergenerational social discount rate</li>
+          <li>Malmberg — Toward a model of the problem of autobiographical memory</li>
+          <li>Matzke — Avoid shortcuts in modeling hierarchical data</li>
+          <li>Melcher — Temporal windows and perceptual cycles organize vision</li>
+          <li>Stoianov — The perceptual code in reading: explaining spatial variance</li>
+          <li>Talmi — Modeling the list composition effect on emotional memory</li>
+        </ul>
+
+        <h3>Wednesday, July 6, 4:00pm — Love, Chair</h3>
+        <ul>
+          <li>Love — Coherency maximizing exploration in the supermarket</li>
+          <li>Shiffrin — Learning during short-term scanning</li>
+          <li>Musca — Does word frequency explain free recall?</li>
+          <li>Brown — A rank-based approach to preferences and judgments</li>
+          <li>Palmeri — Modeling Perceptual Expertise</li>
+          <li>Kouider — Consciousness and predictive coding in the infant brain</li>
+          <li>Pauli — Of cognitive models in ancient, subcortical brain structures</li>
+          <li>Pecher — Grasp compatibility effects</li>
+          <li>Rehder — Beyond Markov: The Beta-Q model of causal reasoning</li>
+        </ul>
+
+        <h3>Thursday, July 7, 4:00pm — Sloutsky, Chair</h3>
+        <ul>
+          <li>Sloutsky — The development of categorization</li>
+          <li>Bhatia — Modeling associative judgments with vector space semantics</li>
+          <li>Trueblood — When are causal representations quantum versus classical?</li>
+          <li>Cheng — Causal invariance aspiration shapes our causal representations</li>
+          <li>McLaughlin — Modeling feedback response to in verbal rule-based categorization</li>
+          <li>Mullett — Attention and behavioral phenomena in choice models</li>
+          <li>Simen — Robust time scale invariance in timing and perceptual decisions</li>
+          <li>Speekenbrink — Exploration and exploitation in contextual multi-armed bandits</li>
+          <li>Steil — Scaling exploratory robot learning from motor to social learning</li>
+        </ul>
+
+        <h3>Friday, July 8, 4:00pm — Yearsley, Chair</h3>
+        <ul>
+          <li>Yearsley — Quantum and classical models of causal political judgments</li>
+          <li>Jones — Logical incoherence of game-theoretic rationality</li>
+          <li>Pezzulo — Multi-attribute choices: inter-temporal and effort-based decisions</li>
+          <li>Ramscar — Neuropsychological tests exaggerate "healthy cognitive decline"</li>
+          <li>Averbeck — Markov decision processes and exploration-exploitation</li>
+          <li>Testolin — Letter perception emerges using deep neural networks</li>
+          <li>Trcek — Attributing 'trust' to specific parts of the nervous system</li>
+          <li>Usher — Selective-integration: accounting for decoy effects</li>
+          <li>Zorzi — Attention and spatial processing in normal and damaged brains</li>
+        </ul>
+
+        <div class="asic-note">Regular talks were limited to 30 minutes, a time that includes interruptions for questions and final discussion. Information on submitting proposals for presentations was available on the "Talk and Poster Submissions" page.</div>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">If you are planning to attend ASIC 2016, fill out the registration form and submit your registration fee.</p>
+
+        <p>This fee pays for rental of the conference room, conference equipment rentals, catering costs for snacks and drinks at conference breaks and receptions, and several other miscellaneous costs.</p>
+
+        <h3>Fee schedule (US dollars)</h3>
+        <table>
+          <thead><tr><th>Timing</th><th>To Indiana Conference Bureau</th></tr></thead>
+          <tbody>
+            <tr><th>Prior to January 1, 2016</th><td>$275</td></tr>
+            <tr><th>January 1 – March 1, 2016</th><td>$325</td></tr>
+            <tr><th>After March 1, 2016</th><td>$375</td></tr>
+          </tbody>
+        </table>
+
+        <p>In addition to the registration fee per person, you may purchase additional guest vouchers for other persons attending the receptions and breaks ($20 per day).</p>
+
+        <div class="asic-note">Registration and payments are made via the Indiana University Conference Bureau. If a registration payment is made but the attendee cancels prior to June 1, the fee is refunded minus a $25 handling fee. After June 1 and prior to the conference, a refund is still made, but the handling fee rises to $75.</div>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is held at Hotel Oswald, Selva, Val Gardena, Italy — an excellent hotel with high ratings, spa facilities, and an outstanding restaurant.</p>
+
+        <div class="asic-photo">
+          <img src="images/lodging_002.jpg" alt="Hotel Oswald, Selva Val Gardena">
+        </div>
+
+        <p>Hotel website: <a href="http://www.hoteloswald.com/en/" target="_blank" rel="noopener">hoteloswald.com/en</a>. Lodging rates include breakfast and dinner for each person each day. Reservations should be made early, starting in fall 2015.</p>
+
+        <h3>Rates</h3>
+        <ul>
+          <li>One person/single room (only six single rooms available): €102/day</li>
+          <li>One person in double room: €142/day</li>
+          <li>Two persons in a double room: €84/person/day</li>
+          <li>Two persons in family suite (2 bedrooms, 2 baths): €102/person/day</li>
+          <li>Three persons in family suite: €94/person/day</li>
+        </ul>
+        <p>There are a variety of discounted prices for children of various ages; contact the hotel directly to determine pricing for your family situation.</p>
+
+        <h3>Deposit</h3>
+        <p>30% of total charges at time of booking, until June 1. 70% from June 1 to June 28. 100% after June 28.</p>
+
+        <h3>Cancellation</h3>
+        <p>A full refund (minus a small handling fee) is made if cancellation occurs prior to May 1. After May 1, until June 1, the 30% fee is nonrefundable. After June 1, the hotel requires 70% of total charges (non-refundable if cancelled). After June 28, the hotel requires 100% of total charges (non-refundable if cancelled).</p>
+
+        <div class="asic-note">
+          <b>Insurance.</b> The hotel offers cancellation insurance in case cancellation is necessary due to certain unforeseen circumstances, at a cost of 5% of the booking rate.
+        </div>
+
+        <h3>Reservations</h3>
+        <p>Send an email indicating you are about to reserve, and you will receive a conference password. Book by calling the hotel with the password (they will ask for the appropriate deposit), or send a deposit by bank transfer to Raiffeisenkasse Selva Val Gardena, Italy, Hotel Oswald — IBAN: IT 82 Y 0823858890000300002674, Swift-Bic: RZSBIT21055. You can also book using the hotel's online service.</p>
+
+        <h3>Parking &amp; internet</h3>
+        <p>Parking is €5/day. Wireless internet is free in public areas and guest rooms.</p>
+
+        <h3>Address &amp; telephone</h3>
+        <p>
+          HOTEL OSWALD****<br>
+          Via Meisules 140, I-39048 Selva Val Gardena<br>
+          Tel: +39 0471 795151 · Fax: +39 0471 794131<br>
+          Email: <a href="mailto:info@hoteloswald.com">info@hoteloswald.com</a>
+        </p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Meals, Dining &amp; Breaks</h2>
+        <p class="asic-lede">A generous breakfast buffet and four-course dinner at Hotel Oswald are included in the lodging price.</p>
+
+        <p>A catered reception starts each conference proceeding at about 15:45, with drinks and finger food, next to the hotel in the city conference center. The registration fee pays for the food and drink at these conference reception/breaks.</p>
+
+        <p>Breakfast is served each day from 7:30 to 10:00. Dinner takes place after the conference talks end, about 20:15–20:30, with offerings that change daily and include vegetarian choices.</p>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">Travel to and around Val Gardena.</p>
+
+        <p>It is a good idea to explore the area with Google Maps and Google Earth. Several websites provide information about air, train, car, and bus services, e.g. <a href="http://www.val-gardena.com/en/how-to-get-there/page373.html" target="_blank" rel="noopener">val-gardena.com/en/how-to-get-there</a>.</p>
+
+        <h3>By plane</h3>
+        <p>The main international airports giving the best access to Val Gardena and Selva are Venice, Italy (about three hours driving), and Innsbruck, Austria (about two hours driving). There are smaller, closer airports, but not usually with international flights.</p>
+
+        <h3>By car</h3>
+        <p>From Innsbruck: A13 and A22 south over Brennero Pass, SS12 to SP82 to SS242d to SS242 (~2 hrs). From Venice: A27 to SS51 to SP251 to SR48 to SS244 to SS243 (about 3 hrs).</p>
+
+        <h3>By train and bus</h3>
+        <p>A variety of connections are available from the north or south. There are many local buses in Val Gardena.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The Val Gardena area offers the variety of activities, spectacular scenery, and nature that was present for ASIC 2013 in Cortina d'Ampezzo.</p>
+
+        <p>Activities include hiking, biking, via ferrata, rock climbing, and parasailing, with easy and convenient accessibility from roads, lifts, and rifugios.</p>
+
+        <h3>Area &amp; Dolomite mountain groups</h3>
+        <p>Immediately adjacent to Selva, to the south, are the Sassalungo, Langkofel, and Sella dolomite groups. Also close, just to the north, is the Odle group. Northeast is Stevia, southeast is Piz Boe. Heading east 32 km (toward Cortina) is Lagazuoi. South 35 km is the Rosengarten/Catinaccio group (with the Vajolet Towers).</p>
+
+        <h3>Lifts and cable cars</h3>
+        <p>There are about 12 lifts and cable cars in Val Gardena open in the summer, giving convenient access to dramatic hiking trails, climbing possibilities, biking trails, via ferrata, and views. A three-day adult pass is 60 euros; a six-day pass is 79 euros (children's passes reduced by age).</p>
+
+        <h3>Hiking</h3>
+        <div class="asic-photo">
+          <img src="images/activities_011.jpg" alt="Rock climbing near Val Gardena">
+        </div>
+        <p>There are hundreds, possibly thousands, of hiking paths and trails throughout Val Gardena, well maintained and marked by number, varying in length, difficulty, vertical gain and loss, and access, connecting the many rifugios and often including peaks and dramatic viewpoints.</p>
+
+        <h3>Via Ferrata</h3>
+        <div class="asic-photo">
+          <img src="images/activities_007.jpg" alt="Via Ferrata in the Dolomites near Selva">
+        </div>
+        <p>Via Ferrata are protected hiking paths in the dramatic heights, cliffs, and spires of the Dolomites — the hiker uses a harness, slings and carabiners to attach to cables affixed to the cliffsides. They range from easy to difficult, graded on technical difficulty (I–5) and seriousness (A–C). We anticipate that one of the two conference climbing guides will lead a group at least once on an especially noteworthy via ferrata.</p>
+
+        <h3>Rock climbing</h3>
+        <p>We arrange at least one and likely two "group" climbing days that allow beginners, novices, and children to try rock climbing, at Sella Pass, an incredibly dramatic and pleasant site with many easy and moderate climbs peppered with large boulders and bolted routes, surrounded by Sassolungo and the Sella group. The first group climbing day is scheduled for Monday, July 4. There are several climbing guide centers in Selva, one directly across the street from Hotel Oswald.</p>
+
+        <h3>Mountaineering</h3>
+        <p>The many peaks in Val Gardena allow a variety of mountaineering ascents, though the extremely large vertical relief from a low starting elevation generally entails a very long day — best planned for days prior to or after the conference.</p>
+
+        <h3>Canyoning</h3>
+        <p>Suitable for beginners with no experience but exciting and enjoyable: wear a wetsuit, enter a stream in a narrow canyon high in the dolomites, and descend by walking, scrambling, floating, and sliding, with the guide lowering clients by rope where cliffs are encountered.</p>
+
+        <h3>Parasailing</h3>
+        <p>Tandem paragliding provides an exciting and exhilarating experience with an expert guide, with the additional benefit of extraordinary Dolomite scenery. There are something like 45 Via Ferrata accessible for day tours from Selva, covering the full range of lengths and difficulties.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <div class="asic-photo">
+          <img src="images/contact_001.jpg" alt="Richard Shiffrin at ASIC 2013 near Cortina d'Ampezzo">
+          <p>Richard Shiffrin at ASIC 2013 near Cortina d'Ampezzo, Italy</p>
+        </div>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Fax: 812-855-9871
+        </p>
+
+        <h3>Webmaster / Conference Coordinator</h3>
+        <p>
+          <b>Ruth Eberle</b><br>
+          Phone: (812) 856-5722<br>
+          <a href="mailto:reberle@indiana.edu">reberle@indiana.edu</a>
+        </p>
+        <p>
+          <b>Patrick Craig</b><br>
+          Phone: (812) 856-6037<br>
+          <a href="mailto:pjcraig@indiana.edu">pjcraig@indiana.edu</a>
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2016)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2016');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>
