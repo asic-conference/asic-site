@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2027 — Santa Caterina di Valfurva, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The 27th Annual Summer Interdisciplinary Conference, Hotel Residence 3-Signori, Santa Caterina di Valfurva, Italy, August 2–8, 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2027">
+  <style>
+
+
+    #asic2027{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2027 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2027 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2027 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2027 .asic-back:hover{color:#fff;}
+    #asic2027 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2027 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2027 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2027 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2027 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+    #asic2027 .asic-badge{
+      position:absolute; top:20px; right:20px; background:var(--alpenglow); color:#fff;
+      font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+      padding:5px 11px; border-radius:20px;
+    }
+
+    /* ---------- Shell ---------- */
+    #asic2027 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2027 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2027 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2027 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2027 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2027 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2027 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2027 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2027 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2027 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2027 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2027 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2027 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2027 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2027 .asic-section p{margin:0 0 14px;}
+    #asic2027 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2027 .asic-section li{margin:4px 0;}
+    #asic2027 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2027 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2027 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2027 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2027 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2027 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2027 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2027 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2027 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2027 th,#asic2027 td{border:1px solid var(--line); padding:9px 12px; text-align:left;}
+    #asic2027 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2027 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* real photos */
+    #asic2027 .asic-fig{margin:0 0 20px;}
+    #asic2027 .asic-fig img{display:block; width:100%; max-width:520px; height:auto; border-radius:8px; margin:0 auto;}
+    #asic2027 .asic-fig figcaption{text-align:center; font-size:13.5px; font-style:italic; color:var(--muted); margin-top:8px;}
+
+    /* photo placeholders (for anything not yet supplied) */
+    #asic2027 .asic-photo{
+      border:1px dashed #c9c2b4; background:#faf8f3; border-radius:8px;
+      padding:22px; text-align:center; color:#9a9384; font-size:14px;
+      font-style:italic; margin:0 0 18px;
+    }
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2027{border-radius:0;}
+      #asic2027 .asic-shell{flex-direction:column;}
+      #asic2027 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2027 .asic-nav .asic-navhead{display:none;}
+      #asic2027 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2027 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2027 .asic-main{padding:26px 20px 40px;}
+      #asic2027 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2027 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <span class="asic-badge">Upcoming</span>
+    <a class="asic-back" href="../">← All ASIC meetings</a>
+    <p class="asic-eyebrow">27th Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2027</h1>
+    <div class="asic-meta">
+      <span><b>Santa Caterina di Valfurva</b>, near Bormio, Italy</span>
+      <span><b>August 2–8, 2027</b> · six days of talks (Aug 2–7)</span>
+      <span>Hotel Residence 3-Signori</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2027 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="talks"><span class="ic">📋</span> Talk Submissions</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2027</h2>
+        <p class="asic-lede">The 27th Annual Summer Interdisciplinary Conference, held at Hotel Residence 3-Signori in Santa Caterina di Valfurva, a twenty-minute drive from Bormio, Italy.</p>
+
+        <figure class="asic-fig">
+          <img src="images/hero-biosfera-valmustair.jpg" alt="Biosfera Val Müstair near Bormio, Italy">
+          <figcaption>Biosfera Val Müstair, near Bormio, Italy</figcaption>
+        </figure>
+
+        <p>The conference will have talks every afternoon and evening on the six consecutive days August 2 (Monday) through August 7 (Saturday), 2027 — the last talks are held on the evening of August 7, so plan to depart no earlier than August 8.</p>
+
+        <p>Hotel website: <a href="https://www.3signori.it/" target="_blank" rel="noopener">3signori.it</a>. This is an excellent hotel with the facilities ASIC attendees have come to expect. The meetings, catered breaks, and breakfasts and dinners will all be held at the hotel — see the Lodging tab for reservation details.</p>
+
+        <h3>Bormio &amp; the Stelvio Pass</h3>
+        <p>Bormio is a city famous for its proximity to the Stelvio Pass (Passo dello Stelvio) — Italy's highest paved mountain pass at 2,757 meters (9,045 ft), famous for its use in the Giro d'Italia, with 48 dramatic hairpin turns rising about 1,500 meters on each side.</p>
+
+        <figure class="asic-fig">
+          <img src="images/stelvio-pass.jpg" alt="The hairpin switchbacks of the Stelvio Pass near Bormio">
+          <figcaption>The Stelvio Pass (Passo dello Stelvio), near Bormio</figcaption>
+        </figure>
+
+        <h3>Conference subject matter</h3>
+        <p>The subject matter of the ASIC conferences is interdisciplinary, with a primary emphasis on a wide variety of scientific domains within the broad frame of Cognitive Science. ASIC uses the very successful format of previous ASIC conferences: days are free for leisure activities and discussions among participants. The talks are in the later afternoon/early evening, followed by dinner. The dates have been chosen to make it convenient for attendees to bring family and friends.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference is open to all interested parties and their family and friends. An invitation is NOT needed to attend. It will be of particular interest to scholars who fit the very general theme of the conference — we encourage you to send the conference information to friends and colleagues.</p>
+
+        <h3>Conference aims</h3>
+        <p>The conference is truly interdisciplinary and welcomes interesting talks aimed at a general audience on any subject, but most talks have ranged across a variety of subjects in cognitive science, including:</p>
+        <ul>
+          <li>Modeling of cognition</li>
+          <li>Neuroscience, cognitive neuroscience</li>
+          <li>Psychology (perception, psychophysics, attention, information processing, memory and cognition)</li>
+          <li>Computer science and artificial intelligence</li>
+          <li>Machine intelligence and learning</li>
+          <li>Methodology and statistics</li>
+          <li>Linguistics, psycholinguistics and computational linguistics</li>
+          <li>Philosophy of mind and cognitive science</li>
+        </ul>
+        <p>Experience has shown that the talks most appreciated are on subjects unfamiliar to most participants, so this list is not meant to discourage those carrying out quite different types of research. We often have talks emphasizing theory, mathematical modeling, and computational modeling (including neural networks and artificial intelligence) — even such talks must be comprehensible and interesting to a wide scientific audience.</p>
+
+        <h3>Conference format</h3>
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the <i>dissimilarity</i> of each day's presentations. The talks are 30 minutes each, limiting the total to 48 over the six days; if too many attendees wish to speak, the organizer will select who gives talks. See the Talk Submissions tab for how to propose a talk.</p>
+        <p>The conference starts with registration and a reception with drinks and food from about 15:30–16:00 on Monday, August 2. On subsequent days there are drinks and light snacks from about 15:30–16:00, followed by a session of spoken presentations that typically ends around 20:00. The last evening of talks is Saturday, August 7, so plan to depart no earlier than Sunday, August 8.</p>
+        <p>This format frees most of the day for discussions with colleagues or other activities with colleagues, family, and friends. Day trips are possible, provided you return in time for the 16:00 session — travel that wouldn't allow a return by then should be arranged for the days before or after the conference.</p>
+
+        <div class="asic-note">For a listing of all past ASIC sites, see the <a href="../">ASIC meetings archive</a>.</div>
+      </section>
+
+      <!-- TALK SUBMISSIONS -->
+      <section class="asic-section" id="talks">
+        <h2>Talk Submissions</h2>
+        <p class="asic-lede">Information on submitting a proposal for a talk at ASIC 2027.</p>
+
+        <p>There is a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations. Submit your talk information — authors (with the presenter indicated), affiliations and emails, a title, and an abstract — as early as possible; this information can be changed, replaced, or removed at any time up to <b>July 1, 2027</b>.</p>
+
+        <div class="asic-note warn">The talk-submission form for ASIC 2027 isn't live yet. Check back on this page once it opens, or email the organizer directly in the meantime — see the Contact tab.</div>
+
+        <p>You are not officially on the list to present a talk until you have both submitted your talk information here and completed registration with the fee — see the Registration tab.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">You are not officially on the list for presenting research or a talk until you register and send the registration fee.</p>
+
+        <div class="asic-note warn">Registration is still being set up for ASIC 2027 — the fee schedule and payment link will be posted here once finalized. As with recent years, registration and payment will run through the Indiana University Conference Bureau.</div>
+
+        <p>If you'd like to be added to the ASIC 2027 email list for announcements as soon as registration opens, email the organizer — see the Contact tab.</p>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">A block of rooms is presently being held at Hotel Residence 3-Signori, Santa Caterina di Valfurva — but the block is limited at the negotiated price, so reserve soon.</p>
+
+        <p>Unreserved rooms will be returned to the general public as the date approaches. Hotel website: <a href="https://www.3signori.it/" target="_blank" rel="noopener">3signori.it</a>.</p>
+
+        <div class="asic-note warn">Rates and step-by-step booking instructions are still being finalized for ASIC 2027 and will be posted here once available.</div>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">The area around Santa Caterina di Valfurva and Bormio is quite scenic, with every sort of adventure activity and sightseeing.</p>
+
+        <p>The location is ideal for summer activities, including hiking, biking, mountain biking, climbing, mountaineering, via ferrata, parasailing, canyoning, rafting, and all the usual ASIC outdoor adventures.</p>
+
+        <h3>Stelvio Pass</h3>
+        <p>A short drive from Santa Caterina is the Stelvio Pass (Passo dello Stelvio) — Italy's highest paved mountain pass at 2,757 m (9,045 ft), well known from the Giro d'Italia for its 48 hairpin turns. It's a popular destination for road cyclists and drivers alike, and a dramatic day trip even if you're neither.</p>
+
+        <div class="asic-note">More detail on specific outfitters, trailheads, and guided options will be added here as the conference approaches.</div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email is preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Richard M. Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@iu.edu">shiffrin@iu.edu</a>
+        </p>
+
+        <h3>Associate organizers</h3>
+        <ul>
+          <li>Stephan Lewandowsky, University of Bristol — <a href="mailto:Stephan.Lewandowsky@bristol.ac.uk">Stephan.Lewandowsky@bristol.ac.uk</a></li>
+          <li>Fritz Breithaupt, Indiana University — <a href="mailto:fbreitha@indiana.edu">fbreitha@indiana.edu</a></li>
+          <li>Jennifer Trueblood, Indiana University — <a href="mailto:jstruebl@iu.edu">jstruebl@iu.edu</a></li>
+          <li>Colin Allen, University of California Santa Barbara — <a href="mailto:prof.colin.allen@gmail.com">prof.colin.allen@gmail.com</a></li>
+          <li>Franco Pestilli, University of Texas — <a href="mailto:pestilli@utexas.edu">pestilli@utexas.edu</a></li>
+        </ul>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2027)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2027');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>
