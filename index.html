@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ASIC — Annual Summer Interdisciplinary Conference | All Meetings</title>
-<meta name="description" content="Directory of every Annual Summer Interdisciplinary Conference (ASIC) since 2002 — from Squamish to the Dolomites, Pyrenees and Alps.">
+<title>ASIC 2027 — Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="ASIC 2027, the 27th Annual Summer Interdisciplinary Conference, Santa Caterina di Valfurva, near Bormio, Italy, August 2–8, 2027.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
@@ -15,262 +15,123 @@
 </style>
 </head>
 <body>
-<div id="asic-master" class="asic-conf-page">
+<div id="asic-landing">
   <style>
-    
 
-    #asic-master{
+    #asic-landing{
       --stone:#f7f5ef; --paper:#fff; --ink:#23282b; --muted:#5d666b;
       --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
       --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d; --line:#e4dfd4;
       color:var(--ink);
       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-      font-size:17px; line-height:1.6; background:var(--stone);
+      font-size:17px; line-height:1.62; background:var(--stone);
       max-width:1180px; margin:0 auto; border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
     }
-    #asic-master *{box-sizing:border-box;}
+    #asic-landing *{box-sizing:border-box;}
 
-    #asic-master .asic-hero{position:relative; background:var(--granite-2); color:#fff; padding:42px 36px 0;}
-    #asic-master .asic-eyebrow{font-size:12.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--glacier); font-weight:600; margin:0 0 10px;}
-    #asic-master .asic-hero h1{font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:clamp(28px,4.2vw,46px); line-height:1.05; margin:0 0 14px; letter-spacing:-.01em;}
-    #asic-master .asic-hero p{max-width:60ch; color:#d7dce0; font-size:16px; padding-bottom:32px; margin:0;}
-    #asic-master .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+    #asic-landing .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:44px 40px 0; overflow:hidden;
+    }
+    #asic-landing .asic-badge{
+      position:absolute; top:22px; right:22px; background:var(--alpenglow); color:#fff;
+      font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+      padding:5px 12px; border-radius:20px;
+    }
+    #asic-landing .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 12px;
+    }
+    #asic-landing .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(34px,5.4vw,58px); line-height:1.02; margin:0 0 16px;
+      letter-spacing:-.01em;
+    }
+    #asic-landing .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15.5px;
+      color:#d7dce0; padding-bottom:30px; font-weight:500;
+    }
+    #asic-landing .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic-landing .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
 
-    #asic-master .asic-body{background:var(--paper); padding:34px 36px 46px;}
-    #asic-master .asic-intro{color:var(--muted); font-size:17px; margin:0 0 26px; max-width:70ch;}
+    #asic-landing .asic-body{background:var(--paper); padding:38px 40px 46px;}
 
-    #asic-master .asic-grid{
-      display:grid; grid-template-columns:repeat(auto-fill,minmax(228px,1fr)); gap:14px;
+    #asic-landing .asic-fig{margin:0 0 26px;}
+    #asic-landing .asic-fig img{
+      display:block; width:100%; max-height:420px; object-fit:cover;
+      border-radius:10px; margin:0 auto;
     }
-    #asic-master .asic-card{
-      display:block; text-decoration:none; color:inherit; background:var(--stone);
-      border:1px solid var(--line); border-radius:11px; padding:18px 18px 16px;
-      transition:transform .14s, box-shadow .14s, border-color .14s; position:relative;
+    #asic-landing .asic-fig figcaption{
+      text-align:center; font-size:13.5px; font-style:italic; color:var(--muted); margin-top:9px;
     }
-    #asic-master .asic-card:hover{
-      transform:translateY(-3px); box-shadow:0 8px 22px rgba(42,50,56,.13);
-      border-color:var(--glacier);
-    }
-    #asic-master .asic-card .yr{
-      font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:30px;
-      color:var(--granite-2); line-height:1; letter-spacing:-.01em;
-    }
-    #asic-master .asic-card .loc{margin-top:9px; font-size:15.5px; font-weight:600; color:var(--cedar); line-height:1.3;}
-    #asic-master .asic-card .country{margin-top:2px; font-size:13.5px; color:var(--muted);}
-    #asic-master .asic-card .go{margin-top:12px; font-size:13px; font-weight:600; color:var(--glacier-deep); letter-spacing:.02em;}
-    #asic-master .asic-card:hover .go{color:var(--alpenglow);}
-    #asic-master .asic-card .badge{
-      position:absolute; top:14px; right:14px; background:var(--alpenglow); color:#fff;
-      font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
-      padding:3px 8px; border-radius:20px;
-    }
-    #asic-master .asic-card.upcoming{border-color:var(--alpenglow); background:#fbf4ee;}
 
-    #asic-master .asic-foot{margin-top:26px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14.5px;}
+    #asic-landing .asic-lede{
+      font-size:19px; color:var(--ink); max-width:70ch; margin:0 0 22px;
+    }
+    #asic-landing p{max-width:70ch; margin:0 0 16px; color:var(--ink);}
+    #asic-landing a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic-landing a:hover{color:var(--alpenglow);}
+
+    #asic-landing .asic-cta{
+      display:flex; flex-wrap:wrap; gap:12px; margin:26px 0 6px;
+    }
+    #asic-landing .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:16px;
+      padding:13px 24px; border-radius:9px;
+      transition:background .15s;
+    }
+    #asic-landing .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic-landing .asic-btn.ghost{
+      background:transparent; color:var(--granite-2);
+      border:1.5px solid var(--line);
+    }
+    #asic-landing .asic-btn.ghost:hover{border-color:var(--glacier); color:var(--glacier-deep); background:var(--stone);}
+
+    #asic-landing .asic-foot{
+      margin-top:30px; padding-top:20px; border-top:1px solid var(--line);
+      color:var(--muted); font-size:14.5px;
+    }
 
     @media(max-width:760px){
-      #asic-master{border-radius:0;}
-      #asic-master .asic-hero{padding:30px 22px 0;}
-      #asic-master .asic-body{padding:24px 20px 36px;}
-      #asic-master .asic-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:11px;}
-      #asic-master .asic-card .yr{font-size:25px;}
+      #asic-landing{border-radius:0;}
+      #asic-landing .asic-hero{padding:30px 22px 0;}
+      #asic-landing .asic-body{padding:26px 20px 36px;}
+      #asic-landing .asic-fig img{max-height:280px;}
     }
-    @media(prefers-reduced-motion:reduce){#asic-master .asic-card{transition:none;}}
   </style>
 
   <header class="asic-hero">
-    <p class="asic-eyebrow">Annual Summer Interdisciplinary Conference</p>
-    <h1>ASIC — A History of Meetings</h1>
-    <p>Since 2002, ASIC has gathered cognitive scientists and kindred researchers each summer in an outstanding adventure setting — from the granite of Squamish to the Dolomites, the Pyrenees, and the Alps. Browse any year below.</p>
+    <span class="asic-badge">Upcoming</span>
+    <p class="asic-eyebrow">27th Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2027</h1>
+    <div class="asic-meta">
+      <span><b>Santa Caterina di Valfurva</b>, near Bormio, Italy</span>
+      <span><b>August 2–8, 2027</b> · six days of talks (Aug 2–7)</span>
+      <span>Hotel Residence 3-Signori</span>
+    </div>
     <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
       <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
     </svg>
   </header>
 
   <div class="asic-body">
-    <p class="asic-intro">Each meeting runs for six days, with talks in the late afternoon and evening and days left free for the mountains. Select a year to see its full information.</p>
+    <figure class="asic-fig">
+      <img src="2027-conference/images/hero-biosfera-valmustair.jpg" alt="Biosfera Val Müstair near Bormio, Italy">
+      <figcaption>Biosfera Val Müstair, near Bormio, Italy</figcaption>
+    </figure>
 
-    <div class="asic-grid">
+    <p class="asic-lede">The 27th Annual Summer Interdisciplinary Conference (ASIC 2027) will be held at Hotel Residence 3-Signori in Santa Caterina di Valfurva, a twenty-minute drive from Bormio, Italy — home of the legendary Stelvio Pass.</p>
 
-      <a class="asic-card upcoming" href="2027-conference/">
-        <span class="badge">Upcoming</span>
-        <div class="yr">2027</div>
-        <div class="loc">Santa Caterina di Valfurva</div>
-        <div class="country">near Bormio, Italy</div>
-        <div class="go">View conference →</div>
-      </a>
+    <p>ASIC gathers cognitive scientists and kindred researchers each summer for a week of interdisciplinary talks, with days left free for the mountains. Talks run every afternoon and evening across six consecutive days, August 2–7, 2027, in a single daily session intentionally organized to maximize the variety of each day's presentations. The conference is open to all interested parties and their families — no invitation is needed to attend.</p>
 
-      <a class="asic-card" href="2026-conference/">
-        <div class="yr">2026</div>
-        <div class="loc">Squamish</div>
-        <div class="country">British Columbia, Canada</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2025-conference/">
-        <div class="yr">2025</div>
-        <div class="loc">Saint-Gervais / Chamonix</div>
-        <div class="country">France</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2023-conference/">
-        <div class="yr">2023</div>
-        <div class="loc">Kranjska Gora</div>
-        <div class="country">Slovenia</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2022-conference/">
-        <div class="yr">2022</div>
-        <div class="loc">Chamonix</div>
-        <div class="country">France</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2022-queenstown-conference/">
-        <div class="yr">2022</div>
-        <div class="loc">Queenstown</div>
-        <div class="country">New Zealand</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2021-conference/">
-        <div class="yr">2021</div>
-        <div class="loc">San Martino di Castrozza</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2019-conference/">
-        <div class="yr">2019</div>
-        <div class="loc">Seefeld</div>
-        <div class="country">Austria</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2018-conference/">
-        <div class="yr">2018</div>
-        <div class="loc">Loano, Italian Riviera</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2017-conference/">
-        <div class="yr">2017</div>
-        <div class="loc">Interlaken</div>
-        <div class="country">Switzerland</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2016-conference/">
-        <div class="yr">2016</div>
-        <div class="loc">Selva di Val Gardena, Dolomites</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2015-conference/">
-        <div class="yr">2015</div>
-        <div class="loc">Mammoth Lakes</div>
-        <div class="country">California, USA</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2014-conference/">
-        <div class="yr">2014</div>
-        <div class="loc">Moab</div>
-        <div class="country">Utah, USA</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2013-conference/">
-        <div class="yr">2013</div>
-        <div class="loc">Cortina d'Ampezzo, Dolomites</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2012-conference/">
-        <div class="yr">2012</div>
-        <div class="loc">Cala Gonone, Sardinia</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2011-conference/">
-        <div class="yr">2011</div>
-        <div class="loc">Boí Valley, Pyrenees</div>
-        <div class="country">Spain</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2010-conference/">
-        <div class="yr">2010</div>
-        <div class="loc">Bend</div>
-        <div class="country">Oregon, USA</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2009-conference/">
-        <div class="yr">2009</div>
-        <div class="loc">Aosta, Aosta Valley</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2008-conference/">
-        <div class="yr">2008</div>
-        <div class="loc">Madonna di Campiglio, Dolomites</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2007-conference/">
-        <div class="yr">2007</div>
-        <div class="loc">Kalymnos</div>
-        <div class="country">Greece</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2006-conference/">
-        <div class="yr">2006</div>
-        <div class="loc">Åndalsnes</div>
-        <div class="country">Norway</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2005-conference/">
-        <div class="yr">2005</div>
-        <div class="loc">Briançon</div>
-        <div class="country">France</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2004-conference/">
-        <div class="yr">2004</div>
-        <div class="loc">Cavalese, Dolomites</div>
-        <div class="country">Italy</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2003-conference/">
-        <div class="yr">2003</div>
-        <div class="loc">Squamish</div>
-        <div class="country">British Columbia, Canada</div>
-        <div class="go">View conference →</div>
-      </a>
-
-      <a class="asic-card" href="2002-conference/">
-        <div class="yr">2002</div>
-        <div class="loc">Squamish</div>
-        <div class="country">British Columbia, Canada</div>
-        <div class="go">View conference →</div>
-      </a>
-
+    <div class="asic-cta">
+      <a class="asic-btn" href="2027-conference/">View ASIC 2027 details →</a>
+      <a class="asic-btn ghost" href="history/">Browse the history of ASIC meetings (2002–2026) →</a>
     </div>
 
-    <p class="asic-foot">ASIC was not held in 2020. The 2022 season included two gatherings, in Chamonix and Queenstown. Locations are drawn from the conference's own records.</p>
+    <p class="asic-foot">ASIC has met each summer since 2002 (skipping 2020), from the granite of Squamish to the Dolomites, the Pyrenees, and the Alps. The full archive of past meetings — locations, dates, and details — lives in the history section linked above.</p>
   </div>
 </div>
 
