@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASIC 2024 — Molveno, Italy | Annual Summer Interdisciplinary Conference</title>
+<meta name="description" content="The 24th Annual Summer Interdisciplinary Conference, Alle Dolomiti Boutique Lake Hotel, Molveno, Trentino, Italy, June 24–29, 2024.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#eceae3;-webkit-text-size-adjust:100%;}
+  body{padding:24px 16px;}
+  @media(max-width:760px){body{padding:0;}}
+</style>
+</head>
+<body>
+<div id="asic2024">
+  <style>
+
+    #asic2024{
+      --stone:#f7f5ef; --paper:#ffffff; --ink:#23282b; --muted:#5d666b;
+      --granite:#343d43; --granite-2:#2a3238; --cedar:#2f5544;
+      --glacier:#2d7d92; --glacier-deep:#1f5d6e; --alpenglow:#c4622d;
+      --line:#e4dfd4;
+      color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.62;
+      background:var(--stone);
+      border-radius:14px; overflow:hidden;
+      box-shadow:0 1px 0 rgba(0,0,0,.04);
+      max-width:1180px; margin:0 auto;
+    }
+    #asic2024 *{box-sizing:border-box;}
+
+    /* ---------- Hero ---------- */
+    #asic2024 .asic-hero{
+      position:relative; background:var(--granite-2); color:#fff;
+      padding:38px 34px 0; overflow:hidden;
+    }
+    #asic2024 .asic-back{display:inline-block;color:#9fb9c2;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;margin:0 0 14px;}
+    #asic2024 .asic-back:hover{color:#fff;}
+    #asic2024 .asic-eyebrow{
+      font-size:12.5px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--glacier); font-weight:600; margin:0 0 10px;
+    }
+    #asic2024 .asic-hero h1{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:clamp(30px,4.4vw,48px); line-height:1.04; margin:0 0 14px;
+      letter-spacing:-.01em;
+    }
+    #asic2024 .asic-hero .asic-meta{
+      display:flex; flex-wrap:wrap; gap:8px 22px; font-size:15px;
+      color:#d7dce0; padding-bottom:34px; font-weight:500;
+    }
+    #asic2024 .asic-hero .asic-meta b{color:#fff; font-weight:600;}
+    #asic2024 .asic-skyline{display:block; width:100%; height:46px; margin-bottom:-1px;}
+
+    /* ---------- Shell ---------- */
+    #asic2024 .asic-shell{display:flex; align-items:flex-start;}
+
+    /* ---------- Sidebar / tab rail ---------- */
+    #asic2024 .asic-nav{
+      flex:0 0 246px; background:var(--granite); padding:18px 14px 26px;
+      position:sticky; top:0; align-self:stretch;
+    }
+    #asic2024 .asic-nav .asic-navhead{
+      font-size:11.5px; letter-spacing:.2em; text-transform:uppercase;
+      color:#8f9aa1; font-weight:600; padding:6px 12px 12px;
+    }
+    #asic2024 .asic-tab{
+      display:flex; align-items:center; gap:11px; width:100%;
+      text-align:left; border:0; background:transparent; cursor:pointer;
+      color:#d4dadf; font-size:15.5px; font-weight:500; font-family:inherit;
+      padding:11px 12px; border-radius:9px; line-height:1.25;
+      border-left:3px solid transparent; transition:background .14s,color .14s;
+    }
+    #asic2024 .asic-tab .ic{font-size:17px; width:20px; text-align:center; flex:0 0 auto;}
+    #asic2024 .asic-tab:hover{background:rgba(255,255,255,.07); color:#fff;}
+    #asic2024 .asic-tab:focus-visible{outline:2px solid var(--glacier); outline-offset:2px;}
+    #asic2024 .asic-tab.is-active{
+      background:rgba(45,125,146,.20); color:#fff; font-weight:600;
+      border-left-color:var(--glacier);
+    }
+
+    /* ---------- Content ---------- */
+    #asic2024 .asic-main{flex:1 1 auto; background:var(--paper); padding:40px 46px 56px; min-width:0;}
+    #asic2024 .asic-section{display:none; animation:asicfade .25s ease;}
+    #asic2024 .asic-section.is-active{display:block;}
+    @keyframes asicfade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+    #asic2024 .asic-section h2{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:30px; line-height:1.1; margin:0 0 6px; color:var(--granite-2);
+      letter-spacing:-.01em;
+    }
+    #asic2024 .asic-section > .asic-lede{
+      color:var(--muted); font-size:18px; margin:0 0 24px;
+      padding-bottom:20px; border-bottom:1px solid var(--line);
+    }
+    #asic2024 .asic-section h3{
+      font-family:"Fraunces",Georgia,serif; font-weight:600;
+      font-size:21px; margin:30px 0 8px; color:var(--cedar);
+    }
+    #asic2024 .asic-section p{margin:0 0 14px;}
+    #asic2024 .asic-section ul{margin:0 0 16px; padding-left:22px;}
+    #asic2024 .asic-section li{margin:4px 0;}
+    #asic2024 a{color:var(--glacier-deep); text-decoration:underline; text-underline-offset:2px;}
+    #asic2024 a:hover{color:var(--alpenglow);}
+
+    /* callout */
+    #asic2024 .asic-note{
+      background:#f0f5f4; border-left:3px solid var(--cedar);
+      padding:14px 18px; border-radius:0 8px 8px 0; margin:0 0 18px; font-size:15.5px;
+    }
+    #asic2024 .asic-note.warn{background:#fbf2ea; border-left-color:var(--alpenglow);}
+
+    /* CTA buttons */
+    #asic2024 .asic-btn{
+      display:inline-block; background:var(--glacier-deep); color:#fff;
+      text-decoration:none; font-weight:600; font-size:15.5px;
+      padding:11px 20px; border-radius:8px; margin:4px 8px 4px 0;
+      transition:background .15s;
+    }
+    #asic2024 .asic-btn:hover{background:var(--cedar); color:#fff;}
+    #asic2024 .asic-btn.alt{background:var(--alpenglow);}
+    #asic2024 .asic-btn.alt:hover{background:#a44d1f;}
+
+    /* tables */
+    #asic2024 table{border-collapse:collapse; width:100%; margin:6px 0 18px; font-size:15.5px;}
+    #asic2024 th,#asic2024 td{border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top;}
+    #asic2024 thead th{background:var(--stone); font-weight:600; color:var(--granite-2);}
+    #asic2024 tbody th{background:#fafaf7; font-weight:600;}
+
+    /* photos */
+    #asic2024 .asic-photo{
+      border:1px dashed #c9c2b4; background:#faf8f3; border-radius:8px;
+      padding:22px; text-align:center; color:#9a9384; font-size:14px;
+      font-style:italic; margin:0 0 18px;
+    }
+    #asic2024 .asic-figure{margin:0 0 20px; text-align:center;}
+    #asic2024 .asic-figure img{max-width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12);}
+    #asic2024 .asic-figure figcaption{margin-top:8px; font-size:14px; font-style:italic; color:var(--muted);}
+
+    /* talks table */
+    #asic2024 .asic-talk-speaker{font-weight:600; color:var(--granite-2);}
+    #asic2024 .asic-talk-affil{display:block; font-size:13.5px; color:var(--muted); font-weight:400;}
+
+    /* mobile */
+    @media(max-width:760px){
+      #asic2024{border-radius:0;}
+      #asic2024 .asic-shell{flex-direction:column;}
+      #asic2024 .asic-nav{
+        flex:1 1 auto; width:100%; position:static; padding:10px;
+        display:flex; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch;
+      }
+      #asic2024 .asic-nav .asic-navhead{display:none;}
+      #asic2024 .asic-tab{
+        width:auto; white-space:nowrap; border-left:0; border-bottom:3px solid transparent;
+        border-radius:8px; padding:9px 12px;
+      }
+      #asic2024 .asic-tab.is-active{border-left:0; border-bottom-color:var(--glacier);}
+      #asic2024 .asic-main{padding:26px 20px 40px;}
+      #asic2024 .asic-hero{padding:28px 22px 0;}
+    }
+    @media(prefers-reduced-motion:reduce){
+      #asic2024 .asic-section{animation:none;}
+    }
+  </style>
+
+  <!-- ============ HERO ============ -->
+  <header class="asic-hero">
+    <a class="asic-back" href="../history/">← All ASIC meetings</a>
+    <p class="asic-eyebrow">24th Annual Summer Interdisciplinary Conference</p>
+    <h1>ASIC 2024</h1>
+    <div class="asic-meta">
+      <span><b>Molveno</b>, Trentino, Italy</span>
+      <span><b>June 24–29, 2024</b> · Monday–Saturday</span>
+      <span>Alle Dolomiti Boutique Lake Hotel</span>
+    </div>
+    <svg class="asic-skyline" viewBox="0 0 1180 46" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,46 L0,30 L120,8 L210,26 L330,2 L470,28 L560,14 L690,32 L770,10 L900,30 L1010,16 L1100,28 L1180,12 L1180,46 Z" fill="#ffffff"/>
+    </svg>
+  </header>
+
+  <div class="asic-shell">
+    <!-- ============ LEFT MENU ============ -->
+    <nav class="asic-nav" aria-label="ASIC 2024 sections">
+      <div class="asic-navhead">Conference</div>
+      <button class="asic-tab" data-tab="home"><span class="ic">🏔️</span> Home</button>
+      <button class="asic-tab" data-tab="registration"><span class="ic">✅</span> Registration</button>
+      <button class="asic-tab" data-tab="lodging"><span class="ic">🛏️</span> Lodging</button>
+      <button class="asic-tab" data-tab="dining"><span class="ic">🍽️</span> Dining</button>
+      <button class="asic-tab" data-tab="travel"><span class="ic">🚗</span> Travel</button>
+      <button class="asic-tab" data-tab="activities"><span class="ic">🧗</span> Activities</button>
+      <button class="asic-tab" data-tab="contact"><span class="ic">✉️</span> Contact</button>
+    </nav>
+
+    <!-- ============ CONTENT ============ -->
+    <main class="asic-main">
+
+      <!-- HOME -->
+      <section class="asic-section" id="home">
+        <h2>Welcome to ASIC 2024</h2>
+        <p class="asic-lede">The 24th Annual Summer Interdisciplinary Conference, held at the Alle Dolomiti Boutique Lake Hotel, Via Lungo Lago 18, 38018 Molveno (TN), in the Dolomites of Trentino, Italy.</p>
+
+        <figure class="asic-figure">
+          <img src="images/hero-molveno-brenta.jpg" alt="Molveno and the Brenta Dolomites">
+          <figcaption>Molveno, on Lake Molveno, beneath the Brenta Dolomites</figcaption>
+        </figure>
+
+        <p>The conference had talks every afternoon and evening on the six consecutive days, Monday June 24 to Saturday June 29, 2024 (the last talks were held the evening of June 29).</p>
+
+        <p>The Alle Dolomiti Boutique Lake Hotel is a 4* hotel with views of Lake Molveno, about 100 meters from the water; see the <a href="https://www.alledolomiti.com/en/" target="_blank" rel="noopener">hotel website</a>. The talks were held in the adjacent Molveno Conference Center, a two-minute walk from the hotel.</p>
+
+        <h3>Molveno</h3>
+        <p>Molveno sits on the shores of Lake Molveno, just east of the Brenta Dolomites and about 70 minutes' drive from Trento (a much shorter distance as the crow flies, but the intervening mountains make for a longer drive). It offers a spectacular setting for a wide range of outdoor mountain and lake activities.</p>
+
+        <h3>About the conference</h3>
+        <p>ASIC is truly interdisciplinary and welcomes talks aimed at a general audience on any subject, though most talks have ranged across modeling of cognition, neuroscience and cognitive neuroscience, psychology (perception, psychophysics, attention, information processing, memory and cognition), computer science and artificial intelligence, machine intelligence and learning, methodology and statistics, linguistics and psycholinguistics, and philosophy of mind. Speakers are asked to make their talks comprehensible and interesting to a wide scientific audience, giving overviews of their field as well as their own recent work.</p>
+
+        <p>ASIC follows the successful format of previous years: days are free for leisure activities and discussion among participants, talks are held in the late afternoon and early evening, followed by dinner. The date is chosen to make it convenient for attendees to bring family and friends.</p>
+
+        <h3>The talks</h3>
+        <p>There was a single speaking session each day (no posters), intentionally organized to maximize the dissimilarity of each day's presentations, with about eight 30-minute talks per day. If more attendees wished to speak than the schedule allowed, the organizer selected speakers and could shorten talk lengths.</p>
+
+        <h3>Daily format</h3>
+        <p>The conference opened with registration and a reception with drinks and food from about 15:30 on Monday, June 24. On subsequent days there were drinks and light snacks from about 15:40, followed by a session of up to eight spoken presentations in the Molveno Conference Center, typically running from 16:00 to about 20:00, followed by dinner together at the hotel at about 20:15.</p>
+
+        <h3>Invitation</h3>
+        <p>The conference was open to all interested parties and their family and friends — no invitation was needed to attend.</p>
+
+        <h3>Organizer</h3>
+        <p>Richard M. Shiffrin of Indiana University – Bloomington is the organizer (see the Contact tab for all contact info).</p>
+
+        <h3>Associate organizers</h3>
+        <ul>
+          <li>Stephan Lewandowsky, University of Bristol</li>
+          <li>Fritz Breithaupt, Indiana University</li>
+          <li>Jennifer Trueblood, Indiana University</li>
+          <li>Colin Allen, University of Pittsburgh</li>
+          <li>Franco Pestilli, University of Texas</li>
+        </ul>
+
+        <p>For a listing of all past ASIC sites, see the <a href="../history/">previous ASIC sites document</a>.</p>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="asic-section" id="registration">
+        <h2>Registration</h2>
+        <p class="asic-lede">Registration and talk submissions were handled through the conference website, alongside the Indiana University Conference Bureau's registration system.</p>
+
+        <div class="asic-note">Anyone with a 5% or higher chance of attending was invited to list themselves, their probability, and their email on the site's Potential Attendees page, and to sign up for the general ASIC email list as well as the ASIC 2024 list.</div>
+
+        <p>Attendees were not officially on the schedule to present a talk until they had registered and submitted the registration fee. The website hosted pages for viewing currently approved talks, adding a talk or presentation, and completing registration.</p>
+
+        <p>There was only a small number of speaking slots (a maximum of eight 30-minute talks on each of the six days). In the event that more attendees wished to speak than time allowed, the organizer adapted talk lengths and/or selected who would present.</p>
+      </section>
+
+      <!-- LODGING -->
+      <section class="asic-section" id="lodging">
+        <h2>Lodging</h2>
+        <p class="asic-lede">Rooms were held at the Alle Dolomiti Boutique Lake Hotel (Ramada Resort), Via Lungo Lago 18, 38018 Molveno (TN), Dolomiti di Brenta – Trentino.</p>
+
+        <figure class="asic-figure">
+          <img src="images/lodging-hotel-aerial.jpg" alt="Alle Dolomiti Boutique Lake Hotel, on Lake Molveno">
+          <figcaption>Alle Dolomiti Boutique Lake Hotel, on Lake Molveno</figcaption>
+        </figure>
+
+        <p>The hotel is a 4* property with an excellent restaurant, bar/lounge, coffee shop, pool, terrace, full-service spa, spa tub, and free wifi — a little smaller than most ASIC hotels (38 rooms total, with 35 held for ASIC), so early reservations were important. See the <a href="https://www.alledolomiti.com/en/" target="_blank" rel="noopener">hotel website</a>.</p>
+
+        <figure class="asic-figure">
+          <img src="images/lodging-pool.jpg" alt="Pool at the Alle Dolomiti Boutique Lake Hotel">
+          <figcaption>Pool at the Alle Dolomiti Boutique Lake Hotel</figcaption>
+        </figure>
+
+        <h3>Lodging rates</h3>
+        <p>Rates were inclusive except for a tourist tax of about 2.5–3 euro per day per person, and were half-board (breakfast and dinner included).</p>
+
+        <table>
+          <thead>
+            <tr><th>Occupancy</th><th>Room type</th><th>Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><th rowspan="6">One person</th><td>Single bed room (2 available)</td><td>110 €/day</td></tr>
+            <tr><td>Standard Double (7 available)</td><td>145 €/day</td></tr>
+            <tr><td>Classic/Comfort Double (10 available)</td><td>158 €/day</td></tr>
+            <tr><td>Superior Double (12 available)</td><td>168 €/day</td></tr>
+            <tr><td>Junior Suite (2 available)</td><td>230 €/day</td></tr>
+            <tr><td>Large Suite (2 available)</td><td>250 €/day</td></tr>
+            <tr><th rowspan="5">Two people</th><td>Standard Double</td><td>182 €/day</td></tr>
+            <tr><td>Classic/Comfort Double</td><td>198 €/day</td></tr>
+            <tr><td>Superior Double</td><td>210 €/day</td></tr>
+            <tr><td>Junior Suite</td><td>230 €/day</td></tr>
+            <tr><td>Large Suite</td><td>250 €/day</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Children</h3>
+        <p>Reduced rates applied for children, depending on age (only a few rooms could accommodate extra beds, so early booking was essential):</p>
+        <table>
+          <thead>
+            <tr><th>Age</th><th>Discount</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>0–2 years</td><td>−50%</td></tr>
+            <tr><td>3–6 years</td><td>−30%</td></tr>
+            <tr><td>7–11 years</td><td>−20%</td></tr>
+            <tr><td>12–16 years</td><td>−10%</td></tr>
+          </tbody>
+        </table>
+
+        <p>The online booking system only accepted the dates June 24–29; for other dates, or for bookings involving children, attendees were asked to email the hotel directly. If no rooms were available at the conference hotel, four nearby hotels offered breakfast and lodging within a few minutes' walk — Garni Lago Alpino, Hotel Zurigo, Residence Rio Piccolo, and Garden Hotel Bellariva — with dinner at the conference hotel available to those staying elsewhere for an added 35 euro.</p>
+
+        <h3>Reservations &amp; contact</h3>
+        <p>Bookings could be made online (entering promo code ASIC), by email at <a href="mailto:info@alledolomiti.com">info@alledolomiti.com</a>, or by phone at <b>+39 (0)461 586057</b>. Refundable bookings required a 30% deposit; non-refundable bookings required full payment at the time of booking.</p>
+
+        <h3>Cancellation policy</h3>
+        <table>
+          <thead>
+            <tr><th>Cancellation window</th><th>Penalty</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Before January 1, 2024</td><td>Free</td></tr>
+            <tr><td>January 1 – May 24, 2024</td><td>5%</td></tr>
+            <tr><td>May 24 – June 7, 2024</td><td>30%</td></tr>
+            <tr><td>June 7 – June 23, 2024</td><td>50%</td></tr>
+            <tr><td>No show after June 23, 2024</td><td>100%</td></tr>
+          </tbody>
+        </table>
+        <p>Attendees also had the option of purchasing separate trip insurance.</p>
+      </section>
+
+      <!-- DINING -->
+      <section class="asic-section" id="dining">
+        <h2>Dining &amp; Receptions</h2>
+        <p class="asic-lede">Breakfast and dinner were included in the daily lodging rate for attendees staying at the conference hotel.</p>
+
+        <p>The hotel restaurant is highly rated and serves attendees staying elsewhere as well as hotel guests. Dinners were served by waiters from a menu (with vegetarian options) at about 20:15, once the day's talks had ended. Attendees staying at the hotel gave their dinner order at breakfast, along with their room number; attendees staying elsewhere could purchase dinner for 35 euro, ordering when they arrived. Alcoholic drinks at any meal or reception were paid for individually.</p>
+
+        <div class="asic-note">Each day opened with a catered reception — drinks and finger food — at the hotel before the speaking session: about 15:30 on the first day, June 24, and about 15:40 on subsequent days. The registration fee covered these receptions; guests attending only the receptions had a reduced registration fee.</div>
+      </section>
+
+      <!-- TRAVEL -->
+      <section class="asic-section" id="travel">
+        <h2>Travel</h2>
+        <p class="asic-lede">The nearest local airport to Molveno is Bolzano/Bozen (BZO); the closest international airports are Innsbruck, Austria, and Milan and Venice, Italy.</p>
+
+        <figure class="asic-figure">
+          <img src="images/travel-dolomites-scenery.jpg" alt="The Dolomites near Molveno">
+          <figcaption>The Dolomites near Molveno</figcaption>
+        </figure>
+
+        <table>
+          <thead>
+            <tr><th>From</th><th>Driving</th><th>Train &amp; bus</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Innsbruck</td><td>About 2.5 hrs</td><td>About 4.5–5 hrs</td></tr>
+            <tr><td>Venice</td><td>About 3 hrs</td><td>About 5 hrs</td></tr>
+            <tr><td>Milan</td><td>About 3–3.5 hrs</td><td>About 5 hrs</td></tr>
+          </tbody>
+        </table>
+
+        <p>The hotel address is Via Lungo Lago, 18, 38018 Molveno (TN), Italy — consult a mapping service such as Google Maps for local directions.</p>
+      </section>
+
+      <!-- ACTIVITIES -->
+      <section class="asic-section" id="activities">
+        <h2>Activities</h2>
+        <p class="asic-lede">Molveno sits in a spectacular setting on the shores of Lake Molveno, just east of the Brenta Dolomites, offering nearly every kind of mountain and lake activity.</p>
+
+        <figure class="asic-figure">
+          <img src="images/activities-hiking.jpg" alt="Hiking in the Brenta Dolomites">
+          <figcaption>Hiking in the Brenta Dolomites</figcaption>
+        </figure>
+
+        <p>The area offers hiking, scrambling and peak bagging, via ferrata, mountain and road biking, rock climbing, mountaineering (though most mountaineering objectives require a day or more before or after the conference), paragliding, white-water rafting, kayaking, canyoning, a variety of lake activities and swimming, and leisure activities such as sightseeing, fishing, tennis, and golf.</p>
+
+        <p>Molveno itself sits at 864m (2,834 ft); a cable car reaches Pradel at 1,367m (4,484 ft), with a connecting chairlift to Palon di Tovre at 1,530m (5,020 ft). The high point of the Brenta group, Cima Brenta, tops out at 3,150m (10,334 ft) — a gain of 2,286m (7,500 ft) from Molveno.</p>
+
+        <h3>Hiking &amp; refugios</h3>
+        <p>Countless hiking itineraries are suitable for day trips that return in time for the 16:00 session; others — including routes linking refugio to refugio with overnight stays — are best scheduled before or after the conference. The cable car and chairlift to Palon di Tovre give access to a network of trails, including a roughly hour-long hike to Refugio Cros dell'Altissimo (about 1,500m), from which paths continue past Cima Brenta to the Tuckett refugio in the heart of the range.</p>
+
+        <div class="asic-note">Many ASIC attendees know Guido Bonvicini, the conference's regular Italian mountain guide. Rich first met Guido in the 1990s, before ASIC and before he started climbing, on a hike from Molveno up 2,500 meters to the Tomasso Pedrotti refugio near the top of the Brenta with Bob French, Diane Pecher, and Rene Zeelenberg. Guido has been a valued member of ASIC ever since — though their first working trip together didn't go quite as planned: he had to send another guide to take Rich and Rene up the Campanile Basso, having broken his toe canyoning the day before.</div>
+
+        <h3>Via ferrata</h3>
+        <p>Via ferrata routes let participants — families and children among them — climb along cliffs and canyons using iron cables fixed to the rock, without technical climbing skills. The Brenta Dolomites have many spectacular routes, including "Delle Aquile" ("Flight of the Eagle").</p>
+
+        <figure class="asic-figure">
+          <img src="images/activities-via-ferrata.jpg" alt="Via ferrata in the Brenta Dolomites">
+          <figcaption>Via ferrata in the Brenta Dolomites</figcaption>
+        </figure>
+
+        <h3>Rock climbing</h3>
+        <p>The area around Molveno and the Brenta offers rock climbing for all levels, from lakeside crags to bigger alpine routes.</p>
+
+        <figure class="asic-figure">
+          <img src="images/activities-rock-climbing.jpg" alt="Rock climbing above Lake Molveno">
+          <figcaption>Rock climbing above Lake Molveno</figcaption>
+        </figure>
+
+        <h3>Other activities</h3>
+        <p>Paragliding, white-water rafting, kayaking, and canyoning are all available nearby, alongside lake swimming and boating on Lake Molveno itself, and more leisurely options such as sightseeing, fishing, tennis, and golf.</p>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="asic-section" id="contact">
+        <h2>Contact</h2>
+        <p class="asic-lede">Email and telephone are preferred for all correspondence.</p>
+
+        <h3>Conference organizer</h3>
+        <p>
+          <b>Rich Shiffrin</b><br>
+          Indiana University – Bloomington<br>
+          <a href="mailto:shiffrin@indiana.edu">shiffrin@indiana.edu</a><br>
+          Tel: 812-855-4972 · Cell: 812-219-5892
+        </p>
+
+        <h3>Postal address</h3>
+        <p>
+          Annual Summer Interdisciplinary Conference (ASIC 2024)<br>
+          c/o Prof. Richard Shiffrin, Psychological and Brain Sciences Department<br>
+          Indiana University, 1101 E. 10th St., Bloomington, IN 47405
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+  (function(){
+    var root = document.getElementById('asic2024');
+    if(!root) return;
+    var tabs = root.querySelectorAll('.asic-tab');
+    var sections = root.querySelectorAll('.asic-section');
+    var valid = {};
+    sections.forEach(function(s){ valid[s.id] = true; });
+
+    function show(id, push){
+      if(!valid[id]) id = 'home';
+      sections.forEach(function(s){ s.classList.toggle('is-active', s.id === id); });
+      tabs.forEach(function(t){
+        var on = t.getAttribute('data-tab') === id;
+        t.classList.toggle('is-active', on);
+        if(on){ t.setAttribute('aria-current','true'); } else { t.removeAttribute('aria-current'); }
+      });
+      if(push && ('#'+id) !== window.location.hash){
+        history.pushState(null, '', '#'+id);
+      }
+    }
+
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ show(t.getAttribute('data-tab'), true); });
+    });
+    window.addEventListener('hashchange', function(){
+      show((window.location.hash || '#home').slice(1), false);
+    });
+
+    show((window.location.hash || '#home').slice(1), false);
+  })();
+  </script>
+</div>
+
+</body>
+</html>
